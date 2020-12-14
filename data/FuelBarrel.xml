@@ -1,13 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <vehicle type="fuelTrailer">
     <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
-    <author>LS-Modsource/Modder Rolf</author>
-    <Convertauthor>Castiga / Edge Gaming</Convertauthor>
     <storeData>
-        <name>
-            <fr>Fliegl fuelbarrel</fr>
-            <en>Fliegl fuelbarrel</en>
-            <de>Fliegl Kraftstofftank</de></name>
+        <name>$l10n_shopItem_EDGEfuelbarrel</name>
         <specs>
             <neededPower>85</neededPower>
             <combination>ITR 26.33 HD</combination>

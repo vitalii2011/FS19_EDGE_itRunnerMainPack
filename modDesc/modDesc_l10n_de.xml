@@ -3,19 +3,44 @@
 <author>Edge Gaming / Castiga</author>
 <translationby>Castiga</translationby>
 	<texts>
-		<text name="function_EDGEGrainSilo" 			text="Dieses Gebäude verfügt über eine automatische Beleuchtung."/>
-		<text name="name_SmallGrainSilo" 				text="Kleines Getreidesilo"/>
-		<text name="name_LargeGrainSilo" 				text="Großes Getreidesilo"/>
-		<text name="name_LargeGrainSiloSystem" 			text="Großes Getreidesilo-system"/>
-		<text name="name_LargeWhiteGrainSiloSystem" 	text="Großes weißes Getreidesilo-System"/>
-		<text name="name_SmallGrainSiloExtension" 		text="Kleine Getreidesiloverlängerung"/>
-		<text name="name_GrainSiloExtension" 			text="Getreidesilo-Erweiterung"/>
-		<text name="name_LargeGrainSiloExtension" 		text="Große Getreidesiloverlängerung"/>
-		<text name="name_LargeWhiteGrainSiloExtension" 	text="Große weiße Getreidesiloverlängerung"/>
-		<text name="name_SmallGrainSiloExtension1" 		text="Kleine Getreidesiloverlängerung"/>
-		<text name="name_SmallWhiteGrainSiloExtension" 	text="Kleine weiße Getreidesiloverlängerung"/>
-		<!-- <text name="typeDesc_EDGEGrainSilo" text="Silos können zur Lagerung von Getreide verwendet werden"/> -->
-		<!-- <text name="function_EDGEGrainSiloExtension" text="It can be placed within 100 Meters of the farmsilo."/> -->
+		<text name="function_turboKipper"		text="Langer Dolly für jeden Sattelauflieger, um ihn an einen Traktor anzuhängen oder um einen Straßenzug zu bauen."/>
+        <text name="name_turboKipper" 			text="Turbo Tracker"/>
+	    <text name="name_turboTrailers" 		text="Turboanhänger"/>
+        <text name="configuration_TwinRadial" 	text="Zwillingsradial"/>
+        <text name="configuration_CARGOXBIB" 	text="Ladung"/>
+        <text name="configuration_CXBheavyduty" text="Schwerlast"/>
+        <text name="configuration_rough" 		text="Rau"/>
+        <text name="configuration_TwinForestry"	text="Forstwirtschaft"/>
+        <text name="configuration_Radial"		text="Radial"/>
+        <text name="configuration_wideRadial"	text="Breit Radial"/>
+        <text name="configuration_wideXBIB"		text="Breit Ladung"/>
+        <text name="configuration_megaXbib"		text="Offroad"/>
+        <text name="configuration_Offroad"		text="Offroad"/>
+        <text name="config_TDdecalWhite"		text="Weiß Abziehbilder"/>
+        <text name="config_TDdecalBlack"		text="Schwarz Abziehbilder"/>
+        <text name="config_TDdecalRed"			text="rot Abziehbilder"/>
+        <text name="config_TDnodecal"			text="Keine Abziehbilder"/>
+        <text name="config_TDLicense"			text="Nummernschild"/>
+        <text name="config_TDLicensePlate"		text="Mit Nummernschild"/>
+        <text name="config_TDnoLicensePlate"	text="Ohne Nummernschild"/>
+        <text name="configuration_Fenders" 		text="Kotflügel"/>
+        <text name="config_Fenders" 			text="Standard Kotflügel"/>
+        <text name="config_PaintedFenders" 		text="Bemalte Kotflügel"/>
+        <text name="config_PaintedFrontFenders"	text="Gemalte vordere Kotflügel"/>
+        <text name="config_PaintedBackFenders" 	text="Gemalte hintere Schutzbleche"/>
+        <text name="config_TDprotection"		text="Schutz"/>
+        <text name="TDprotectionHalf"			text="Halb"/>
+        <text name="TDprotectionHalfpainted"	text="Halb Bemalte"/>
+        <text name="TDprotectionFull"			text="Voll"/>
+        <text name="TDprotectionFullpainted"	text="Voll Bemalte"/>
+        <text name="TDnoprotection"				text="Keine Schutz"/>
+        <text name="config_TDLicensePaint"		text="Nummernschild Bemalte"/>
+        <text name="configuration_TDHitch"		text="Anhängerkupplung"/>
+        <text name="config_TDHitchPaint"		text="Gemalte"/>
+        <text name="config_TDHitch"				text="Standard"/>
+        <text name="config_TDHitchDetail"		text="Detail Bemalte"/>
+        <text name="config_TDrailPaint"			text="Gemalte Schiene"/>
+        <text name="config_TDraildetail"		text="Detail Bemalte Schiene"/>
 			<!--Colors-->
         <text name="color_ITRUNNERMATTE" 		text="IT RUNNER MATTE"/>
         <text name="color_EDGEGOLDMATTE" 		text="EDGE GOLD MATTE"/>
@@ -62,21 +87,6 @@
         <text name="color_JOHNDEEREMETALLIC" 	text="JOHN DEERE METALLISCH"/>
         <text name="color_PINKMETALLIC" 		text="BARBIE ROSA METALLISCH"/>
 
-		<text name="color_ITRUNNERSHINY" 		text="IT RUNNER SHINY"/>
-        <text name="color_EDGEGOLDSHINY" 		text="EDGE GOLD SHINY"/>
-        <text name="color_EDGESILVERSHINY" 		text="EDGE SILBER SHINY"/>
-        <text name="color_CASEIHSHINY" 			text="CASE IH SHINY"/>
-        <text name="color_NEWHOLLANDSHINY" 		text="NEW HOLLAND SHINY"/>
-        <text name="color_KRONESHINY" 			text="KRONE SHINY"/>
-        <text name="color_YELLOWSHINY" 			text="ELEKTRISCHES GELB SHINY"/>
-        <text name="color_STARASHINY" 			text="STARA SHINY"/>
-        <text name="color_LELYSHINY" 			text="LELY SHINY"/>
-        <text name="color_WHITESHINY" 			text="GEISTER WEISS SHINY"/>
-        <text name="color_PURPLESHINY" 			text="PERLEN LILA SHINY"/>
-        <text name="color_DARKBLUESHINY" 		text="KÖNIGSBLAU SHINY"/>
-        <text name="color_JOHNDEERESHINY" 		text="JOHN DEERE SHINY"/>
-        <text name="color_PINKSHINY" 			text="BARBIE ROSA SHINY"/>
-
 		<text name="color_ITRUNNER" 			text="IT RUNNER"/>
         <text name="color_EDGEGOLD" 			text="EDGE GOLD"/>
         <text name="color_EDGESILVER" 			text="EDGE SILBER"/>
@@ -87,19 +97,10 @@
         <text name="color_ORANGE" 				text="BLAZE ORANGE"/>
         <text name="color_LELY" 				text="LELY"/>
         <text name="color_KRONE" 				text="KRONE"/>
-        <text name="color_ROMANSILVER" 			text="RÖMISCH SILBER"/>
+        <text name="color_ALICEBLUE" 			text="ALICE BLAU"/>
         <text name="color_PURPLE" 				text="PERLEN LILA"/>
-        <text name="color_DARKBLUE" 			text="KÖNIGSBLAU"/>
+        <text name="color_DARKGREY"				text="RAUCHSCHWARZ"/>
         <text name="color_NEWHOLLAND" 			text="NEW HOLLAND"/>
         <text name="color_PINK" 				text="BARBIE ROSA"/>
-
-        <text name="color_DARKGREY"				text="RAUCHSCHWARZ"/>
-        <text name="color_BROWN" 				text="BULGARISCHE ROSE"/>
-        <text name="color_CRIMSONGLORY" 		text="CRIMSON RUHM"/>
-        <text name="color_ALICEBLUE" 			text="ALICE BLAU"/>
-        <text name="color_CYAN" 				text="WASSER"/>
-        <text name="color_ANDROIDGREEN" 		text="ANDROID GRÜN"/>
-        <text name="color_CORN" 				text="MAIS"/>
-        <text name="color_AMBER" 				text="BERNSTEIN"/>
 	</texts>
 </l10n>

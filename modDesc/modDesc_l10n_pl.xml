@@ -3,19 +3,44 @@
 <author>Edge Gaming / Castiga</author>
 <translationby>Castiga</translationby>
 	<texts>
-		<text name="function_EDGEGrainSilo" 			text="Ten budynek ma automatyczne oświetlenie."/>
-		<text name="name_SmallGrainSilo" 				text="Silos o małych ziarnach"/>
-		<text name="name_LargeGrainSilo" 				text="Silos o dużych ziarnach"/>
-		<text name="name_LargeGrainSiloSystem" 			text="System silosów o dużych ziarnach"/>
-		<text name="name_LargeWhiteGrainSiloSystem" 	text="Duży system silosów z białym ziarnem"/>
-		<text name="name_SmallGrainSiloExtension" 		text="Przedłużenie silosu na małe ziarna"/>
-		<text name="name_GrainSiloExtension" 			text="Przedłużenie silosu zbożowego"/>
-		<text name="name_LargeGrainSiloExtension" 		text="Przedłużenie silosu na duże ziarna"/>
-		<text name="name_LargeWhiteGrainSiloExtension" 	text="Duże, białe przedłużenie silosu"/>
-		<text name="name_SmallGrainSiloExtension1" 		text="Przedłużenie silosu na małe ziarna"/>
-		<text name="name_SmallWhiteGrainSiloExtension" 	text="Małe białe przedłużenie silosu"/>
-		<!-- <text name="typeDesc_EDGEGrainSilo" text="Silos can be used to store grain"/> -->
-		<!-- <text name="function_EDGEGrainSiloExtension" text="It can be placed within 100 Meters of the farmsilo."/> -->
+		<text name="function_turboKipper"		text="Długi wózek dla każdej naczepy, do zaczepienia jej do ciągnika lub umożliwienia wykonania pociągu drogowego."/>
+        <text name="name_turboKipper" 			text="Turbo Tracker"/>
+        <text name="name_turboTrailers" 		text="Przyczepy Turbo"/>
+        <text name="configuration_TwinRadial" 	text="Podwójny promieniowy"/>
+        <text name="configuration_CARGOXBIB" 	text="Ładunek"/>
+        <text name="configuration_CXBheavyduty" text="ciężki obowiązek"/>
+        <text name="configuration_rough" 		text="Szorstki"/>
+        <text name="configuration_TwinForestry"	text="Leśnictwo"/>
+        <text name="configuration_Radial"		text="Radial"/>
+        <text name="configuration_wideRadial"	text="Szeroki Radial"/>
+        <text name="configuration_wideXBIB"		text="Szeroki Ładunek"/>
+        <text name="configuration_megaXbib"		text="Poza drogą"/>
+        <text name="configuration_Offroad"		text="Poza drogą"/>
+        <text name="config_TDdecalWhite"		text="Biały Piktogramy"/>
+        <text name="config_TDdecalBlack"		text="Czarny Piktogramy"/>
+        <text name="config_TDdecalRed"			text="Czerwony Piktogramy"/>
+        <text name="config_TDnodecal"			text="Bez Piktogramy"/>
+        <text name="config_TDLicense"			text="Tablica rejestracyjna"/>
+        <text name="config_TDLicensePlate"		text="Z tablicą rejestracyjną"/>
+        <text name="config_TDnoLicensePlate"	text="Bez tablicy rejestracyjnej"/>
+        <text name="configuration_Fenders" 		text="Błotniki"/>
+        <text name="config_Fenders" 			text="Domyślne błotniki"/>
+        <text name="config_PaintedFenders" 		text="Malowane błotniki"/>
+        <text name="config_PaintedFrontFenders"	text="Malowane przednie błotniki"/>
+        <text name="config_PaintedBackFenders" 	text="Malowane błotniki"/>
+        <text name="config_TDprotection"		text="Ochrona"/>
+        <text name="TDprotectionHalf"			text="Pół"/>
+        <text name="TDprotectionHalfpainted"	text="Pół Namalowany"/>
+        <text name="TDprotectionFull"			text="Pełny"/>
+        <text name="TDprotectionFullpainted"	text="Pełny Namalowany"/>
+        <text name="TDnoprotection"				text="Bez Ochrona"/>
+        <text name="config_TDLicensePaint"		text="Tablica rejestracyjna błotniki"/>
+        <text name="configuration_TDHitch"		text="Hak holowniczy"/>
+        <text name="config_TDHitchPaint"		text="błotniki"/>
+        <text name="config_TDHitch"				text="Domyślna"/>
+        <text name="config_TDHitchDetail"		text="Szczegół błotniki"/>
+        <text name="config_TDrailPaint"			text="błotniki Szyna"/>
+        <text name="config_TDraildetail"		text="Szczegół błotniki Szyna"/>
 			<!--Colors-->
         <text name="color_ITRUNNERMATTE" 		text="IT RUNNER MATTE"/>
         <text name="color_EDGEGOLDMATTE" 		text="EDGE ZŁOTO MATTE"/>
@@ -62,21 +87,6 @@
         <text name="color_JOHNDEEREMETALLIC" 	text="JOHN DEERE METALICZNY"/>
         <text name="color_PINKMETALLIC" 		text="BARBIE RÓŻOWY METALICZNY"/>
 
-		<text name="color_ITRUNNERSHINY" 		text="IT RUNNER SHINY"/>
-        <text name="color_EDGEGOLDSHINY" 		text="EDGE ZŁOTO SHINY"/>
-        <text name="color_EDGESILVERSHINY" 		text="EDGE SREBRO SHINY"/>
-        <text name="color_CASEIHSHINY" 			text="CASE IH SHINY"/>
-        <text name="color_NEWHOLLANDSHINY" 		text="NEW HOLLAND SHINY"/>
-        <text name="color_KRONESHINY" 			text="KRONE SHINY"/>
-        <text name="color_YELLOWSHINY" 			text="ŻÓŁTY ELEKTRYCZNY SHINY"/>
-        <text name="color_STARASHINY" 			text="STARA SHINY"/>
-        <text name="color_LELYSHINY" 			text="LELY SHINY"/>
-        <text name="color_WHITESHINY" 			text="DUCH BIAŁY SHINY"/>
-        <text name="color_PURPLESHINY" 			text="PERŁOWY FIOLETOWY SHINY"/>
-        <text name="color_DARKBLUESHINY" 		text="KRÓLEWSKI NIEBIESKI SHINY"/>
-        <text name="color_JOHNDEERESHINY" 		text="JOHN DEERE SHINY"/>
-        <text name="color_PINKSHINY" 			text="BARBIE RÓŻOWY SHINY"/>
-
 		<text name="color_ITRUNNER" 			text="IT RUNNER "/>
         <text name="color_EDGEGOLD" 			text="EDGE ZŁOTO "/>
         <text name="color_EDGESILVER" 			text="EDGE SREBRO "/>
@@ -87,19 +97,10 @@
         <text name="color_ORANGE" 				text="PŁOMIEŃ POMARAŃCZOWY"/>
         <text name="color_LELY" 				text="LELY"/>
         <text name="color_KRONE" 				text="KRONE"/>
-        <text name="color_ROMANSILVER" 			text="RZYMSKI SREBRO"/>
+        <text name="color_ALICEBLUE" 			text="ALICJA NIEBIESKI"/>
         <text name="color_PURPLE" 				text="PERŁOWY FIOLETOWY"/>
-        <text name="color_DARKBLUE" 			text="KRÓLEWSKI NIEBIESKI"/>
+        <text name="color_DARKGREY"				text="DYMOWY CZARNY"/>
         <text name="color_NEWHOLLAND" 			text="NEW HOLLAND"/>
         <text name="color_PINK" 				text="BARBIE RÓŻOWY"/>
-
-        <text name="color_DARKGREY"				text="DYMOWY CZARNY"/>
-        <text name="color_BROWN" 				text="BUŁGARSKA RÓŻA"/>
-        <text name="color_CRIMSONGLORY" 		text="KARMAZYNOWY CHWAŁA"/>
-        <text name="color_ALICEBLUE" 			text="ALICJA NIEBIESKI"/>
-        <text name="color_CYAN" 				text="WODNY"/>
-        <text name="color_ANDROIDGREEN" 		text="ANDROID ZIELONY"/>
-        <text name="color_CORN" 				text="KUKURYDZA"/>
-        <text name="color_AMBER" 				text="BURSZTYN"/>
 	</texts>
 </l10n>
