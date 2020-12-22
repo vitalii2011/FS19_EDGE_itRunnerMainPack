@@ -39,21 +39,33 @@
     </base>
     <wheels>
         <wheelConfigurations>
-            <wheelConfiguration>
+            <wheelConfigurationname="$l10n_configuration_default" price="0" brand="EDGE">
                 <wheels autoRotateBackSpeed="2.0">
                     <wheel>
-                        <physics restLoad="1.0" tipOcclusionAreaGroupId="1" repr="wheelLeft" radius="0.085" width="0.5" mass="0.02" initialCompression="50" suspTravel="0.05" spring="300" damper="100" frictionScale="0.8" yOffset="0.03"/>
+                        <physics restLoad="1.0" tipOcclusionAreaGroupId="1" repr="wheels_Left" radius="0.085" width="0.5" mass="0.02" initialCompression="50" suspTravel="0.05" spring="300" damper="100" frictionScale="0.8" yOffset="0.03"/>
                     </wheel>
                     <wheel>
-                        <physics restLoad="1.0" tipOcclusionAreaGroupId="1" repr="wheelRight" radius="0.085" width="0.5" mass="0.02" initialCompression="50" suspTravel="0.05" spring="300" damper="100" frictionScale="0.8" yOffset="0.03"/>
+                        <physics restLoad="1.0" tipOcclusionAreaGroupId="1" repr="wheels_Right" radius="0.085" width="0.5" mass="0.02" initialCompression="50" suspTravel="0.05" spring="300" damper="100" frictionScale="0.8" yOffset="0.03"/>
                     </wheel>
                 </wheels>
+            </wheelConfiguration>
+            <wheelConfigurationname="$l10n_configuration_Perf" price="250" brand="EDGE">
+                <wheels autoRotateBackSpeed="2.0">
+                    <wheel>
+                        <physics restLoad="1.0" tipOcclusionAreaGroupId="1" repr="wheels_Left" radius="0.085" width="0.5" mass="0.02" initialCompression="50" suspTravel="0.05" spring="300" damper="100" frictionScale="0.8" yOffset="0.03"/>
+                    </wheel>
+                    <wheel>
+                        <physics restLoad="1.0" tipOcclusionAreaGroupId="1" repr="wheels_Right" radius="0.085" width="0.5" mass="0.02" initialCompression="50" suspTravel="0.05" spring="300" damper="100" frictionScale="0.8" yOffset="0.03"/>
+                    </wheel>
+                </wheels>
+				<objectChange node="wheels_PerforatedRight" visibilityActive="true"/>
+				<objectChange node="wheels_PerforatedLeft" visibilityActive="true"/>
             </wheelConfiguration>
         </wheelConfigurations>
     </wheels>
     <attachable>
         <inputAttacherJoints>
-            <inputAttacherJoint node="attacherJoint" jointType="hookLift" upperRotationOffset="0" allowsJointRotLimitMovement="false" forceSelectionOnAttach="true" allowDetachingWhileLifted="false"/>
+            <inputAttacherJoint node="attacher" jointType="hookLift" upperRotationOffset="0" allowsJointRotLimitMovement="false" forceSelectionOnAttach="false" allowDetachingWhileLifted="false"/>
         </inputAttacherJoints>
         <brakeForce>0.5</brakeForce>
     </attachable>
@@ -66,10 +78,15 @@
         <fillUnitConfigurations>
             <fillUnitConfiguration>
                 <fillUnits>
-                    <fillUnit unit="$l10n_unit_literShort" fillTypes="diesel" capacity="25000">
+                    <fillUnit unit="$l10n_unit_literShort" fillTypes="diesel" capacity="40000">
                         <dashboard displayType="ANIMATION" valueType="fillLevel" animName="fillLevel"/>
-                        <fillRootNode node="it_Fuel"/>
-                        <fillMassNode node="it_Fuel"/>
+                        <fillRootNode node="EDGE_itr_Barrel"/>
+                        <fillMassNode node="EDGE_itr_Barrel"/>
+                    </fillUnit>
+                    <fillUnit unit="$l10n_unit_literShort" fillTypes="def" capacity="40000">
+                        <dashboard displayType="ANIMATION" valueType="fillLevel" animName="fillLevel"/>
+                        <fillRootNode node="EDGE_itr_Barrel"/>
+                        <fillMassNode node="EDGE_itr_Barrel"/>
                     </fillUnit>
                 </fillUnits>
             </fillUnitConfiguration>
@@ -77,8 +94,8 @@
     </fillUnit>
     <fillSound file="$data/sounds/tools/slurry/garant_pump_small_loop.ogg" pitchOffset="1.0" volume="0.6" volume3D="0.6" innerRadius="10" radius="40" linkNode="0>"/>
     <refuelSound file="$data/maps/sounds/vehicles/shared/refuel_loop_01.ogg" pitchOffset="1.0" volume="0.6" volume3D="0.6" innerRadius="10" radius="40" linkNode="0>"/>
-    <fuelFillLitersPerSecond>750</fuelFillLitersPerSecond>
-    <gasStationTrigger index="fuelTrigger"/>
+    <fuelFillLitersPerSecond>250</fuelFillLitersPerSecond>
+    <gasStationTrigger index="fillTrigger"/>
     <dischargeable>
         <dischargeNode node="dischargeNode">
             <info width="2"/>
@@ -104,32 +121,241 @@
             <unloadingTrigger node="unloadingTrigger"/>
         </unloadingTriggers>
     </pipe>
-    <washable dirtDuration="90" washDuration="1" workMultiplier="4"/>
+    <washable dirtDuration="75" washDuration="0.8" workMultiplier="2"/>
     <hoseSystem hasPumpMotor="true"/>
-    <pumpMotor startUpTime="1000" litersPerSecond="141"/>
+    <pumpMotor startUpTime="1000" litersPerSecond="150"/>
     <pumpSound file="$data/sounds/garantPump_small.wav" pitchOffset="1.00" volume="1" indoorVolumeFactor="0.48" indoorLowpassGain="0.45"/>
-    <hoseSystemReferences>
-        <hoseSystemReference createNode="true" position="0.954 -2.517 0.348" inRangeDistance="5" rotation="90 0 90" componentIndex="0"/>
-        <hoseSystemReference createNode="true" position="0.992 3.17 0.721" inRangeDistance="2" rotation="90 0 0" componentIndex="0" parkable="true" offsetDirection="right" parkLength="4"/>
-        <!-- startTransOffset="0 0 0" startRotOffset="5 0 0" endTransOffset="0 0.5 0" endRotOffset="5 0 0" /> -->
-        <hoseSystemReference createNode="true" position="0.865 3.17 0.721" inRangeDistance="2" rotation="90 0 0" componentIndex="0" parkable="true" offsetDirection="right" parkLength="4"/>
-        <!-- startTransOffset="0 0 0" startRotOffset="5 0 0" endTransOffset="0 0.5 0" endRotOffset="5 0 0" /> -->
-    </hoseSystemReferences>
-    <unloadTrigger index="0>7"/>
-    <baseColorConfigurations useDefaultColors="true" price="800" defaultColorIndex="4">
-        <colorNode node="fliegl_vis"/>
-    </baseColorConfigurations>
+    <unloadTrigger index="fillTrigger"/>
+    <baseMaterial>
+        <material name="manHoleDesign_mat" baseNode="manHoleDesign_vis">
+            <shaderParameter name="colorMat0" value="KRAMPE_RED1"/>
+        </material>
+        <material name="manHole_mat" baseNode="manHoleDefault_vis">
+            <shaderParameter name="colorMat0" value="KRAMPE_RED1"/>
+        </material>
+        <material name="tank_mat" baseNode="frame_ITR">
+            <shaderParameter name="colorMat0" value="KRAMPE_RED1"/>
+            <shaderParameter name="colorMat1" value="SHARED_BLACK2"/>
+            <shaderParameter name="colorMat2" value="SHARED_BLACK2"/>
+        </material>
+    </baseMaterial>
+    <baseMaterialConfigurations price="1500" useDefaultColors="true" defaultColorIndex="8">
+            <!--Matte-->
+		<baseMaterialConfiguration name="$l10n_color_ITRUNNERMATTE" 	    color="0.038 0.037 0.048 1" material="1"/>
+        <baseMaterialConfiguration name="$l10n_color_EDGEGOLDMATTE"         color="0.776 0.667 0.341 1" material="1"/>
+        <baseMaterialConfiguration name="$l10n_color_EDGESILVERMATTE"       color="0.647 0.667 0.682 1" material="1"/>
+		<baseMaterialConfiguration name="$l10n_color_CASEIHMATTE" 	        color="CASEIH_RED1" 		material="1"/>
+		<baseMaterialConfiguration name="$l10n_color_NEWHOLLANDMATTE" 	    color="NEWHOLLAND_BLUE1" 	material="1"/>
+		<baseMaterialConfiguration name="$l10n_color_KRONEMATTE" 	        color="KRONE_GREEN1" 		material="1"/>
+		<baseMaterialConfiguration name="$l10n_color_YELLOWMATTE"           color="0.980 0.980 0.220 1"	material="1"/>
+		<baseMaterialConfiguration name="$l10n_color_STARAMATTE" 	        color="STARA_ORANGE" 		material="1"/>
+
+		<baseMaterialConfiguration name="$l10n_color_LELYMATTE" 		    color="LELY_COPPER" 		material="1"/>
+        <baseMaterialConfiguration name="$l10n_color_KRONEMATTE"            color="KRONE_YELLOW1"       material="1"/>
+        <baseMaterialConfiguration name="$l10n_color_WHITEMATTE"            color="SHARED_WHITE2"       material="1"/>
+		<baseMaterialConfiguration name="$l10n_color_PURPLEMATTE" 	        color="0.630 0.130 0.940 1" material="1"/>
+		<baseMaterialConfiguration name="$l10n_color_DARKBLUEMATTE"         color="0.007 0.029 0.187 1"	material="1"/>
+		<baseMaterialConfiguration name="$l10n_color_JOHNDEEREMATTE" 	    color="JOHNDEERE_GREEN1"    material="1"/>
+		<baseMaterialConfiguration name="$l10n_color_JOHNDEEREMATTE"        color="JOHNDEERE_YELLOW1"	material="1"/>
+		<baseMaterialConfiguration name="$l10n_color_PINKMATTE" 	        color="0.880 0.130 0.540 1" material="1"/>
+            <!--Chrome-->
+        <baseMaterialConfiguration name="$l10n_color_ITRUNNERCHROME" 	    color="0.038 0.037 0.048 1" material="2"/>
+        <baseMaterialConfiguration name="$l10n_color_EDGEGOLDCHROME"        color="0.776 0.667 0.341 1" material="2"/>
+        <baseMaterialConfiguration name="$l10n_color_EDGESILVERCHROME"      color="0.647 0.667 0.682 1" material="2"/>
+		<baseMaterialConfiguration name="$l10n_color_CASEIHCHROME" 	        color="CASEIH_RED1" 		material="2"/>
+		<baseMaterialConfiguration name="$l10n_color_NEWHOLLANDCHROME" 	    color="NEWHOLLAND_BLUE1"    material="2"/>
+		<baseMaterialConfiguration name="$l10n_color_KRONECHROME" 	        color="KRONE_GREEN1" 		material="2"/>
+		<baseMaterialConfiguration name="$l10n_color_YELLOWCHROME"          color="0.980 0.980 0.220 1"	material="2"/>
+		<baseMaterialConfiguration name="$l10n_color_STARACHROME"           color="STARA_ORANGE" 		material="2"/>
+
+		<baseMaterialConfiguration name="$l10n_color_LELYCHROME" 		    color="LELY_COPPER" 		material="2"/>
+		<baseMaterialConfiguration name="$l10n_color_KRONECHROME" 	        color="KRONE_YELLOW1"		material="2"/>
+		<baseMaterialConfiguration name="$l10n_color_WHITECHROME"           color="SHARED_WHITE2" 		material="2"/>
+		<baseMaterialConfiguration name="$l10n_color_PURPLECHROME" 	        color="0.630 0.130 0.940 1" material="2"/>
+		<baseMaterialConfiguration name="$l10n_color_DARKBLUECHROME" 	    color="0.007 0.029 0.187 1" material="2"/>
+		<baseMaterialConfiguration name="$l10n_color_JOHNDEERECHROME"       color="JOHNDEERE_GREEN1" 	material="2"/>
+		<baseMaterialConfiguration name="$l10n_color_JOHNDEERECHROME"       color="JOHNDEERE_YELLOW1"   material="2"/>
+		<baseMaterialConfiguration name="$l10n_color_PINKCHROME"            color="0.880 0.130 0.540 1" material="2"/>
+            <!--Metallic-->
+        <baseMaterialConfiguration name="$l10n_color_ITRUNNERMETALLIC" 	    color="0.038 0.037 0.048 1" material="3"/>
+        <baseMaterialConfiguration name="$l10n_color_EDGEGOLDMETALLIC"      color="0.776 0.667 0.341 1" material="3"/>
+        <baseMaterialConfiguration name="$l10n_color_EDGESILVERMETALLIC"    color="0.647 0.667 0.682 1" material="3"/>
+		<baseMaterialConfiguration name="$l10n_color_CASEIHMETALLIC" 	    color="CASEIH_RED1" 		material="3"/>
+		<baseMaterialConfiguration name="$l10n_color_NEWHOLLANDMETALLIC" 	color="NEWHOLLAND_BLUE1"    material="3"/>
+		<baseMaterialConfiguration name="$l10n_color_KRONEMETALLIC" 	    color="KRONE_GREEN1" 		material="3"/>
+		<baseMaterialConfiguration name="$l10n_color_YELLOWMETALLIC"        color="0.980 0.980 0.220 1"	material="3"/>
+		<baseMaterialConfiguration name="$l10n_color_STARAMETALLIC"         color="STARA_ORANGE" 		material="3"/>
+
+		<baseMaterialConfiguration name="$l10n_color_LELYMETALLIC" 		    color="LELY_COPPER" 		material="3"/>
+		<baseMaterialConfiguration name="$l10n_color_KRONEMETALLIC" 	    color="KRONE_YELLOW1"		material="3"/>
+		<baseMaterialConfiguration name="$l10n_color_WHITEMETALLIC"         color="SHARED_WHITE2" 		material="3"/>
+		<baseMaterialConfiguration name="$l10n_color_PURPLEMETALLIC" 	    color="0.630 0.130 0.940 1" material="3"/>
+		<baseMaterialConfiguration name="$l10n_color_DARKBLUEMETALLIC" 	    color="0.007 0.029 0.187 1" material="3"/>
+		<baseMaterialConfiguration name="$l10n_color_JOHNDEEREMETALLIC"     color="JOHNDEERE_GREEN1" 	material="3"/>
+		<baseMaterialConfiguration name="$l10n_color_JOHNDEEREMETALLIC"     color="JOHNDEERE_YELLOW1"   material="3"/>
+		<baseMaterialConfiguration name="$l10n_color_PINKMETALLIC"          color="0.880 0.130 0.540 1" material="3"/>
+            <!--Default-->
+        <baseMaterialConfiguration name="$l10n_color_ITRUNNER"              color="0.038 0.037 0.048 1" material="0"/>
+        <baseMaterialConfiguration name="$l10n_color_EDGEGOLD"              color="0.776 0.667 0.341 1" material="0"/>
+        <baseMaterialConfiguration name="$l10n_color_EDGESILVER"            color="0.647 0.667 0.682 1" material="0"/>
+        <baseMaterialConfiguration name="$l10n_color_RED"                   color="0.673 0.002 0.000 1" material="0"/>
+		<baseMaterialConfiguration name="$l10n_color_KOBALT" 		        color="DFM_DARKBLUE1" 		material="0"/>
+        <baseMaterialConfiguration name="$l10n_color_GREEN"                 color="0.000 0.170 0.001 1" material="0"/>
+		<baseMaterialConfiguration name="$l10n_color_YELLOW"       	        color="0.980 0.980 0.220 1"	material="0"/>
+        <baseMaterialConfiguration name="$l10n_color_ORANGE"                color="0.932 0.119 0.000 1" material="0"/>
+
+        <baseMaterialConfiguration name="$l10n_color_LELY"       		    color="LELY_COPPER" 		material="0"/>
+		<baseMaterialConfiguration name="$l10n_color_KRONE" 		        color="KRONE_YELLOW1" 		material="0"/>
+        <baseMaterialConfiguration name="$l10n_color_ALICEBLUE"             color="0.940 0.970 1.000 1" material="0"/>
+		<baseMaterialConfiguration name="$l10n_color_PURPLE"           	    color="0.630 0.130 0.940 1" material="0"/>
+		<baseMaterialConfiguration name="$l10n_color_DARKGREY"              color="0.037 0.037 0.037 1" material="0"/>
+		<baseMaterialConfiguration name="$l10n_color_KRONE" 		        color="KRONE_GREEN1" 		material="0"/>
+		<baseMaterialConfiguration name="$l10n_color_NEWHOLLAND" 	        color="NEWHOLLAND_YELLOW1" 	material="0"/>
+        <baseMaterialConfiguration name="$l10n_color_PINK"                  color="0.880 0.130 0.540 1" material="0"/>
+        <material name="manHole_mat" shaderParameter="colorMat0"/>
+        <material name="tank_mat" shaderParameter="colorMat0"/>
+    </baseMaterialConfigurations>
+    <designMaterialConfigurations price="1000" useDefaultColors="true" defaultColorIndex="12">
+            <!--Matte-->
+		<designMaterialConfiguration name="$l10n_color_ITRUNNERMATTE" 	      color="0.038 0.037 0.048 1" material="1"/>
+        <designMaterialConfiguration name="$l10n_color_EDGEGOLDMATTE"         color="0.776 0.667 0.341 1" material="1"/>
+        <designMaterialConfiguration name="$l10n_color_EDGESILVERMATTE"       color="0.647 0.667 0.682 1" material="1"/>
+		<designMaterialConfiguration name="$l10n_color_CASEIHMATTE" 	      color="CASEIH_RED1" 		material="1"/>
+		<designMaterialConfiguration name="$l10n_color_NEWHOLLANDMATTE" 	  color="NEWHOLLAND_BLUE1" 	material="1"/>
+		<designMaterialConfiguration name="$l10n_color_KRONEMATTE" 	          color="KRONE_GREEN1" 		material="1"/>
+		<designMaterialConfiguration name="$l10n_color_YELLOWMATTE"           color="0.980 0.980 0.220 1"	material="1"/>
+		<designMaterialConfiguration name="$l10n_color_STARAMATTE" 	          color="STARA_ORANGE" 		material="1"/>
+
+		<designMaterialConfiguration name="$l10n_color_LELYMATTE" 		      color="LELY_COPPER" 		material="1"/>
+        <designMaterialConfiguration name="$l10n_color_KRONEMATTE"            color="KRONE_YELLOW1"       material="1"/>
+        <designMaterialConfiguration name="$l10n_color_WHITEMATTE"            color="SHARED_WHITE2"       material="1"/>
+		<designMaterialConfiguration name="$l10n_color_PURPLEMATTE" 	      color="0.630 0.130 0.940 1" material="1"/>
+		<designMaterialConfiguration name="$l10n_color_DARKBLUEMATTE"         color="0.007 0.029 0.187 1"	material="1"/>
+		<designMaterialConfiguration name="$l10n_color_JOHNDEEREMATTE" 	      color="JOHNDEERE_GREEN1"    material="1"/>
+		<designMaterialConfiguration name="$l10n_color_JOHNDEEREMATTE"        color="JOHNDEERE_YELLOW1"	material="1"/>
+		<designMaterialConfiguration name="$l10n_color_PINKMATTE" 	          color="0.880 0.130 0.540 1" material="1"/>
+            <!--Chrome-->
+        <designMaterialConfiguration name="$l10n_color_ITRUNNERCHROME" 	      color="0.038 0.037 0.048 1" material="2"/>
+        <designMaterialConfiguration name="$l10n_color_EDGEGOLDCHROME"        color="0.776 0.667 0.341 1" material="2"/>
+        <designMaterialConfiguration name="$l10n_color_EDGESILVERCHROME"      color="0.647 0.667 0.682 1" material="2"/>
+		<designMaterialConfiguration name="$l10n_color_CASEIHCHROME" 	      color="CASEIH_RED1" 		material="2"/>
+		<designMaterialConfiguration name="$l10n_color_NEWHOLLANDCHROME" 	  color="NEWHOLLAND_BLUE1"    material="2"/>
+		<designMaterialConfiguration name="$l10n_color_KRONECHROME" 	      color="KRONE_GREEN1" 		material="2"/>
+		<designMaterialConfiguration name="$l10n_color_YELLOWCHROME"          color="0.980 0.980 0.220 1"	material="2"/>
+		<designMaterialConfiguration name="$l10n_color_STARACHROME"           color="STARA_ORANGE" 		material="2"/>
+
+		<designMaterialConfiguration name="$l10n_color_LELYCHROME" 		      color="LELY_COPPER" 		material="2"/>
+		<designMaterialConfiguration name="$l10n_color_KRONECHROME" 	      color="KRONE_YELLOW1"		material="2"/>
+		<designMaterialConfiguration name="$l10n_color_WHITECHROME"           color="SHARED_WHITE2" 		material="2"/>
+		<designMaterialConfiguration name="$l10n_color_PURPLECHROME" 	      color="0.630 0.130 0.940 1" material="2"/>
+		<designMaterialConfiguration name="$l10n_color_DARKBLUECHROME" 	      color="0.007 0.029 0.187 1" material="2"/>
+		<designMaterialConfiguration name="$l10n_color_JOHNDEERECHROME"       color="JOHNDEERE_GREEN1" 	material="2"/>
+		<designMaterialConfiguration name="$l10n_color_JOHNDEERECHROME"       color="JOHNDEERE_YELLOW1"   material="2"/>
+		<designMaterialConfiguration name="$l10n_color_PINKCHROME"            color="0.880 0.130 0.540 1" material="2"/>
+            <!--Metallic-->
+        <designMaterialConfiguration name="$l10n_color_ITRUNNERMETALLIC" 	  color="0.038 0.037 0.048 1" material="3"/>
+        <designMaterialConfiguration name="$l10n_color_EDGEGOLDMETALLIC"      color="0.776 0.667 0.341 1" material="3"/>
+        <designMaterialConfiguration name="$l10n_color_EDGESILVERMETALLIC"    color="0.647 0.667 0.682 1" material="3"/>
+		<designMaterialConfiguration name="$l10n_color_CASEIHMETALLIC" 	      color="CASEIH_RED1" 		material="3"/>
+		<designMaterialConfiguration name="$l10n_color_NEWHOLLANDMETALLIC" 	  color="NEWHOLLAND_BLUE1"    material="3"/>
+		<designMaterialConfiguration name="$l10n_color_KRONEMETALLIC" 	      color="KRONE_GREEN1" 		material="3"/>
+		<designMaterialConfiguration name="$l10n_color_YELLOWMETALLIC"        color="0.980 0.980 0.220 1"	material="3"/>
+		<designMaterialConfiguration name="$l10n_color_STARAMETALLIC"         color="STARA_ORANGE" 		material="3"/>
+
+		<designMaterialConfiguration name="$l10n_color_LELYMETALLIC" 		  color="LELY_COPPER" 		material="3"/>
+		<designMaterialConfiguration name="$l10n_color_KRONEMETALLIC" 	      color="KRONE_YELLOW1"		material="3"/>
+		<designMaterialConfiguration name="$l10n_color_WHITEMETALLIC"         color="SHARED_WHITE2" 		material="3"/>
+		<designMaterialConfiguration name="$l10n_color_PURPLEMETALLIC" 	      color="0.630 0.130 0.940 1" material="3"/>
+		<designMaterialConfiguration name="$l10n_color_DARKBLUEMETALLIC" 	  color="0.007 0.029 0.187 1" material="3"/>
+		<designMaterialConfiguration name="$l10n_color_JOHNDEEREMETALLIC"     color="JOHNDEERE_GREEN1" 	material="3"/>
+		<designMaterialConfiguration name="$l10n_color_JOHNDEEREMETALLIC"     color="JOHNDEERE_YELLOW1"   material="3"/>
+		<designMaterialConfiguration name="$l10n_color_PINKMETALLIC"          color="0.880 0.130 0.540 1" material="3"/>
+            <!--Default-->
+        <designMaterialConfiguration name="$l10n_color_ITRUNNER"        color="0.038 0.037 0.048 1" material="0"/>
+        <designMaterialConfiguration name="$l10n_color_EDGEGOLD"        color="0.776 0.667 0.341 1" material="0"/>
+        <designMaterialConfiguration name="$l10n_color_EDGESILVER"      color="0.647 0.667 0.682 1" material="0"/>
+        <designMaterialConfiguration name="$l10n_color_RED"             color="0.673 0.002 0.000 1" material="0"/>
+		<designMaterialConfiguration name="$l10n_color_KOBALT" 		    color="DFM_DARKBLUE1" 		material="0"/>
+        <designMaterialConfiguration name="$l10n_color_GREEN"           color="0.000 0.170 0.001 1" material="0"/>
+		<designMaterialConfiguration name="$l10n_color_YELLOW"       	color="0.980 0.980 0.220 1"	material="0"/>
+        <designMaterialConfiguration name="$l10n_color_ORANGE"          color="0.932 0.119 0.000 1" material="0"/>
+
+        <designMaterialConfiguration name="$l10n_color_LELY"       		color="LELY_COPPER" 		material="0"/>
+		<designMaterialConfiguration name="$l10n_color_KRONE" 		    color="KRONE_YELLOW1" 		material="0"/>
+        <designMaterialConfiguration name="$l10n_color_ALICEBLUE"       color="0.940 0.970 1.000 1" material="0"/>
+		<designMaterialConfiguration name="$l10n_color_PURPLE"          color="0.630 0.130 0.940 1" material="0"/>
+        <designMaterialConfiguration name="$l10n_color_DARKGREY"        color="0.037 0.037 0.037 1" material="0"/>
+		<designMaterialConfiguration name="$l10n_color_KRONE" 		    color="KRONE_GREEN1" 		material="0"/>
+		<designMaterialConfiguration name="$l10n_color_NEWHOLLAND" 	    color="NEWHOLLAND_YELLOW1" 	material="0"/>
+        <designMaterialConfiguration name="$l10n_color_PINK"            color="0.880 0.130 0.540 1" material="0"/>
+        <material name="manHoleDesign_mat" shaderParameter="colorMat0"/>
+        <material name="tank_mat" shaderParameter="colorMat1"/>
+        <material name="tank_mat" shaderParameter="colorMat2"/>
+    </designMaterialConfigurations>
     <i3dMappings>
-        <i3dMapping id="fliegl_vis" node="0>3"/>
-        <i3dMapping id="wheelLeft" node="0>0"/>
-        <i3dMapping id="wheelRight" node="0>1"/>
-        <i3dMapping id="attacherJoint" node="0>2"/>
-        <i3dMapping id="it_Fuel" node="0>"/>
-        <i3dMapping id="container_vis" node="0>4"/>
-        <i3dMapping id="fillLevelMarker" node="0>14" />
-        <i3dMapping id="fuelTrigger" node="0>10" />
-        <i3dMapping id="dischargeNode" node="0>11" />
-        <i3dMapping id="unloadingTrigger" node="0>7" />
-        <i3dMapping id="tipdummy" node="0>12" />
+        <i3dMapping id="EDGE_itr_Barrel" node="0>" />
+        <i3dMapping id="wheels" node="0>0" />
+        <i3dMapping id="wheels_Right" node="0>0|0" />
+        <i3dMapping id="wheels_PerforatedRight" node="0>0|0|0" />
+        <i3dMapping id="wheels_Left" node="0>0|1" />
+        <i3dMapping id="wheels_PerforatedLeft" node="0>0|1|0" />
+        <i3dMapping id="attacher" node="0>1" />
+        <i3dMapping id="frame_ITR" node="0>2" />
+        <i3dMapping id="barrel_Std" node="0>2|0" />
+        <i3dMapping id="toolBox_Floor" node="0>2|0|0" />
+        <i3dMapping id="sign_Frame" node="0>2|0|1" />
+        <i3dMapping id="manHole" node="0>2|0|2" />
+        <i3dMapping id="manHoleDefault_vis" node="0>2|0|2|0" />
+        <i3dMapping id="manHoleDesign_vis" node="0>2|0|2|1" />
+        <i3dMapping id="hoses" node="0>2|2" />
+        <i3dMapping id="connectionHoses" node="0>2|2|0" />
+        <i3dMapping id="decals" node="0>2|3" />
+        <i3dMapping id="decals_Slider" node="0>2|3|0" />
+        <i3dMapping id="decal_Numbers" node="0>2|3|0|0" />
+        <i3dMapping id="decal_Slider_Red" node="0>2|3|0|1" />
+        <i3dMapping id="decal_SliderWhite" node="0>2|3|0|2" />
+        <i3dMapping id="decal_SliderGold" node="0>2|3|0|3" />
+        <i3dMapping id="decal_SliderBlack" node="0>2|3|0|4" />
+        <i3dMapping id="decals_Krampe" node="0>2|3|1" />
+        <i3dMapping id="decals_Gold" node="0>2|3|1|0" />
+        <i3dMapping id="decals_Red" node="0>2|3|1|1" />
+        <i3dMapping id="decals_Black" node="0>2|3|1|2" />
+        <i3dMapping id="decals_White" node="0>2|3|1|3" />
+        <i3dMapping id="decals_Warning" node="0>2|3|2" />
+        <i3dMapping id="warning_Flammable" node="0>2|3|2|0" />
+        <i3dMapping id="warning_Poison" node="0>2|3|2|1" />
+        <i3dMapping id="decals_Content" node="0>2|3|3" />
+        <i3dMapping id="decal_waterMilk" node="0>2|3|3|0" />
+        <i3dMapping id="decal_SlurryDigestate" node="0>2|3|3|1" />
+        <i3dMapping id="decal_HerbFertil" node="0>2|3|3|2" />
+        <i3dMapping id="decal_FuelDef" node="0>2|3|3|3" />
+        <i3dMapping id="decal_Universal" node="0>2|3|3|4" />
+        <i3dMapping id="decals_EDGE" node="0>2|3|4" />
+        <i3dMapping id="sign" node="0>2|3|4|0" />
+        <i3dMapping id="logo" node="0>2|3|4|0|0" />
+        <i3dMapping id="banner" node="0>2|3|4|1" />
+        <i3dMapping id="EDGEDecal" node="0>2|3|4|1|0" />
+        <i3dMapping id="signRound" node="0>2|3|4|2" />
+        <i3dMapping id="logoRound" node="0>2|3|4|2|0" />
+        <i3dMapping id="fillLevel" node="0>3" />
+        <i3dMapping id="fillLevel_Marker00" node="0>3|0" />
+        <i3dMapping id="fillLevel_Lever00" node="0>3|0|0" />
+        <i3dMapping id="fillLevel_Marker01_NeedFix" node="0>3|1" />
+        <i3dMapping id="fillLevel_Lever01" node="0>3|1|0" />
+        <i3dMapping id="colFrame" node="0>4" />
+        <i3dMapping id="fillTrigger" node="0>5" />
+        <i3dMapping id="tipreference" node="0>6" />
+        <i3dMapping id="tipdummy" node="0>7" />
+        <i3dMapping id="lights" node="0>2|1" />
+        <i3dMapping id="reflectors" node="0>2|1|0" />
+        <i3dMapping id="reflector_Strip00" node="0>2|1|0|0" />
+        <i3dMapping id="reflector_Strip01" node="0>2|1|0|1" />
+        <i3dMapping id="reflector_Strip02" node="0>2|1|0|2" />
+        <i3dMapping id="reflector_Strip03" node="0>2|1|0|3" />
+        <i3dMapping id="reflector_Strip04" node="0>2|1|0|4" />
+        <i3dMapping id="reflector_Strip05" node="0>2|1|0|5" />
+        <i3dMapping id="reflector_Strip06" node="0>2|1|0|6" />
+        <i3dMapping id="dischargeNode" node="0>8" />
+        <i3dMapping id="unloadingTrigger" node="0>9" />
     </i3dMappings>
 </vehicle>

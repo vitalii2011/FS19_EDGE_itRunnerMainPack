@@ -175,7 +175,6 @@ Velocità di sovraccarico 2000 litri al secondo.
     <storeItems>
         <storeItem xmlFilename="data/itRunner2633HD.xml"/>
 		<storeItem xmlFilename="data/SlurryBarrel.xml"/>
-        <storeItem xmlFilename="data/SlurryContainer.xml"/>
         <storeItem xmlFilename="data/UniversalBarrel.xml"/>
         <storeItem xmlFilename="data/FuelBarrel.xml"/>
     </storeItems>
