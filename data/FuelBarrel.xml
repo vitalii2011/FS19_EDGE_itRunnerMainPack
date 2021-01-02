@@ -1,32 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <vehicle type="fuelTrailer">
     <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
+    <author>EDGE Gaming</author>
     <storeData>
-        <name>$l10n_shopItem_EDGEfuelbarrel</name>
+        <name>$l10n_name_EDGEbarrel</name>
         <specs>
             <neededPower>85</neededPower>
             <combination>ITR 26.33 HD</combination>
-            <capacity unit="$l10n_unit_liter">25000</capacity>
+            <capacity unit="$l10n_unit_liter">30000</capacity>
+            <capacity unit="$l10n_unit_kg">1500</capacity>
         </specs>
         <functions>
-            <function>
-                <fr>Used to transport fuel</fr>
-                <en>Used to transport fuel</en>
-                <de>Dient zum Transport von Treibstoff</de>
-            </function>
-			<function>$l10n_function_tank</function>
+            <function>$l10n_function_hookLift</function>
+            <function>$l10n_function_tank</function>
+            <function>$l10n_function_FuelTrailer</function>
         </functions>
-        <image>store_flieglSlurry.dds</image>
-        <price>12900</price>
+        <image>store/store_FuelBarrel.dds</image>
+        <price>15900</price>
         <lifetime>600</lifetime>
         <rotation>0</rotation>
-        <brand>EDGE</brand>
+        <brand>KRAMPE</brand>
         <category>misc</category>
     </storeData>
     <base>
         <typeDesc>$l10n_typeDesc_tipper</typeDesc>
-        <filename>itRunner/FuelBarrel.i3d</filename>
-        <size width="4.5" length="5.6"/>
+        <filename>data/barrel_ITR.i3d</filename>
+        <size width="3" length="7"/>
         <components>
             <component centerOfMass="0 0.2 0" solverIterationCount="10" mass="1500"/>
         </components>
@@ -39,7 +38,7 @@
     </base>
     <wheels>
         <wheelConfigurations>
-            <wheelConfigurationname="$l10n_configuration_default" price="0" brand="EDGE">
+            <wheelConfiguration name="$l10n_configuration_default" price="0" brand="EDGE">
                 <wheels autoRotateBackSpeed="2.0">
                     <wheel>
                         <physics restLoad="1.0" tipOcclusionAreaGroupId="1" repr="wheels_Left" radius="0.085" width="0.5" mass="0.02" initialCompression="50" suspTravel="0.05" spring="300" damper="100" frictionScale="0.8" yOffset="0.03"/>
@@ -49,7 +48,7 @@
                     </wheel>
                 </wheels>
             </wheelConfiguration>
-            <wheelConfigurationname="$l10n_configuration_Perf" price="250" brand="EDGE">
+            <wheelConfiguration name="$l10n_configuration_Perf" price="250" brand="EDGE">
                 <wheels autoRotateBackSpeed="2.0">
                     <wheel>
                         <physics restLoad="1.0" tipOcclusionAreaGroupId="1" repr="wheels_Left" radius="0.085" width="0.5" mass="0.02" initialCompression="50" suspTravel="0.05" spring="300" damper="100" frictionScale="0.8" yOffset="0.03"/>
@@ -69,41 +68,188 @@
         </inputAttacherJoints>
         <brakeForce>0.5</brakeForce>
     </attachable>
+    <attacherJoints>
+        <attacherJointConfigurations title="$l10n_configuration_manhole">
+            <attacherJointConfiguration name="$l10n_configuration_Painted" price="0">
+                <objectChange node="manHoleDefault_vis" visibilityActive="true"/>
+                <objectChange node="manHoleDesign_vis" visibilityActive="false"/>
+            </attacherJointConfiguration>
+            <attacherJointConfiguration name="$l10n_configuration_Design" price="100">
+                <objectChange node="manHoleDefault_vis" visibilityActive="false"/>
+                <objectChange node="manHoleDesign_vis" visibilityActive="true"/>
+            </attacherJointConfiguration>
+        </attacherJointConfigurations>
+    </attacherJoints>
     <animations>
         <animation name="tipAnimationBack">
             <part node="tipdummy" startTime="0" duration="1" startTrans="0 0 0" endTrans="0 0 1"/>
         </animation>
+        <animation name="fillLevel">
+            <part node="fillLevel_Lever00" startTime="0" endTime="1" startRot="0 0 0" endRot="0 0 -180" />
+        </animation>
     </animations>
     <fillUnit>
         <fillUnitConfigurations>
-            <fillUnitConfiguration>
+            <fillUnitConfiguration name="$l10n_configuration_default" price="0">
                 <fillUnits>
-                    <fillUnit unit="$l10n_unit_literShort" fillTypes="diesel" capacity="40000">
+                    <fillUnit unit="$l10n_unit_literShort" fillTypes="diesel def" capacity="30000">
                         <dashboard displayType="ANIMATION" valueType="fillLevel" animName="fillLevel"/>
                         <fillRootNode node="EDGE_itr_Barrel"/>
-                        <fillMassNode node="EDGE_itr_Barrel"/>
-                    </fillUnit>
-                    <fillUnit unit="$l10n_unit_literShort" fillTypes="def" capacity="40000">
-                        <dashboard displayType="ANIMATION" valueType="fillLevel" animName="fillLevel"/>
-                        <fillRootNode node="EDGE_itr_Barrel"/>
-                        <fillMassNode node="EDGE_itr_Barrel"/>
+                        <fillMassNode node="barrel_Std"/>
                     </fillUnit>
                 </fillUnits>
+                <objectChange node="decal_FuelDef" visibilityActive="true"/>
+                <objectChange node="decal_waterMilk" visibilityActive="false"/>
+                <objectChange node="decal_SlurryDigestate" visibilityActive="false"/>
+                <objectChange node="decal_HerbFertil" visibilityActive="false"/>
+                <objectChange node="decal_Universal" visibilityActive="false"/>
+                <objectChange node="warning_Flammable" visibilityActive="true"/>
+                <objectChange node="warning_Poison" visibilityActive="false"/>
+            </fillUnitConfiguration>
+            <fillUnitConfiguration name="$l10n_configuration_HighPressure" price="10000">
+                <fillUnits>
+                    <fillUnit unit="$l10n_unit_literShort" fillTypes="diesel def" capacity="50000">
+                        <dashboard displayType="ANIMATION" valueType="fillLevel" animName="fillLevel"/>
+                        <fillRootNode node="EDGE_itr_Barrel"/>
+                        <fillMassNode node="barrel_Std"/>
+                    </fillUnit>
+                </fillUnits>
+                <objectChange node="decal_FuelDef" visibilityActive="true"/>
+                <objectChange node="decal_waterMilk" visibilityActive="false"/>
+                <objectChange node="decal_SlurryDigestate" visibilityActive="false"/>
+                <objectChange node="decal_HerbFertil" visibilityActive="false"/>
+                <objectChange node="decal_Universal" visibilityActive="false"/>
+                <objectChange node="warning_Flammable" visibilityActive="true"/>
+                <objectChange node="warning_Poison" visibilityActive="false"/>
             </fillUnitConfiguration>
         </fillUnitConfigurations>
     </fillUnit>
     <fillSound file="$data/sounds/tools/slurry/garant_pump_small_loop.ogg" pitchOffset="1.0" volume="0.6" volume3D="0.6" innerRadius="10" radius="40" linkNode="0>"/>
     <refuelSound file="$data/maps/sounds/vehicles/shared/refuel_loop_01.ogg" pitchOffset="1.0" volume="0.6" volume3D="0.6" innerRadius="10" radius="40" linkNode="0>"/>
-    <fuelFillLitersPerSecond>250</fuelFillLitersPerSecond>
-    <gasStationTrigger index="fillTrigger"/>
+    <fillTriggerVehicle triggerNode="fillTrigger" fillUnitIndex="1" fillLitersPerSecond="250"/>
     <dischargeable>
-        <dischargeNode node="dischargeNode">
-            <info width="2"/>
+        <dischargeNode node="dischargeNode" emptySpeed="1000" fillUnitIndex="1" canDischargeToGround="false">
+            <info width="2.0" length="0.5" zOffset="0.4"/>
+            <trigger node="unloadTrigger"/>
+            <dischargeSound template="SLURRY_01"/>
         </dischargeNode>
     </dischargeable>
+    <lights>
+        <sharedLight linkNode="worklight01" filename="$data/shared/assets/lights/hella/hellaWorkingLightSquare_02_back.xml">
+            <rotationNode name="rotationNode1" rotation="15 0 0"/>
+        </sharedLight>
+        <sharedLight linkNode="worklight02" filename="$data/shared/assets/lights/hella/hellaWorkingLightSquare_02_back.xml">
+            <rotationNode name="rotationNode1" rotation="15 0 0"/>
+        </sharedLight>
+        <sharedLight linkNode="sideMarker_WhiteL01" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml"/>
+        <sharedLight linkNode="sideMarker_WhiteL02" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml"/>
+        <sharedLight linkNode="sideMarker_WhiteL03" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml"/>
+        <sharedLight linkNode="sideMarker_WhiteL04" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml"/>
+        <sharedLight linkNode="sideMarker_WhiteL05" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml"/>
+        <sharedLight linkNode="sideMarker_WhiteR01" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml"/>
+        <sharedLight linkNode="sideMarker_WhiteR02" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml"/>
+        <sharedLight linkNode="sideMarker_WhiteR03" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml"/>
+        <sharedLight linkNode="sideMarker_WhiteR04" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml"/>
+        <sharedLight linkNode="sideMarker_WhiteR05" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml"/>
+        <sharedLight linkNode="sideMarkerL01" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml"/>
+        <sharedLight linkNode="sideMarkerR01" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml"/>
+        <realLights>
+            <high>
+                <light node="workLight01" lightTypes="1"/>
+                <light node="workLight02" lightTypes="1"/>
+                <light node="sideLightsL01" lightTypes="0"/>
+                <light node="sideLightsL02" lightTypes="0"/>
+                <light node="sideLightsL03" lightTypes="0"/>
+                <light node="sideLightsL04" lightTypes="0"/>
+                <light node="sideLightsL05" lightTypes="0"/>
+                <light node="sideLightsR01" lightTypes="0"/>
+                <light node="sideLightsR02" lightTypes="0"/>
+                <light node="sideLightsR03" lightTypes="0"/>
+                <light node="sideLightsR04" lightTypes="0"/>
+                <light node="sideLightsR05" lightTypes="0"/>
+            </high>
+        </realLights>
+        <beaconLights>
+            <beaconLight node="beaconLight01" filename="$data/shared/assets/beaconLights/lizard/beaconLight02.xml"/>
+        </beaconLights>
+    </lights>
 	<foliageBending>
         <bendingNode minX="-1.25" maxX="1.25" minZ="-4.7" maxZ="1.2" yOffset="0.6" />
     </foliageBending>
+    <vehicleTypeConfigurations title="$l10n_config_lights">
+        <vehicleTypeConfiguration name="$l10n_config_beaconWork" price="600" vehicleType="fuelTrailer">
+            <objectChange node="beaconBlock" visibilityActive="true"/>
+            <objectChange node="workLightBlock01" visibilityActive="true"/>
+            <objectChange node="workLightBlock02" visibilityActive="true"/>
+        </vehicleTypeConfiguration>
+        <vehicleTypeConfiguration name="$l10n_config_beacon" price="300" vehicleType="fuelTrailer">
+            <objectChange node="beaconBlock" visibilityActive="true"/>
+            <objectChange node="workLightBlock01" visibilityActive="false"/>
+            <objectChange node="workLightBlock02" visibilityActive="false"/>
+        </vehicleTypeConfiguration>
+        <vehicleTypeConfiguration name="$l10n_config_work" price="300" vehicleType="fuelTrailer">
+            <objectChange node="beaconBlock" visibilityActive="false"/>
+            <objectChange node="workLightBlock01" visibilityActive="true"/>
+            <objectChange node="workLightBlock02" visibilityActive="true"/>
+        </vehicleTypeConfiguration>
+        <vehicleTypeConfiguration name="$l10n_config_noLight" price="0" vehicleType="fuelTrailer">
+            <objectChange node="beaconBlock" visibilityActive="false"/>
+            <objectChange node="workLightBlock01" visibilityActive="false"/>
+            <objectChange node="workLightBlock02" visibilityActive="false"/>
+        </vehicleTypeConfiguration>
+    </vehicleTypeConfigurations>
+    <designConfigurations>
+        <designConfiguration name="$l10n_config_decal" price="0">
+            <objectChange node="decal_Slider_Red" visibilityActive="true"/>
+            <objectChange node="decals_Red" visibilityActive="true"/>
+            <objectChange node="decal_SliderWhite" visibilityActive="false"/>
+            <objectChange node="decals_White" visibilityActive="false"/>
+            <objectChange node="decal_SliderBlack" visibilityActive="false"/>
+            <objectChange node="decals_Black" visibilityActive="false"/>
+            <objectChange node="decal_SliderGold" visibilityActive="false"/>
+            <objectChange node="decals_Gold" visibilityActive="false"/>
+        </designConfiguration>
+        <designConfiguration name="$l10n_config_decalWhite" price="100">
+            <objectChange node="decal_Slider_Red" visibilityActive="false"/>
+            <objectChange node="decals_Red" visibilityActive="false"/>
+            <objectChange node="decal_SliderWhite" visibilityActive="true"/>
+            <objectChange node="decals_White" visibilityActive="true"/>
+            <objectChange node="decal_SliderBlack" visibilityActive="false"/>
+            <objectChange node="decals_Black" visibilityActive="false"/>
+            <objectChange node="decal_SliderGold" visibilityActive="false"/>
+            <objectChange node="decals_Gold" visibilityActive="false"/>
+        </designConfiguration>
+        <designConfiguration name="$l10n_config_decalBlack" price="100">
+            <objectChange node="decal_Slider_Red" visibilityActive="false"/>
+            <objectChange node="decals_Red" visibilityActive="false"/>
+            <objectChange node="decal_SliderWhite" visibilityActive="false"/>
+            <objectChange node="decals_White" visibilityActive="false"/>
+            <objectChange node="decal_SliderBlack" visibilityActive="true"/>
+            <objectChange node="decals_Black" visibilityActive="true"/>
+            <objectChange node="decal_SliderGold" visibilityActive="false"/>
+            <objectChange node="decals_Gold" visibilityActive="false"/>
+        </designConfiguration>
+        <designConfiguration name="$l10n_config_decalDesign" price="200">
+            <objectChange node="decal_Slider_Red" visibilityActive="false"/>
+            <objectChange node="decals_Red" visibilityActive="false"/>
+            <objectChange node="decal_SliderWhite" visibilityActive="false"/>
+            <objectChange node="decals_White" visibilityActive="false"/>
+            <objectChange node="decal_SliderBlack" visibilityActive="false"/>
+            <objectChange node="decals_Black" visibilityActive="false"/>
+            <objectChange node="decal_SliderGold" visibilityActive="true"/>
+            <objectChange node="decals_Gold" visibilityActive="true"/>
+        </designConfiguration>
+        <designConfiguration name="$l10n_config_nodecal" price="0">
+            <objectChange node="decal_Slider_Red" visibilityActive="false"/>
+            <objectChange node="decals_Red" visibilityActive="false"/>
+            <objectChange node="decal_SliderWhite" visibilityActive="false"/>
+            <objectChange node="decals_White" visibilityActive="false"/>
+            <objectChange node="decal_SliderBlack" visibilityActive="false"/>
+            <objectChange node="decals_Black" visibilityActive="false"/>
+            <objectChange node="decal_SliderGold" visibilityActive="false"/>
+            <objectChange node="decals_Gold" visibilityActive="false"/>
+        </designConfiguration>
+    </designConfigurations>
     <trailer>
         <trailerConfigurations>
             <trailerConfiguration>
@@ -118,10 +264,11 @@
     </trailer>
     <pipe>
         <unloadingTriggers>
-            <unloadingTrigger node="unloadingTrigger"/>
+            <unloadingTrigger node="unloadingNode"/>
         </unloadingTriggers>
     </pipe>
     <washable dirtDuration="75" washDuration="0.8" workMultiplier="2"/>
+    <wearable wearDuration="480" workMultiplier="5" fieldMultiplier="2"/>
     <hoseSystem hasPumpMotor="true"/>
     <pumpMotor startUpTime="1000" litersPerSecond="150"/>
     <pumpSound file="$data/sounds/garantPump_small.wav" pitchOffset="1.00" volume="1" indoorVolumeFactor="0.48" indoorLowpassGain="0.45"/>
@@ -307,6 +454,51 @@
         <i3dMapping id="manHole" node="0>2|0|2" />
         <i3dMapping id="manHoleDefault_vis" node="0>2|0|2|0" />
         <i3dMapping id="manHoleDesign_vis" node="0>2|0|2|1" />
+        <i3dMapping id="lights" node="0>2|1" />
+        <i3dMapping id="reflectors" node="0>2|1|0" />
+        <i3dMapping id="reflector_Strip00" node="0>2|1|0|0" />
+        <i3dMapping id="reflector_Strip01" node="0>2|1|0|1" />
+        <i3dMapping id="reflector_Strip02" node="0>2|1|0|2" />
+        <i3dMapping id="reflector_Strip03" node="0>2|1|0|3" />
+        <i3dMapping id="reflector_Strip04" node="0>2|1|0|4" />
+        <i3dMapping id="reflector_Strip05" node="0>2|1|0|5" />
+        <i3dMapping id="reflector_Strip06" node="0>2|1|0|6" />
+        <i3dMapping id="beaconBlock" node="0>2|1|1" />
+        <i3dMapping id="beaconLight02" node="0>2|1|1|0" />
+        <i3dMapping id="workLightBlock01" node="0>2|1|2" />
+        <i3dMapping id="worklight01" node="0>2|1|2|0" />
+        <i3dMapping id="workLight01" node="0>2|1|2|0|0" />
+        <i3dMapping id="workLightBlock02" node="0>2|1|3" />
+        <i3dMapping id="worklight02" node="0>2|1|3|0" />
+        <i3dMapping id="workLight02" node="0>2|1|3|0|0" />
+        <i3dMapping id="sharedLights" node="0>2|1|4" />
+        <i3dMapping id="sideMarkerL01" node="0>2|1|4|0" />
+        <i3dMapping id="sideMarkerL02" node="0>2|1|4|1" />
+        <i3dMapping id="sideMarkerR01" node="0>2|1|4|2" />
+        <i3dMapping id="sideMarkerR02" node="0>2|1|4|3" />
+        <i3dMapping id="Sidelights" node="0>2|1|5" />
+        <i3dMapping id="leftSide" node="0>2|1|5|0" />
+        <i3dMapping id="sideMarker_WhiteL01" node="0>2|1|5|0|0" />
+        <i3dMapping id="sideLightsL01" node="0>2|1|5|0|0|0" />
+        <i3dMapping id="sideMarker_WhiteL02" node="0>2|1|5|0|1" />
+        <i3dMapping id="sideLightsL02" node="0>2|1|5|0|1|0" />
+        <i3dMapping id="sideMarker_WhiteL03" node="0>2|1|5|0|2" />
+        <i3dMapping id="sideLightsL03" node="0>2|1|5|0|2|0" />
+        <i3dMapping id="sideMarker_WhiteL04" node="0>2|1|5|0|3" />
+        <i3dMapping id="sideLightsL04" node="0>2|1|5|0|3|0" />
+        <i3dMapping id="sideMarker_WhiteL05" node="0>2|1|5|0|4" />
+        <i3dMapping id="sideLightsL05" node="0>2|1|5|0|4|0" />
+        <i3dMapping id="rightSide" node="0>2|1|5|1" />
+        <i3dMapping id="sideMarker_WhiteR01" node="0>2|1|5|1|0" />
+        <i3dMapping id="sideLightsR01" node="0>2|1|5|1|0|0" />
+        <i3dMapping id="sideMarker_WhiteR02" node="0>2|1|5|1|1" />
+        <i3dMapping id="sideLightsR02" node="0>2|1|5|1|1|0" />
+        <i3dMapping id="sideMarker_WhiteR03" node="0>2|1|5|1|2" />
+        <i3dMapping id="sideLightsR03" node="0>2|1|5|1|2|0" />
+        <i3dMapping id="sideMarker_WhiteR04" node="0>2|1|5|1|3" />
+        <i3dMapping id="sideLightsR04" node="0>2|1|5|1|3|0" />
+        <i3dMapping id="sideMarker_WhiteR05" node="0>2|1|5|1|4" />
+        <i3dMapping id="sideLightsR05" node="0>2|1|5|1|4|0" />
         <i3dMapping id="hoses" node="0>2|2" />
         <i3dMapping id="connectionHoses" node="0>2|2|0" />
         <i3dMapping id="decals" node="0>2|3" />
@@ -343,19 +535,16 @@
         <i3dMapping id="fillLevel_Marker01_NeedFix" node="0>3|1" />
         <i3dMapping id="fillLevel_Lever01" node="0>3|1|0" />
         <i3dMapping id="colFrame" node="0>4" />
-        <i3dMapping id="fillTrigger" node="0>5" />
-        <i3dMapping id="tipreference" node="0>6" />
-        <i3dMapping id="tipdummy" node="0>7" />
-        <i3dMapping id="lights" node="0>2|1" />
-        <i3dMapping id="reflectors" node="0>2|1|0" />
-        <i3dMapping id="reflector_Strip00" node="0>2|1|0|0" />
-        <i3dMapping id="reflector_Strip01" node="0>2|1|0|1" />
-        <i3dMapping id="reflector_Strip02" node="0>2|1|0|2" />
-        <i3dMapping id="reflector_Strip03" node="0>2|1|0|3" />
-        <i3dMapping id="reflector_Strip04" node="0>2|1|0|4" />
-        <i3dMapping id="reflector_Strip05" node="0>2|1|0|5" />
-        <i3dMapping id="reflector_Strip06" node="0>2|1|0|6" />
-        <i3dMapping id="dischargeNode" node="0>8" />
-        <i3dMapping id="unloadingTrigger" node="0>9" />
+        <i3dMapping id="triggers" node="0>5" />
+        <i3dMapping id="fillTrigger" node="0>5|0" />
+        <i3dMapping id="unloadTrigger" node="0>5|1" />
+        <i3dMapping id="trailerTrigger" node="0>5|2" />
+        <i3dMapping id="waterTrigger" node="0>5|3" />
+        <i3dMapping id="gasTrigger" node="0>5|4" />
+        <i3dMapping id="refPoints" node="0>6" />
+        <i3dMapping id="tipreference" node="0>6|0" />
+        <i3dMapping id="tipdummy" node="0>6|1" />
+        <i3dMapping id="dischargeNode" node="0>6|2" />
+        <i3dMapping id="unloadingNode" node="0>6|3" />
     </i3dMappings>
 </vehicle>

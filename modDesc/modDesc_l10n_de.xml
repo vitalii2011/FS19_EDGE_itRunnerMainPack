@@ -3,9 +3,13 @@
 <author>Edge Gaming / Castiga</author>
 <translationby>Castiga</translationby>
 	<texts>
-		<text name="function_turboKipper"		text="Langer Dolly für jeden Sattelauflieger, um ihn an einen Traktor anzuhängen oder um einen Straßenzug zu bauen."/>
-        <text name="name_turboKipper" 			text="Turbo Tracker"/>
-	    <text name="name_turboTrailers" 		text="Turboanhänger"/>
+        <text name="configuration_HighPressure"	text="Hochdrucktank"/>
+        <text name="function_fertilTrailer"		text="Zum Transportieren von Flüssigkeiten, um diese nicht zu sprühen."/>
+		<text name="configuration_Design" 		text="Details lackiert"/>
+		<text name="configuration_Painted" 		text="Lackiert"/>
+        <text name="configuration_manhole"		text="Schachtdesign"/>
+		<text name="name_EDGEbarrel"			text="Flüssiger Blitz ITR"/>
+        <text name="function_FuelTrailer" 		text="Dient zum Transport von Treibstoff"/>
         <text name="configuration_TwinRadial" 	text="Zwillingsradial"/>
         <text name="configuration_CARGOXBIB" 	text="Ladung"/>
         <text name="configuration_CXBheavyduty" text="Schwerlast"/>
@@ -16,31 +20,17 @@
         <text name="configuration_wideXBIB"		text="Breit Ladung"/>
         <text name="configuration_megaXbib"		text="Offroad"/>
         <text name="configuration_Offroad"		text="Offroad"/>
-        <text name="config_TDdecalWhite"		text="Weiß Abziehbilder"/>
-        <text name="config_TDdecalBlack"		text="Schwarz Abziehbilder"/>
-        <text name="config_TDdecalRed"			text="rot Abziehbilder"/>
-        <text name="config_TDnodecal"			text="Keine Abziehbilder"/>
-        <text name="config_TDLicense"			text="Nummernschild"/>
-        <text name="config_TDLicensePlate"		text="Mit Nummernschild"/>
-        <text name="config_TDnoLicensePlate"	text="Ohne Nummernschild"/>
-        <text name="configuration_Fenders" 		text="Kotflügel"/>
-        <text name="config_Fenders" 			text="Standard Kotflügel"/>
-        <text name="config_PaintedFenders" 		text="Bemalte Kotflügel"/>
-        <text name="config_PaintedFrontFenders"	text="Gemalte vordere Kotflügel"/>
-        <text name="config_PaintedBackFenders" 	text="Gemalte hintere Schutzbleche"/>
-        <text name="config_TDprotection"		text="Schutz"/>
-        <text name="TDprotectionHalf"			text="Halb"/>
-        <text name="TDprotectionHalfpainted"	text="Halb Bemalte"/>
-        <text name="TDprotectionFull"			text="Voll"/>
-        <text name="TDprotectionFullpainted"	text="Voll Bemalte"/>
-        <text name="TDnoprotection"				text="Keine Schutz"/>
-        <text name="config_TDLicensePaint"		text="Nummernschild Bemalte"/>
-        <text name="configuration_TDHitch"		text="Anhängerkupplung"/>
-        <text name="config_TDHitchPaint"		text="Gemalte"/>
-        <text name="config_TDHitch"				text="Standard"/>
-        <text name="config_TDHitchDetail"		text="Detail Bemalte"/>
-        <text name="config_TDrailPaint"			text="Gemalte Schiene"/>
-        <text name="config_TDraildetail"		text="Detail Bemalte Schiene"/>
+        <text name="config_decalWhite" 			text="Weiße Aufkleber"/>
+        <text name="config_decalBlack" 			text="Schwarze Aufkleber"/>
+        <text name="config_decalDesign" 		text="Goldene Aufkleber"/>
+        <text name="config_decal" 				text="Standard Aufkleber"/>
+        <text name="config_nodecal"				text="Keine Abziehbilder"/>
+        <text name="configuration_Perf"			text="Perforiert"/>
+        <text name="config_lights" 				text="Beleuchtung"/>
+        <text name="config_beacon" 				text="RUL"/>
+        <text name="config_work" 				text="Arbeitsscheinwerfer"/>
+        <text name="config_noLight" 			text="Keine Lichter"/>
+        <text name="config_beaconWork" 			text="RUL u Arbeitsscheinwerfer"/>
 			<!--Colors-->
         <text name="color_ITRUNNERMATTE" 		text="IT RUNNER MATTE"/>
         <text name="color_EDGEGOLDMATTE" 		text="EDGE GOLD MATTE"/>

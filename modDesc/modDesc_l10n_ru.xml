@@ -3,9 +3,13 @@
 <author>Edge Gaming / Castiga</author>
 <translationby>Castiga</translationby>
 	<texts>
-		<text name="function_turboKipper"		text="Длинная тележка для любого полуприцепа, чтобы прицепить их к трактору или сделать возможным автопоезд."/>
-        <text name="name_turboKipper" 			text="Турбо трекер"/>
-        <text name="name_turboTrailers" 		text="Турбо Прицепы"/>
+        <text name="configuration_HighPressure"	text="Бак высокого давления"/>
+        <text name="function_fertilTrailer"		text="Используется для транспортировки жидкостей, чтобы не разбрызгивать их."/>
+        <text name="configuration_Design"		text="подробность покрашенный"/>
+        <text name="configuration_Painted"		text="покрашенный"/>
+        <text name="configuration_manhole"		text="Дизайн люка"/>
+		<text name="name_EDGEbarrel"			text="Жидкая молния ITR"/>
+        <text name="function_FuelTrailer" 		text="Используется для перевозки топлива"/>
         <text name="configuration_TwinRadial" 	text="Двойной радиальный"/>
         <text name="configuration_CARGOXBIB" 	text="грузовой"/>
         <text name="configuration_CXBheavyduty" text="Тяжелые условия"/>
@@ -16,31 +20,17 @@
         <text name="configuration_wideXBIB"		text="Широкий грузовой"/>
         <text name="configuration_megaXbib"		text="Внедорожный"/>
         <text name="configuration_Offroad"		text="Внедорожный"/>
-        <text name="config_TDdecalWhite"		text="белый Переводные картинки"/>
-        <text name="config_TDdecalBlack"		text="черный Переводные картинки"/>
-        <text name="config_TDdecalRed"			text="красный Переводные картинки"/>
-        <text name="config_TDnodecal"			text="Нет Переводные картинки"/>
-        <text name="config_TDLicense"			text="Номерной знак"/>
-        <text name="config_TDLicensePlate"		text="С номерным знаком"/>
-        <text name="config_TDnoLicensePlate"	text="Без номерного знака"/>
-        <text name="configuration_Fenders" 		text="Брызговики"/>
-        <text name="config_Fenders" 			text="Крылья по умолчанию"/>
-        <text name="config_PaintedFenders" 		text="Окрашенные крылья"/>
-        <text name="config_PaintedFrontFenders"	text="Окрашенные передние крылья"/>
-        <text name="config_PaintedBackFenders" 	text="Окрашенные задние крылья"/>
-        <text name="config_TDprotection"		text="защита"/>
-        <text name="TDprotectionHalf"			text="половина"/>
-        <text name="TDprotectionHalfpainted"	text="половина покрашенный"/>
-        <text name="TDprotectionFull"			text="Полный"/>
-        <text name="TDprotectionFullpainted"	text="Полный покрашенный"/>
-        <text name="TDnoprotection"				text="Без защита"/>
-        <text name="config_TDLicensePaint"		text="Номерной знак покрашенный"/>
-        <text name="configuration_TDHitch"		text="Прицепное устройство"/>
-        <text name="config_TDHitchPaint"		text="покрашенный"/>
-        <text name="config_TDHitch"				text="По умолчанию"/>
-        <text name="config_TDHitchDetail"		text="подробность покрашенный"/>
-        <text name="config_TDrailPaint"			text="покрашенный рельсовый"/>
-        <text name="config_TDraildetail"		text="подробность покрашенный рельсовый"/>
+        <text name="config_decalWhite"			text="Белые наклейки"/>
+        <text name="config_decalBlack"			text="Черные наклейки"/>
+        <text name="config_decalDesign"			text="Золотые наклейки"/>
+        <text name="config_decal"				text="Декали по умолчанию"/>
+        <text name="config_nodecal"				text="Нет Переводные картинки"/>
+        <text name="configuration_Perf"			text="Перфорированный"/>
+        <text name="config_lights"				text="огни"/>
+        <text name="config_beacon"				text="Маяковые огни"/>
+        <text name="config_work"				text="Рабочие фары"/>
+        <text name="config_noLight"				text="Нет света"/>
+        <text name="config_beaconWork"			text="Маяковые огни &amp; Рабочие фары"/>
 			<!--Colors-->
         <text name="color_ITRUNNERMATTE" 		text="IT RUNNER МАТОВЫЙ"/>
         <text name="color_EDGEGOLDMATTE" 		text="EDGE ЗОЛОТО МАТОВЫЙ"/>

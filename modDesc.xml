@@ -1,191 +1,404 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <modDesc descVersion="53">
     <author>Edge Gaming</author>
-    <translationsby>Castiga</translationsby>
     <version>1.0.0.0</version>
     <title><!-- en=English de=German jp=Japanese pl=Polish cz=Czech fr=French es=Spanish ru=Russian it=Italian pt=Portuguese hu=Hungary nl=Netherlands cs=Chinese (Simplified) ct=Chinese (Traditional) br=Brazilian-Portuguese tr=Turkish ro=Romanian kr=Korean -->
-        <en>ITRunner Pack</en>
-        <de>ITRunner Pack</de>
-        <fr>ITRunner Pack</fr>
-        <es>ITRunner Pack</es>
-        <ru>ITRunner Pack</ru>
-        <pl>ITRunner Pack</pl>
-        <it>ITRunner Pack</it>
+        <en>ITRunner Tanker Pack</en>
+        <de>ITRunner Tanker Pack</de>
+        <fr>ITRunner Pack Pétrolier</fr>
+        <es>ITRunner Paquete Cisterna</es>
+        <ru>ITRunner Набор Tанкеров</ru>
+        <pl>ITRunner Pakiet Tankowca</pl>
+        <it>ITRunner Pacchetto Tanker</it>
     </title>
     <description>
-        <en><![CDATA[This Repository is a Template Repo for our FS 19 mods. It includes the necessary files for an FS19 mod.
+        <en><![CDATA[Welcome to a world of possiblities!
+Now you can transport any liquids with this tanker package for the IT Runner system, including an ultimate version of the ITR 26.33 Trailer making your collection complete and beatuiful.
 
--All buildings have automatic lighting.
--All Buildings supports "Seasons" and "Courseplay Six".
--All Buildings have FillTypeCategories: Farmsilo (to Support Custom Fruits)
+All containers can be upgraded with an High Pressure tank, incresing the capacity of them.
 
---Technical Info--
+--Package Contains--
 
-itRunner2633HD:
-Price: 110.000€
-Upkeep: 45€ Daily.
-Size: 14 x 15 Meters.
-Capacity: 100.000 Litre.
-Overloading Speed 2000 Liters Per Second.
+itRunner2633HD Special Edition:
+Price: 55.000€
+Size: 3.5 x 9.5 Meters.
+Weight: 8.500 KG.
+Recommended Power: 145 HP+
 
-SlurryContainer:
-Price: 110.000€
-Upkeep: 45€ Daily.
-Size: 14 x 15 Meters.
-Capacity: 100.000 Litre.
-Overloading Speed 2000 Liters Per Second.
+Fuel Barrel:
+Price: 15.900€
+Size: 3 x 7 Meters.
+Weight: 1.500 KG.
+Capacity: 30.000 Litre.
+Overloading Speed 250 Liters Per Second.
 
-UniversalBarrel:
-Price: 110.000€
-Upkeep: 45€ Daily.
-Size: 14 x 15 Meters.
-Capacity: 100.000 Litre.
-Overloading Speed 2000 Liters Per Second.
+Milk Barrel:
+Price: 15.900€
+Size: 3 x 7 Meters.
+Weight: 1.500 KG.
+Capacity: 30.000 Litre.
+Overloading Speed 250 Liters Per Second.
 
-FuelBarrel:
-Price: 110.000€
-Upkeep: 45€ Daily.
-Size: 14 x 15 Meters.
-Capacity: 100.000 Litre.
-Overloading Speed 2000 Liters Per Second.
+Fertilizer Barrel:
+Price: 15.900€
+Size: 3 x 7 Meters.
+Weight: 1.500 KG.
+Capacity: 30.000 Litre.
+Overloading Speed 250 Liters Per Second.
 
-SlurryBarrel:
-Price: 110.000€
-Upkeep: 45€ Daily.
-Size: 14 x 15 Meters.
-Capacity: 100.000 Litre.
-Overloading Speed 2000 Liters Per Second.
+Slurry Barrel:
+Price: 15.900€
+Size: 3 x 7 Meters.
+Weight: 1.500 KG.
+Capacity: 30.000 Litre.
+Overloading Speed 250 Liters Per Second.
 
--Supports "Seasons", "Courseplay Six" & "MaizePlus".]]></en>
+Universal Barrel:
+Price: 15.900€
+Size: 3 x 7 Meters.
+Weight: 1.500 KG.
+Capacity: 30.000 Litre.
+Overloading Speed 250 Liters Per Second.
 
-<de><![CDATA[Einige Silos für die Lagerung von Korn. Das Paket enthält vier Hofsilos und 6 Siloerweiterungen.
+There will be added several new tanks and assesories to the package as we go down the line.
 
--Alle Gebäude verfügen über eine automatische Beleuchtung.
--Alle Gebäude unterstützen "Seasons" und "Courseplay Six".
--Alle Gebäude haben FillTypeCategories: Farmsilo (zur Unterstützung benutzerdefinierter Früchte)
+we would LOVE help with our translations, any help will be credited in the mod, go to our Github page at https://github.com/FS19-Mods-By-EDGE/ to help out.
 
---Technische Information--
+-Supports "Seasons" & "Courseplay Six".]]></en>
 
-Kleines Getreidesilo:
-Preis: 110.000 €
-Unterhalt: 45 € Täglich.
-Größe: 14 x 15 Meter.
-Fassungsvermögen: 100.000 Liter.
-Überladegeschwindigkeit 2000 Liter pro Sekunde.
+<de><![CDATA[Willkommen in einer Welt voller Möglichkeiten!
+Jetzt können Sie mit diesem Tankerpaket für das IT Runner-System alle Flüssigkeiten transportieren, einschließlich einer ultimativen Version des ITR 26.33-Trailers, die Ihre Sammlung komplett und schön macht.
 
--Unterstützt "Seasons", "Courseplay Six" und "MaizePlus".]]></de>
+Alle Behälter können mit einem Hochdrucktank aufgerüstet werden, wodurch die Kapazität erhöht wird.
 
-        <fr><![CDATA[Quelques silos pour stocker votre Grain. Le pack contient 4 silos de ferme et 6 extensions de silo.
+--Paket enthält--
 
--Tous les bâtiments ont un éclairage automatique.
--Tous les bâtiments prennent en charge "Seasons" et "Courseplay Six".
--Tous les bâtiments ont FillTypeCategories: Farmsilo (pour prendre en charge les fruits personnalisés)
+itRunner2633HD Sonderausgabe:
+Preis: 55.000 €
+Größe: 3,5 x 9,5 Meter.
+Gewicht: 8.500 kg.
+Empfohlene Leistung: 145 PS +
 
---Info technique--
+Kraftstofffass:
+Preis: 15.900 €
+Größe: 3 x 7 Meter.
+Gewicht: 1.500 kg.
+Fassungsvermögen: 30.000 Liter.
+Überlastgeschwindigkeit 250 Liter pro Sekunde.
 
-Silo à petits grains:
-Prix: 110.000 €
-Entretien: 45 € par jour.
-Taille: 14 x 15 mètres.
-Capacité: 100.000 litres.
-Vitesse de surcharge 2000 litres par seconde.
+Milchfass:
+Preis: 15.900 €
+Größe: 3 x 7 Meter.
+Gewicht: 1.500 kg.
+Fassungsvermögen: 30.000 Liter.
+Überlastgeschwindigkeit 250 Liter pro Sekunde.
 
--Supporte "Seasons", "Courseplay Six" & "MaizePlus".]]></fr>
+Düngerfass:
+Preis: 15.900 €
+Größe: 3 x 7 Meter.
+Gewicht: 1.500 kg.
+Fassungsvermögen: 30.000 Liter.
+Überlastgeschwindigkeit 250 Liter pro Sekunde.
 
-        <es><![CDATA[Algunos silos para almacenar tu grano. El paquete contiene 4 silos de granja y 6 extensiones de silo.
+Güllefass:
+Preis: 15.900 €
+Größe: 3 x 7 Meter.
+Gewicht: 1.500 kg.
+Fassungsvermögen: 30.000 Liter.
+Überlastgeschwindigkeit 250 Liter pro Sekunde.
 
--Todos los edificios tienen iluminación automática.
--Todos los edificios son compatibles con "Seasons" y "Courseplay Six".
--Todos los edificios tienen FillTypeCategories: Farmsilo (para admitir frutas personalizadas)
+Universal Barrel:
+Preis: 15.900 €
+Größe: 3 x 7 Meter.
+Gewicht: 1.500 kg.
+Fassungsvermögen: 30.000 Liter.
+Überlastgeschwindigkeit 250 Liter pro Sekunde.
 
---Información técnica--
+Im Laufe der Zeit werden dem Paket mehrere neue Tanks und Zubehörteile hinzugefügt.
 
-Silo de grano pequeño:
-Precio: 110.000 €
-Mantenimiento: 45 € diarios.
-Tamaño: 14 x 15 metros.
-Capacidad: 100.000 litros.
-Velocidad de sobrecarga de 2000 litros por segundo.
+we would LOVE help with our translations, any help will be credited in the mod, go to our Github page at https://github.com/FS19-Mods-By-EDGE/ to help out.
 
--Soporta "Seasons", "Courseplay Six" y "MaizePlus".]]></es>
+-Unterstützt "Seasons" & "Courseplay Six".]]></de>
 
-        <ru><![CDATA[Некоторые бункеры для хранения вашего зерна. Пакет содержит 4 бункера фермы и 6 расширений бункера.
+        <fr><![CDATA[Bienvenue dans un monde de possibilités!
+Désormais, vous pouvez transporter tous les liquides avec cet ensemble de camions-citernes pour le système IT Runner, y compris une version ultime de la remorque ITR 26.33 rendant votre collection complète et magnifique.
 
--Все здания имеют автоматическое освещение.
--Все здания поддерживают "Seasons" и "Courseplay Six".
--Все здания имеют FillTypeCategories: Farmsilo (для поддержки пользовательских фруктов)
+Tous les conteneurs peuvent être améliorés avec un réservoir haute pression, augmentant ainsi leur capacité.
 
---Техническая информация--
+- Le paquet contient--
 
-Бункер для мелкого зерна:
-Цена: 110.000 €
-Содержание: 45 € в день.
-Размер: 14 х 15 метров.
-Вместимость: 100.000 л.
-Скорость перегрузки 2000 литров в секунду.
+itRunner2633HD Édition spéciale:
+Prix: 55.000 €
+Taille: 3,5 x 9,5 mètres.
+Poids: 8,500 KG.
+Puissance recommandée: 145 HP +
 
--Поддержка "Seasons", "Courseplay Six" и "MaizePlus".]]></ru>
+Baril de carburant:
+Prix: 15.900 €
+Taille: 3 x 7 mètres.
+Poids: 1.500 KG.
+Capacité: 30.000 litres.
+Vitesse de surcharge 250 litres par seconde.
 
-        <pl><![CDATA[Niektóre silosy do przechowywania zboża. Pakiet zawiera 4 silosy rolnicze i 6 przedłużeń silosów.
+Baril de lait:
+Prix: 15.900 €
+Taille: 3 x 7 mètres.
+Poids: 1.500 KG.
+Capacité: 30.000 litres.
+Vitesse de surcharge 250 litres par seconde.
 
--Wszystkie budynki mają automatyczne oświetlenie.
--Wszystkie budynki obsługują „Pory roku” i „Courseplay Six”.
--Wszystkie budynki mają FillTypeCategory: Farmsilo (do obsługi niestandardowych owoców)
+Baril d'engrais:
+Prix: 15.900 €
+Taille: 3 x 7 mètres.
+Poids: 1.500 KG.
+Capacité: 30.000 litres.
+Vitesse de surcharge 250 litres par seconde.
 
---Informacje techniczne--
+Baril de lisier:
+Prix: 15.900 €
+Taille: 3 x 7 mètres.
+Poids: 1.500 KG.
+Capacité: 30.000 litres.
+Vitesse de surcharge 250 litres par seconde.
 
-Silos o małych ziarnach:
-Cena: 110.000 €
-Utrzymanie: 45 € dziennie.
-Rozmiar: 14 x 15 metrów.
-Pojemność: 100 000 litrów.
-Prędkość przeciążenia 2000 litrów na sekundę.
+Canon universel:
+Prix: 15.900 €
+Taille: 3 x 7 mètres.
+Poids: 1.500 KG.
+Capacité: 30.000 litres.
+Vitesse de surcharge 250 litres par seconde.
 
--Obsługuje „Seasons”, „Courseplay Six” i „MaizePlus”.]]></pl>
-        <it><![CDATA[Alcuni silos per conservare il grano. Il pacchetto contiene 4 silos agricoli e 6 estensioni per silo.
+Il y aura plusieurs nouveaux chars et assesories ajoutés au paquet au fur et à mesure que nous descendrons la ligne.
 
--Tutti gli edifici hanno l'illuminazione automatica.
--Tutti gli edifici supportano "Seasons" e "Courseplay Six".
--Tutti gli edifici hanno FillTypeCategories: Farmsilo (per supportare la frutta personalizzata)
+we would LOVE help with our translations, any help will be credited in the mod, go to our Github page at https://github.com/FS19-Mods-By-EDGE/ to help out.
 
---Informazioni tecniche--
+-Supporte "Seasons" et "Courseplay Six".]]></fr>
 
-Silo per cereali piccoli:
-Prezzo: 110.000 €
-Manutenzione: 45 € al giorno.
-Dimensioni: 14 x 15 metri.
-Capacità: 100.000 litri.
-Velocità di sovraccarico 2000 litri al secondo.
+        <es><![CDATA[¡Bienvenido a un mundo de posibilidades!
+Ahora puede transportar cualquier líquido con este paquete cisterna para el sistema IT Runner, que incluye una versión definitiva del remolque ITR 26.33 que hace que su colección sea completa y hermosa.
 
--Supporta "Stagioni", "Courseplay Six" e "MaizePlus".]]></it>
-        <pt>Gancho elevatório</pt>
-        <br>Gancho de Elevação</br>
-        <nl>Haakarm</nl>
-        <cz>Hákový nakladač</cz>
-        <hu>Kampós emelő</hu>
-        <ro>Camion cu cârlig</ro>
-        <tr>Kanca Lift</tr>
-        <kr>훅리프트</kr>
-        <jp>フックリフト</jp>
-        <cs>吊钩</cs>
-        <ct>吊鉤</ct>
+Todos los contenedores se pueden actualizar con un tanque de alta presión, aumentando la capacidad de los mismos.
+
+--El paquete contiene--
+
+itRunner2633HD Edición especial:
+Precio: 55.000 €
+Tamaño: 3,5 x 9,5 metros.
+Peso: 8.500 KG.
+Potencia recomendada: 145 CV +
+
+Barril de combustible:
+Precio: 15.900 €
+Tamaño: 3 x 7 metros.
+Peso: 1.500 KG.
+Capacidad: 30.000 litros.
+Velocidad de sobrecarga 250 litros por segundo.
+
+Barril de leche:
+Precio: 15.900 €
+Tamaño: 3 x 7 metros.
+Peso: 1.500 KG.
+Capacidad: 30.000 litros.
+Velocidad de sobrecarga 250 litros por segundo.
+
+Barril de fertilizante:
+Precio: 15.900 €
+Tamaño: 3 x 7 metros.
+Peso: 1.500 KG.
+Capacidad: 30.000 litros.
+Velocidad de sobrecarga 250 litros por segundo.
+
+Barril de lechada:
+Precio: 15.900 €
+Tamaño: 3 x 7 metros.
+Peso: 1.500 KG.
+Capacidad: 30.000 litros.
+Velocidad de sobrecarga 250 litros por segundo.
+
+Barril universal:
+Precio: 15.900 €
+Tamaño: 3 x 7 metros.
+Peso: 1.500 KG.
+Capacidad: 30.000 litros.
+Velocidad de sobrecarga 250 litros por segundo.
+
+Se agregarán varios tanques y accesorios nuevos al paquete a medida que avancemos en la línea.
+
+we would LOVE help with our translations, any help will be credited in the mod, go to our Github page at https://github.com/FS19-Mods-By-EDGE/ to help out.
+
+-Soporta "Seasons" y "Courseplay Six".]]></es>
+
+        <ru><![CDATA[Добро пожаловать в мир возможностей!
+Теперь вы можете перевозить любые жидкости с помощью этого автоцистерны для системы IT Runner, включая последнюю версию ITR 26.33 Trailer, которая сделает вашу коллекцию полной и красивой.
+
+Все контейнеры можно модернизировать с помощью бака высокого давления, увеличивая их вместимость.
+
+-Пакет содержит-
+
+itRunner2633HD Специальная версия:
+Цена: 55.000 €
+Размер: 3,5 х 9,5 метра.
+Вес: 8,500 кг.
+Рекомендуемая мощность: 145 л.с. +
+
+Бочка с топливом:
+Стоимость: 15.900 €
+Размер: 3 х 7 метров.
+Вес: 1.500 кг.
+Емкость: 30.000 литров.
+Скорость перегрузки 250 литров в секунду.
+
+Бочка с молоком:
+Стоимость: 15.900 €
+Размер: 3 х 7 метров.
+Вес: 1.500 кг.
+Емкость: 30.000 литров.
+Скорость перегрузки 250 литров в секунду.
+
+Бочка для удобрений:
+Стоимость: 15.900 €
+Размер: 3 х 7 метров.
+Вес: 1.500 кг.
+Емкость: 30.000 литров.
+Скорость перегрузки 250 литров в секунду.
+
+Бочка для жидкого навоза:
+Стоимость: 15.900 €
+Размер: 3 х 7 метров.
+Вес: 1.500 кг.
+Емкость: 30.000 литров.
+Скорость перегрузки 250 литров в секунду.
+
+Универсальный ствол:
+Стоимость: 15.900 €
+Размер: 3 х 7 метров.
+Вес: 1.500 кг.
+Емкость: 30.000 литров.
+Скорость перегрузки 250 литров в секунду.
+
+По мере продвижения в пакет будет добавлено несколько новых резервуаров и аксессуаров.
+
+we would LOVE help with our translations, any help will be credited in the mod, go to our Github page at https://github.com/FS19-Mods-By-EDGE/ to help out.
+
+-Поддерживает «Сезоны» и «Шесть курсов».]]></ru>
+
+        <pl><![CDATA[Witamy w świecie możliwości!
+Teraz możesz transportować dowolne płyny za pomocą tego zestawu cysterny dla systemu IT Runner, w tym ostatecznej wersji przyczepy ITR 26.33, dzięki czemu Twoja kolekcja będzie kompletna i piękna.
+
+Wszystkie kontenery można rozbudować o zbiornik wysokiego ciśnienia, zwiększając ich pojemność.
+
+- Pakiet zawiera -
+
+itRunner2633HD Edycja specjalna:
+Cena: 55.000 €
+Rozmiar: 3,5 x 9,5 metra.
+Waga: 8,500 kg.
+Zalecana moc: 145 KM +
+
+Beczka na paliwo:
+Cena: 15.900 €
+Rozmiar: 3 x 7 metrów.
+Waga: 1.500 KG.
+Pojemność: 30 000 litrów.
+Prędkość przeładowania 250 litrów na sekundę.
+
+Beczka na mleko:
+Cena: 15.900 €
+Rozmiar: 3 x 7 metrów.
+Waga: 1.500 KG.
+Pojemność: 30 000 litrów.
+Prędkość przeładowania 250 litrów na sekundę.
+
+Beczka na nawóz:
+Cena: 15.900 €
+Rozmiar: 3 x 7 metrów.
+Waga: 1.500 KG.
+Pojemność: 30 000 litrów.
+Prędkość przeładowania 250 litrów na sekundę.
+
+Beczka na gnojowicę:
+Cena: 15.900 €
+Rozmiar: 3 x 7 metrów.
+Waga: 1.500 KG.
+Pojemność: 30 000 litrów.
+Prędkość przeładowania 250 litrów na sekundę.
+
+Lufa uniwersalna:
+Cena: 15.900 €
+Rozmiar: 3 x 7 metrów.
+Waga: 1.500 KG.
+Pojemność: 30 000 litrów.
+Prędkość przeładowania 250 litrów na sekundę.
+
+W miarę postępów w paczce do pakietu zostanie dodanych kilka nowych czołgów i akcesoriów.
+
+we would LOVE help with our translations, any help will be credited in the mod, go to our Github page at https://github.com/FS19-Mods-By-EDGE/ to help out.
+
+-Obsługuje „Seasons” i „Courseplay Six”.]]></pl>
+        <it><![CDATA[Benvenuto in un mondo di possibilità!
+Ora puoi trasportare qualsiasi liquido con questo pacchetto cisterna per il sistema IT Runner, inclusa una versione definitiva del trailer ITR 26.33 che rende la tua raccolta completa e straordinaria.
+
+Tutti i contenitori possono essere aggiornati con un serbatoio ad alta pressione, aumentandone la capacità.
+
+- La confezione contiene--
+
+itRunner2633HD Edizione speciale:
+Prezzo: 55.000 €
+Dimensioni: 3,5 x 9,5 metri.
+Peso: 8.500 KG.
+Potenza consigliata: 145 HP +
+
+Barile di carburante:
+Prezzo: 15.900 €
+Dimensioni: 3 x 7 metri.
+Peso: 1.500 KG.
+Capacità: 30.000 litri.
+Velocità di sovraccarico 250 litri al secondo.
+
+Barile di latte:
+Prezzo: 15.900 €
+Dimensioni: 3 x 7 metri.
+Peso: 1.500 KG.
+Capacità: 30.000 litri.
+Velocità di sovraccarico 250 litri al secondo.
+
+Barile di fertilizzante:
+Prezzo: 15.900 €
+Dimensioni: 3 x 7 metri.
+Peso: 1.500 KG.
+Capacità: 30.000 litri.
+Velocità di sovraccarico 250 litri al secondo.
+
+Barile di liquame:
+Prezzo: 15.900 €
+Dimensioni: 3 x 7 metri.
+Peso: 1.500 KG.
+Capacità: 30.000 litri.
+Velocità di sovraccarico 250 litri al secondo.
+
+Canna universale:
+Prezzo: 15.900 €
+Dimensioni: 3 x 7 metri.
+Peso: 1.500 KG.
+Capacità: 30.000 litri.
+Velocità di sovraccarico 250 litri al secondo.
+
+Man mano che procediamo lungo la linea, verranno aggiunti diversi nuovi serbatoi e accessori al pacchetto.
+
+we would LOVE help with our translations, any help will be credited in the mod, go to our Github page at https://github.com/FS19-Mods-By-EDGE/ to help out.
+
+-Supporta "Seasons" e "Courseplay Six".]]></it>
 	</description>
     <iconFilename>itRunnerMainPack_Icon.dds</iconFilename>
     <multiplayer supported="true"/>
     <storeItems>
         <storeItem xmlFilename="data/itRunner2633HD.xml"/>
-		<storeItem xmlFilename="data/SlurryBarrel.xml"/>
+		<storeItem xmlFilename="data/FuelBarrel.xml"/>
+        <storeItem xmlFilename="data/herbFertilBarrel.xml"/>
+        <storeItem xmlFilename="data/SlurryDigestateBarrel.xml"/>
         <storeItem xmlFilename="data/UniversalBarrel.xml"/>
-        <storeItem xmlFilename="data/FuelBarrel.xml"/>
+        <storeItem xmlFilename="data/waterMilkBarrel.xml"/>
     </storeItems>
-    <vehicleTypes>
-        <type name="hookLiftContainerTrailerSpreader" parent="manureSpreader" filename="$dataS/scripts/vehicles/Vehicle.lua">
-            <specialization name="hookLiftContainer" />
-        </type>
-        <type name="hookLiftContainerTrailerBarrel" parent="manureBarrel" filename="$dataS/scripts/vehicles/Vehicle.lua">
-            <specialization name="hookLiftContainer" />
-        </type>
-    </vehicleTypes>
     <brands>
         <brand name="ITRUNNER" title="IT Runner" image="store/brand_itrunner.dds"/>
         <brand name="EDGE" title="EDGE Industries" image="store/EDGE_Brand_Logo.dds"/>
@@ -311,21 +524,12 @@ Velocità di sovraccarico 2000 litri al secondo.
             <cs>伸展吊臂</cs>
             <ct>伸長吊臂</ct>
         </text>
-		<text name="shopItem_EDGEfuelBarrel">
-			<en>Field Roller Pro</en>
-			<de>Feldwalze Pro</de>
-			<fr>Rouleau De Terrain Pro</fr>
-            <es>Rodillo de campo Pro</es>
-            <ru>Полевой каток Pro</ru>
-            <pl>Wałek polowy Pro</pl>
-            <it>Rullo Di Campo Pro</it>
-		</text>
     </l10n>
     <credits><![CDATA[
 ## Contributors
-- Castiga, EDGE Gaming
+- Castiga, EDGE Gaming, Giants Software
 ## Translations
 - Castiga
 ## Designers
-- Castiga]]></credits>
+- Castiga, Giants Software]]></credits>
 </modDesc>

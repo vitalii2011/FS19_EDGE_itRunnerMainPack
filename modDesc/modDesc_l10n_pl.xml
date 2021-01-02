@@ -3,9 +3,13 @@
 <author>Edge Gaming / Castiga</author>
 <translationby>Castiga</translationby>
 	<texts>
-		<text name="function_turboKipper"		text="Długi wózek dla każdej naczepy, do zaczepienia jej do ciągnika lub umożliwienia wykonania pociągu drogowego."/>
-        <text name="name_turboKipper" 			text="Turbo Tracker"/>
-        <text name="name_turboTrailers" 		text="Przyczepy Turbo"/>
+        <text name="configuration_HighPressure"	text="Zbiornik wysokiego ciśnienia"/>
+        <text name="function_fertilTrailer"		text="Służy do transportu płynów, aby ich nie rozpylać."/>
+        <text name="configuration_Design"		text="Szczegół Namalowany"/>
+        <text name="configuration_Painted"		text="Namalowany"/>
+        <text name="configuration_manhole"		text="Projekt włazu"/>
+		<text name="name_EDGEbarrel"			text="Płynna błyskawica ITR"/>
+        <text name="function_FuelTrailer" 		text="Służy do transportu paliwa"/>
         <text name="configuration_TwinRadial" 	text="Podwójny promieniowy"/>
         <text name="configuration_CARGOXBIB" 	text="Ładunek"/>
         <text name="configuration_CXBheavyduty" text="ciężki obowiązek"/>
@@ -16,31 +20,17 @@
         <text name="configuration_wideXBIB"		text="Szeroki Ładunek"/>
         <text name="configuration_megaXbib"		text="Poza drogą"/>
         <text name="configuration_Offroad"		text="Poza drogą"/>
-        <text name="config_TDdecalWhite"		text="Biały Piktogramy"/>
-        <text name="config_TDdecalBlack"		text="Czarny Piktogramy"/>
-        <text name="config_TDdecalRed"			text="Czerwony Piktogramy"/>
-        <text name="config_TDnodecal"			text="Bez Piktogramy"/>
-        <text name="config_TDLicense"			text="Tablica rejestracyjna"/>
-        <text name="config_TDLicensePlate"		text="Z tablicą rejestracyjną"/>
-        <text name="config_TDnoLicensePlate"	text="Bez tablicy rejestracyjnej"/>
-        <text name="configuration_Fenders" 		text="Błotniki"/>
-        <text name="config_Fenders" 			text="Domyślne błotniki"/>
-        <text name="config_PaintedFenders" 		text="Malowane błotniki"/>
-        <text name="config_PaintedFrontFenders"	text="Malowane przednie błotniki"/>
-        <text name="config_PaintedBackFenders" 	text="Malowane błotniki"/>
-        <text name="config_TDprotection"		text="Ochrona"/>
-        <text name="TDprotectionHalf"			text="Pół"/>
-        <text name="TDprotectionHalfpainted"	text="Pół Namalowany"/>
-        <text name="TDprotectionFull"			text="Pełny"/>
-        <text name="TDprotectionFullpainted"	text="Pełny Namalowany"/>
-        <text name="TDnoprotection"				text="Bez Ochrona"/>
-        <text name="config_TDLicensePaint"		text="Tablica rejestracyjna błotniki"/>
-        <text name="configuration_TDHitch"		text="Hak holowniczy"/>
-        <text name="config_TDHitchPaint"		text="błotniki"/>
-        <text name="config_TDHitch"				text="Domyślna"/>
-        <text name="config_TDHitchDetail"		text="Szczegół błotniki"/>
-        <text name="config_TDrailPaint"			text="błotniki Szyna"/>
-        <text name="config_TDraildetail"		text="Szczegół błotniki Szyna"/>
+        <text name="config_decalWhite"			text="Biały naklejki"/>
+        <text name="config_decalBlack"			text="Czarne naklejki"/>
+        <text name="config_decalDesign"			text="Złote naklejki"/>
+        <text name="config_decal"				text="Domyślne naklejki"/>
+        <text name="config_nodecal"				text="Bez Piktogramy"/>
+        <text name="configuration_Perf"			text="Perforowany"/>
+        <text name="config_lights"				text="Światła"/>
+        <text name="config_beacon"				text="Światła ostrzegawcze"/>
+        <text name="config_work"				text="Światła robocze"/>
+        <text name="config_noLight"				text="Bez świateł"/>
+        <text name="config_beaconWork"			text="Ostrzegawcze &amp; Światła robocze"/>
 			<!--Colors-->
         <text name="color_ITRUNNERMATTE" 		text="IT RUNNER MATTE"/>
         <text name="color_EDGEGOLDMATTE" 		text="EDGE ZŁOTO MATTE"/>

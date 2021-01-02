@@ -3,9 +3,13 @@
 <author>Edge Gaming / Castiga</author>
 <translationby>Castiga</translationby>
 	<texts>
-		<text name="function_turboKipper"		text="Long dolly for any semi trailer, to hitch them to a tractor or to make it possible to make a road train."/>
-        <text name="name_turboKipper" 			text="Turbo Tracker"/>
-        <text name="name_turboTrailers" 		text="Turbo Trailers"/>
+		<text name="name_EDGEbarrel"			text="Liquid Lightning ITR"/>
+        <text name="configuration_HighPressure"	text="High Pressure Tank"/>
+        <text name="function_fertilTrailer"		text="Used to Transport liquids not to spray them."/>
+        <text name="configuration_Design"		text="Detail Painted"/>
+        <text name="configuration_Painted"		text="Painted"/>
+        <text name="configuration_manhole"		text="Manhole Design"/>
+        <text name="function_FuelTrailer" 		text="Used to transport fuel"/>
         <text name="configuration_TwinRadial" 	text="Twin Radial"/>
         <text name="configuration_CARGOXBIB" 	text="Cargo"/>
         <text name="configuration_CXBheavyduty" text="Heavy Duty"/>
@@ -16,31 +20,17 @@
         <text name="configuration_wideXBIB"		text="Wide Cargo"/>
         <text name="configuration_megaXbib"		text="Offroad"/>
         <text name="configuration_Offroad"		text="Offroad"/>
-        <text name="config_TDdecalWhite"		text="White Decals"/>
-        <text name="config_TDdecalBlack"		text="Black Decals"/>
-        <text name="config_TDdecalRed"			text="Red Decals"/>
-        <text name="config_TDnodecal"			text="No Decals"/>
-        <text name="config_TDLicense"			text="License Plate"/>
-        <text name="config_TDLicensePlate"		text="With License Plate"/>
-        <text name="config_TDnoLicensePlate"	text="Without License Plate"/>
-        <text name="configuration_Fenders" 		text="Fenders"/>
-        <text name="config_Fenders" 			text="Default Fenders"/>
-        <text name="config_PaintedFenders" 		text="Painted Fenders"/>
-        <text name="config_PaintedFrontFenders"	text="Painted Front Fenders"/>
-        <text name="config_PaintedBackFenders" 	text="Painted Back Fenders"/>
-        <text name="config_TDprotection"		text="Protection"/>
-        <text name="TDprotectionHalf"			text="Half"/>
-        <text name="TDprotectionHalfpainted"	text="Half Painted"/>
-        <text name="TDprotectionFull"			text="Full"/>
-        <text name="TDprotectionFullpainted"	text="Full Painted"/>
-        <text name="TDnoprotection"				text="No Protection"/>
-        <text name="config_TDLicensePaint"		text="License Plate Painted"/>
-        <text name="configuration_TDHitch"		text="Trailer Hitch"/>
-        <text name="config_TDHitchPaint"		text="Painted"/>
-        <text name="config_TDHitch"				text="Default"/>
-        <text name="config_TDHitchDetail"		text="Detail Painted"/>
-        <text name="config_TDrailPaint"			text="Painted Rail"/>
-        <text name="config_TDraildetail"		text="Detail Painted Rail"/>
+        <text name="config_decalWhite"			text="White Decals"/>
+        <text name="config_decalBlack"			text="Black Decals"/>
+        <text name="config_decalDesign"			text="Gold Decals"/>
+        <text name="config_decal"				text="Default Decals"/>
+        <text name="config_nodecal"				text="No Decals"/>
+        <text name="configuration_Perf"			text="Perforated"/>
+        <text name="config_lights"				text="Lights"/>
+        <text name="config_beacon"				text="Beacon Lights"/>
+        <text name="config_work"				text="Work Lights"/>
+        <text name="config_noLight"				text="No Lights"/>
+        <text name="config_beaconWork"			text="Beacon &amp; Work Lights"/>
 			<!--Colors-->
         <text name="color_ITRUNNERMATTE" 		text="IT RUNNER MATTE"/>
         <text name="color_EDGEGOLDMATTE" 		text="EDGE GOLD MATTE"/>

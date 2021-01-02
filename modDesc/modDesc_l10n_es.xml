@@ -3,9 +3,13 @@
 <author>Edge Gaming / Castiga</author>
 <translationby>Castiga</translationby>
 	<texts>
-		<text name="function_turboKipper"		text="Carro largo para cualquier semirremolque, para engancharlo a un tractor o para hacer un tren de carretera."/>
-        <text name="name_turboKipper" 			text="Turbo Tracker"/>
-        <text name="name_turboTrailers" 		text="Turbo Remolques"/>
+        <text name="configuration_HighPressure"	text="Tanque de alta presión"/>
+        <text name="function_fertilTrailer"		text="Se utiliza para transportar líquidos no rociarlas."/>
+        <text name="configuration_Design"		text="Detalle Pintada"/>
+        <text name="configuration_Painted"		text="Pintada"/>
+        <text name="configuration_manhole"		text="Diseño de pozo"/>
+		<text name="name_EDGEbarrel"			text="Rayo líquido ITR"/>
+        <text name="function_FuelTrailer" 		text="Utilizado para transportar combustible"/>
         <text name="configuration_TwinRadial" 	text="Radial doble"/>
         <text name="configuration_CARGOXBIB" 	text="Carga"/>
         <text name="configuration_CXBheavyduty" text="Tarea pesada"/>
@@ -16,31 +20,17 @@
         <text name="configuration_wideXBIB"		text="Amplio Carga"/>
         <text name="configuration_megaXbib"		text="Fuera del camino"/>
         <text name="configuration_Offroad"		text="Fuera del camino"/>
-        <text name="config_TDdecalWhite"		text="Blanca Calcomanías"/>
-        <text name="config_TDdecalBlack"		text="Negra Calcomanías"/>
-        <text name="config_TDdecalRed"			text="Roja Calcomanías"/>
-        <text name="config_TDnodecal"			text="Sin Calcomanías"/>
-        <text name="config_TDLicense"			text="Placa"/>
-        <text name="config_TDLicensePlate"		text="Con matrícula"/>
-        <text name="config_TDnoLicensePlate"	text="Sin matrícula"/>
-        <text name="configuration_Fenders" 		text="Defensas"/>
-        <text name="config_Fenders" 			text="Guardabarros predeterminados"/>
-        <text name="config_PaintedFenders" 		text="Defensas pintadas"/>
-        <text name="config_PaintedFrontFenders"	text="Guardabarros delanteros pintados"/>
-        <text name="config_PaintedBackFenders" 	text="Guardabarros traseros pintados"/>
-        <text name="config_TDprotection"		text="Proteccion"/>
-        <text name="TDprotectionHalf"			text="Media"/>
-        <text name="TDprotectionHalfpainted"	text="Media pintados"/>
-        <text name="TDprotectionFull"			text="Completa"/>
-        <text name="TDprotectionFullpainted"	text="Completa pintados"/>
-        <text name="TDnoprotection"				text="Sin Proteccion"/>
-        <text name="config_TDLicensePaint"		text="Placa pintadas"/>
-        <text name="configuration_TDHitch"		text="Enganche de remolque"/>
-        <text name="config_TDHitchPaint"		text="pintadas"/>
-        <text name="config_TDHitch"				text="Defecto"/>
-        <text name="config_TDHitchDetail"		text="Detalle pintadas"/>
-        <text name="config_TDrailPaint"			text="pintadas Carril"/>
-        <text name="config_TDraildetail"		text="Detalle pintadas Carril"/>
+        <text name="config_decalWhite"			text="Blanca Calcomanías"/>
+        <text name="config_decalBlack"			text="Negra Calcomanías"/>
+        <text name="config_decalDesign"			text="Oro Calcomanías"/>
+        <text name="config_decal"				text="Defecto Calcomanías"/>
+        <text name="config_nodecal"				text="Sin Calcomanías"/>
+        <text name="configuration_Perf"			text="Perforado"/>
+        <text name="config_lights"				text="Luces"/>
+        <text name="config_beacon"				text="Luces de baliza"/>
+        <text name="config_work"				text="Luces de trabajo"/>
+        <text name="config_noLight"				text="Sin luces"/>
+        <text name="config_beaconWork"			text="Baliza &amp; Luces de trabajo"/>
 			<!--Colors-->
         <text name="color_ITRUNNERMATTE" 		text="MATE IT RUNNER "/>
         <text name="color_EDGEGOLDMATTE" 		text="MATE EDGE ORO "/>
