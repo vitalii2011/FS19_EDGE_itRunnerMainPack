@@ -3,13 +3,17 @@
 <author>Edge Gaming / Castiga</author>
 <translationby>Castiga</translationby>
 	<texts>
+        <text name="function_UniversalTrailer" 	text="This is a multi liquid tank."/>
+        <text name="function_waterTrailer" 		text="Used to transport Water &amp; Milk."/>
+        <text name="function_fertilTrailer"		text="Used to Transport Herbicide &amp; Liquid Fertilizer, not to spray them."/>
+        <text name="function_FuelTrailer" 		text="Used to transport fuel."/>
+        <text name="function_manureTrailer" 	text="Used to transport Liquid Manure &amp; Digestate."/>
+
 		<text name="name_EDGEbarrel"			text="Liquid Lightning ITR"/>
         <text name="configuration_HighPressure"	text="High Pressure Tank"/>
-        <text name="function_fertilTrailer"		text="Used to Transport liquids not to spray them."/>
         <text name="configuration_Design"		text="Detail Painted"/>
         <text name="configuration_Painted"		text="Painted"/>
         <text name="configuration_manhole"		text="Manhole Design"/>
-        <text name="function_FuelTrailer" 		text="Used to transport fuel"/>
         <text name="configuration_TwinRadial" 	text="Twin Radial"/>
         <text name="configuration_CARGOXBIB" 	text="Cargo"/>
         <text name="configuration_CXBheavyduty" text="Heavy Duty"/>
@@ -31,6 +35,8 @@
         <text name="config_work"				text="Work Lights"/>
         <text name="config_noLight"				text="No Lights"/>
         <text name="config_beaconWork"			text="Beacon &amp; Work Lights"/>
+        <text name="config_attach"				text="Trailer Hitch"/>
+        <text name="config_noattach"			text="No Trailer Hitch"/>
 			<!--Colors-->
         <text name="color_ITRUNNERMATTE" 		text="IT RUNNER MATTE"/>
         <text name="color_EDGEGOLDMATTE" 		text="EDGE GOLD MATTE"/>

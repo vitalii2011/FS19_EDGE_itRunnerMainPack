@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<vehicle type="fuelTrailer">
+<vehicle type="hookLiftContainerTrailer">
     <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
     <author>EDGE Gaming</author>
     <storeData>
@@ -7,8 +7,6 @@
         <specs>
             <neededPower>85</neededPower>
             <combination>ITR 26.33 HD</combination>
-            <capacity unit="$l10n_unit_liter">30000</capacity>
-            <capacity unit="$l10n_unit_kg">1500</capacity>
         </specs>
         <functions>
             <function>$l10n_function_hookLift</function>
@@ -38,7 +36,7 @@
     </base>
     <wheels>
         <wheelConfigurations>
-            <wheelConfiguration name="$l10n_configuration_default" price="0" brand="EDGE">
+            <wheelConfiguration name="$l10n_configuration_valueDefault" price="0" brand="EDGE">
                 <wheels autoRotateBackSpeed="2.0">
                     <wheel>
                         <physics restLoad="1.0" tipOcclusionAreaGroupId="1" repr="wheels_Left" radius="0.085" width="0.5" mass="0.02" initialCompression="50" suspTravel="0.05" spring="300" damper="100" frictionScale="0.8" yOffset="0.03"/>
@@ -64,7 +62,7 @@
     </wheels>
     <attachable>
         <inputAttacherJoints>
-            <inputAttacherJoint node="attacher" jointType="hookLift" upperRotationOffset="0" allowsJointRotLimitMovement="false" forceSelectionOnAttach="false" allowDetachingWhileLifted="false"/>
+            <inputAttacherJoint node="attacher" jointType="hookLift" upperRotationOffset="0" allowsJointRotLimitMovement="false" forceSelectionOnAttach="false"/>
         </inputAttacherJoints>
         <brakeForce>0.5</brakeForce>
     </attachable>
@@ -90,12 +88,12 @@
     </animations>
     <fillUnit>
         <fillUnitConfigurations>
-            <fillUnitConfiguration name="$l10n_configuration_default" price="0">
+            <fillUnitConfiguration name="$l10n_configuration_valueDefault" price="0">
                 <fillUnits>
-                    <fillUnit unit="$l10n_unit_literShort" fillTypes="diesel def" capacity="30000">
+                    <fillUnit unit="$l10n_unit_literShort" fillTypes="FUEL DIESEL DEF" capacity="30000">
                         <dashboard displayType="ANIMATION" valueType="fillLevel" animName="fillLevel"/>
-                        <fillRootNode node="EDGE_itr_Barrel"/>
-                        <fillMassNode node="barrel_Std"/>
+                        <fillMassNode node="frame_ITR"/>
+                        <exactFillRootNode node="exactFillRootNode" />
                     </fillUnit>
                 </fillUnits>
                 <objectChange node="decal_FuelDef" visibilityActive="true"/>
@@ -108,10 +106,10 @@
             </fillUnitConfiguration>
             <fillUnitConfiguration name="$l10n_configuration_HighPressure" price="10000">
                 <fillUnits>
-                    <fillUnit unit="$l10n_unit_literShort" fillTypes="diesel def" capacity="50000">
+                    <fillUnit unit="$l10n_unit_literShort" fillTypes="FUEL DIESEL DEF" capacity="50000">
                         <dashboard displayType="ANIMATION" valueType="fillLevel" animName="fillLevel"/>
-                        <fillRootNode node="EDGE_itr_Barrel"/>
-                        <fillMassNode node="barrel_Std"/>
+                        <fillMassNode node="frame_ITR"/>
+                        <exactFillRootNode node="exactFillRootNode" />
                     </fillUnit>
                 </fillUnits>
                 <objectChange node="decal_FuelDef" visibilityActive="true"/>
@@ -124,13 +122,13 @@
             </fillUnitConfiguration>
         </fillUnitConfigurations>
     </fillUnit>
-    <fillSound file="$data/sounds/tools/slurry/garant_pump_small_loop.ogg" pitchOffset="1.0" volume="0.6" volume3D="0.6" innerRadius="10" radius="40" linkNode="0>"/>
-    <refuelSound file="$data/maps/sounds/vehicles/shared/refuel_loop_01.ogg" pitchOffset="1.0" volume="0.6" volume3D="0.6" innerRadius="10" radius="40" linkNode="0>"/>
-    <fillTriggerVehicle triggerNode="fillTrigger" fillUnitIndex="1" fillLitersPerSecond="250"/>
+    <fillSound file="$data/sounds/tools/slurry/garant_pump_small_loop.ogg" pitchOffset="1.0" volume="0.6" volume3D="0.6" innerRadius="10" radius="40" linkNode="EDGE_itr_Barrel"/>
+    <refuelSound file="$data/maps/sounds/vehicles/shared/refuel_loop_01.ogg" pitchOffset="1.0" volume="0.6" volume3D="0.6" innerRadius="10" radius="40" linkNode="EDGE_itr_Barrel"/>
+    <fillTriggerVehicle triggerNode="fuelTrigger" fillUnitIndex="1" fillLitersPerSecond="250"/>
     <dischargeable>
-        <dischargeNode node="dischargeNode" emptySpeed="1000" fillUnitIndex="1" canDischargeToGround="false">
+        <dischargeNode node="dischargeNode" emptySpeed="1000" fillUnitIndex="1" unloadInfoIndex="3" canDischargeToGround="false">
             <info width="2.0" length="0.5" zOffset="0.4"/>
-            <trigger node="unloadTrigger"/>
+            <trigger node="dischargeTrigger"/>
             <dischargeSound template="SLURRY_01"/>
         </dischargeNode>
     </dischargeable>
@@ -177,22 +175,22 @@
         <bendingNode minX="-1.25" maxX="1.25" minZ="-4.7" maxZ="1.2" yOffset="0.6" />
     </foliageBending>
     <vehicleTypeConfigurations title="$l10n_config_lights">
-        <vehicleTypeConfiguration name="$l10n_config_beaconWork" price="600" vehicleType="fuelTrailer">
+        <vehicleTypeConfiguration name="$l10n_config_beaconWork" price="600" vehicleType="hookLiftContainerTrailer">
             <objectChange node="beaconBlock" visibilityActive="true"/>
             <objectChange node="workLightBlock01" visibilityActive="true"/>
             <objectChange node="workLightBlock02" visibilityActive="true"/>
         </vehicleTypeConfiguration>
-        <vehicleTypeConfiguration name="$l10n_config_beacon" price="300" vehicleType="fuelTrailer">
+        <vehicleTypeConfiguration name="$l10n_config_beacon" price="300" vehicleType="hookLiftContainerTrailer">
             <objectChange node="beaconBlock" visibilityActive="true"/>
             <objectChange node="workLightBlock01" visibilityActive="false"/>
             <objectChange node="workLightBlock02" visibilityActive="false"/>
         </vehicleTypeConfiguration>
-        <vehicleTypeConfiguration name="$l10n_config_work" price="300" vehicleType="fuelTrailer">
+        <vehicleTypeConfiguration name="$l10n_config_work" price="300" vehicleType="hookLiftContainerTrailer">
             <objectChange node="beaconBlock" visibilityActive="false"/>
             <objectChange node="workLightBlock01" visibilityActive="true"/>
             <objectChange node="workLightBlock02" visibilityActive="true"/>
         </vehicleTypeConfiguration>
-        <vehicleTypeConfiguration name="$l10n_config_noLight" price="0" vehicleType="fuelTrailer">
+        <vehicleTypeConfiguration name="$l10n_config_noLight" price="0" vehicleType="hookLiftContainerTrailer">
             <objectChange node="beaconBlock" visibilityActive="false"/>
             <objectChange node="workLightBlock01" visibilityActive="false"/>
             <objectChange node="workLightBlock02" visibilityActive="false"/>
@@ -442,6 +440,7 @@
     <i3dMappings>
         <i3dMapping id="EDGE_itr_Barrel" node="0>" />
         <i3dMapping id="wheels" node="0>0" />
+        <i3dMapping id="exactFillRootNode" node="0>5|4" />
         <i3dMapping id="wheels_Right" node="0>0|0" />
         <i3dMapping id="wheels_PerforatedRight" node="0>0|0|0" />
         <i3dMapping id="wheels_Left" node="0>0|1" />
@@ -464,7 +463,7 @@
         <i3dMapping id="reflector_Strip05" node="0>2|1|0|5" />
         <i3dMapping id="reflector_Strip06" node="0>2|1|0|6" />
         <i3dMapping id="beaconBlock" node="0>2|1|1" />
-        <i3dMapping id="beaconLight02" node="0>2|1|1|0" />
+        <i3dMapping id="beaconLight01" node="0>2|1|1|0" />
         <i3dMapping id="workLightBlock01" node="0>2|1|2" />
         <i3dMapping id="worklight01" node="0>2|1|2|0" />
         <i3dMapping id="workLight01" node="0>2|1|2|0|0" />
@@ -473,9 +472,7 @@
         <i3dMapping id="workLight02" node="0>2|1|3|0|0" />
         <i3dMapping id="sharedLights" node="0>2|1|4" />
         <i3dMapping id="sideMarkerL01" node="0>2|1|4|0" />
-        <i3dMapping id="sideMarkerL02" node="0>2|1|4|1" />
-        <i3dMapping id="sideMarkerR01" node="0>2|1|4|2" />
-        <i3dMapping id="sideMarkerR02" node="0>2|1|4|3" />
+        <i3dMapping id="sideMarkerR01" node="0>2|1|4|1" />
         <i3dMapping id="Sidelights" node="0>2|1|5" />
         <i3dMapping id="leftSide" node="0>2|1|5|0" />
         <i3dMapping id="sideMarker_WhiteL01" node="0>2|1|5|0|0" />
@@ -538,9 +535,8 @@
         <i3dMapping id="triggers" node="0>5" />
         <i3dMapping id="fillTrigger" node="0>5|0" />
         <i3dMapping id="unloadTrigger" node="0>5|1" />
-        <i3dMapping id="trailerTrigger" node="0>5|2" />
-        <i3dMapping id="waterTrigger" node="0>5|3" />
-        <i3dMapping id="gasTrigger" node="0>5|4" />
+        <i3dMapping id="dischargeTrigger" node="0>5|2" />
+        <i3dMapping id="fuelTrigger" node="0>5|3" />
         <i3dMapping id="refPoints" node="0>6" />
         <i3dMapping id="tipreference" node="0>6|0" />
         <i3dMapping id="tipdummy" node="0>6|1" />

@@ -3,13 +3,17 @@
 <author>Edge Gaming / Castiga</author>
 <translationby>Castiga</translationby>
 	<texts>
-        <text name="configuration_HighPressure"	text="Tanque de alta presión"/>
+        <text name="function_UniversalTrailer" 	text="Este es un tanque de múltiples líquidos."/>
+        <text name="function_waterTrailer" 		text="Se utiliza para transportar agua y amp; Leche."/>
+        <text name="function_manureTrailer" 	text="Se utiliza para transportar estiércol líquido y amp; Digestato."/>
+        <text name="function_FuelTrailer" 		text="Utilizado para transportar combustible"/>
         <text name="function_fertilTrailer"		text="Se utiliza para transportar líquidos no rociarlas."/>
+
+        <text name="configuration_HighPressure"	text="Tanque de alta presión"/>
         <text name="configuration_Design"		text="Detalle Pintada"/>
         <text name="configuration_Painted"		text="Pintada"/>
         <text name="configuration_manhole"		text="Diseño de pozo"/>
 		<text name="name_EDGEbarrel"			text="Rayo líquido ITR"/>
-        <text name="function_FuelTrailer" 		text="Utilizado para transportar combustible"/>
         <text name="configuration_TwinRadial" 	text="Radial doble"/>
         <text name="configuration_CARGOXBIB" 	text="Carga"/>
         <text name="configuration_CXBheavyduty" text="Tarea pesada"/>
@@ -31,6 +35,8 @@
         <text name="config_work"				text="Luces de trabajo"/>
         <text name="config_noLight"				text="Sin luces"/>
         <text name="config_beaconWork"			text="Baliza &amp; Luces de trabajo"/>
+        <text name="config_attach"				text="Enganche de remolque"/>
+        <text name="config_noattach"			text="Sin Enganche de remolque"/>
 			<!--Colors-->
         <text name="color_ITRUNNERMATTE" 		text="MATE IT RUNNER "/>
         <text name="color_EDGEGOLDMATTE" 		text="MATE EDGE ORO "/>

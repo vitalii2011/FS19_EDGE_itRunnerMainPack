@@ -3,13 +3,17 @@
 <author>Edge Gaming / Castiga</author>
 <translationby>Castiga</translationby>
 	<texts>
-        <text name="configuration_HighPressure"	text="Réservoir haute pression"/>
+        <text name="function_UniversalTrailer" 	text="Ceci est un réservoir multi-liquide."/>
+        <text name="function_waterTrailer" 		text="Utilisé pour transporter de l'eau & amp; Lait."/>
+        <text name="function_manureTrailer" 	text="Utilisé pour transporter le fumier liquide & amp; Digester."/>
+        <text name="function_FuelTrailer" 		text="Utilisé pour transporter du carburant"/>
         <text name="function_fertilTrailer"		text="Utilisé pour transporter des liquides pour ne pas les pulvériser."/>
+
+		<text name="configuration_HighPressure"	text="Réservoir haute pression"/>
         <text name="configuration_Design"		text="Détail Peinte"/>
         <text name="configuration_Painted"		text="Peinte"/>
         <text name="configuration_manhole"		text="Conception de trou d'homme"/>
 		<text name="name_EDGEbarrel"			text="Foudre liquide ITR"/>
-        <text name="function_FuelTrailer" 		text="Utilisé pour transporter du carburant"/>
         <text name="configuration_TwinRadial" 	text="Radial double"/>
         <text name="configuration_CARGOXBIB" 	text="Cargaison"/>
         <text name="configuration_CXBheavyduty" text="À toute épreuve"/>
@@ -31,6 +35,8 @@
         <text name="config_work"				text="Lumières de travail"/>
         <text name="config_noLight"				text="Pas de lumières"/>
         <text name="config_beaconWork"			text="Balise &amp; Lumières de travail"/>
+        <text name="config_attach"				text="Attelage de remorque"/>
+        <text name="config_noattach"			text="Pas de Attelage de remorque"/>
 			<!--Colors-->
         <text name="color_ITRUNNERMATTE" 		text="IT RUNNER MAT"/>
         <text name="color_EDGEGOLDMATTE" 		text="EDGE OR MAT"/>

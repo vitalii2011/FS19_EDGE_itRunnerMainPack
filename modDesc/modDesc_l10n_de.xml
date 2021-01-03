@@ -3,13 +3,17 @@
 <author>Edge Gaming / Castiga</author>
 <translationby>Castiga</translationby>
 	<texts>
-        <text name="configuration_HighPressure"	text="Hochdrucktank"/>
+        <text name="function_UniversalTrailer" 	text="Dies ist ein Multi-Flüssigkeitstank."/>
+        <text name="function_waterTrailer" 		text="Wird zum Transport von Wasser & amp; Milch."/>
+        <text name="function_manureTrailer" 	text="Wird zum Transport von Gülle & amp; Verdauen."/>
+        <text name="function_FuelTrailer" 		text="Dient zum Transport von Treibstoff"/>
         <text name="function_fertilTrailer"		text="Zum Transportieren von Flüssigkeiten, um diese nicht zu sprühen."/>
+
+        <text name="configuration_HighPressure"	text="Hochdrucktank"/>
 		<text name="configuration_Design" 		text="Details lackiert"/>
 		<text name="configuration_Painted" 		text="Lackiert"/>
         <text name="configuration_manhole"		text="Schachtdesign"/>
 		<text name="name_EDGEbarrel"			text="Flüssiger Blitz ITR"/>
-        <text name="function_FuelTrailer" 		text="Dient zum Transport von Treibstoff"/>
         <text name="configuration_TwinRadial" 	text="Zwillingsradial"/>
         <text name="configuration_CARGOXBIB" 	text="Ladung"/>
         <text name="configuration_CXBheavyduty" text="Schwerlast"/>
@@ -31,6 +35,8 @@
         <text name="config_work" 				text="Arbeitsscheinwerfer"/>
         <text name="config_noLight" 			text="Keine Lichter"/>
         <text name="config_beaconWork" 			text="RUL u Arbeitsscheinwerfer"/>
+        <text name="config_attach"				text="Anhängerkupplung"/>
+        <text name="config_noattach"			text="Keine Anhängerkupplung"/>
 			<!--Colors-->
         <text name="color_ITRUNNERMATTE" 		text="IT RUNNER MATTE"/>
         <text name="color_EDGEGOLDMATTE" 		text="EDGE GOLD MATTE"/>

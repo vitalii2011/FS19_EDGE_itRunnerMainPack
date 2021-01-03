@@ -56,11 +56,11 @@
                     </wheel>
                     <wheel filename="$data/shared/wheels/trelleborg/T404/710_45R26_5.xml" isLeft="true" hasParticles="true">
                         <physics restLoad="1.2" repr="wheelBackLeft3" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
-                        <steeringAxle scale="0.3" rotMax="15" rotMin="-15"/>
+                        <steeringAxle scale="-0.7" rotMax="15" rotMin="-15"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/trelleborg/T404/710_45R26_5.xml" isLeft="false" hasParticles="true">
                         <physics restLoad="1.2" repr="wheelBackRight3" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
-                        <steeringAxle scale="0.3" rotMax="15" rotMin="-15"/>
+                        <steeringAxle scale="-0.7" rotMax="15" rotMin="-15"/>
                     </wheel>
                 </wheels>
             </wheelConfiguration>
@@ -86,11 +86,11 @@
                     </wheel>
                     <wheel filename="$data/shared/wheels/trelleborg/T404/800_40R26_5.xml" isLeft="true" hasParticles="true">
                         <physics restLoad="1.2" repr="wheelBackLeft3" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
-                        <steeringAxle scale="0.3" rotMax="15" rotMin="-15"/>
+                        <steeringAxle scale="-0.7" rotMax="15" rotMin="-15"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/trelleborg/T404/800_40R26_5.xml" isLeft="false" hasParticles="true">
                         <physics restLoad="1.2" repr="wheelBackRight3" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
-                        <steeringAxle scale="0.3" rotMax="15" rotMin="-15"/>
+                        <steeringAxle scale="-0.7" rotMax="15" rotMin="-15"/>
                     </wheel>
                 </wheels>
             </wheelConfiguration>
@@ -116,11 +116,11 @@
                     </wheel>
                     <wheel filename="$data/shared/wheels/trelleborg/TwinRadial/710_50R26_5.xml" isLeft="true" hasParticles="true">
                         <physics restLoad="1.2" repr="wheelBackLeft3" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
-                        <steeringAxle scale="0.3" rotMax="15" rotMin="-15"/>
+                        <steeringAxle scale="-0.7" rotMax="15" rotMin="-15"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/trelleborg/TwinRadial/710_50R26_5.xml" isLeft="false" hasParticles="true">
                         <physics restLoad="1.2" repr="wheelBackRight3" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
-                        <steeringAxle scale="0.3" rotMax="15" rotMin="-15"/>
+                        <steeringAxle scale="-0.7" rotMax="15" rotMin="-15"/>
                     </wheel>
                 </wheels>
             </wheelConfiguration>
@@ -146,11 +146,11 @@
                     </wheel>
                     <wheel filename="wheels/trelleborg_TwinForestry.xml" isLeft="true" hasParticles="true">
                         <physics restLoad="1.2" repr="wheelBackLeft3" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
-                        <steeringAxle scale="0.3" rotMax="15" rotMin="-15"/>
+                        <steeringAxle scale="-0.7" rotMax="15" rotMin="-15"/>
                     </wheel>
                     <wheel filename="wheels/trelleborg_TwinForestry.xml" isLeft="false" hasParticles="true">
                         <physics restLoad="1.2" repr="wheelBackRight3" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
-                        <steeringAxle scale="0.3" rotMax="15" rotMin="-15"/>
+                        <steeringAxle scale="-0.7" rotMax="15" rotMin="-15"/>
                     </wheel>
                 </wheels>
             </wheelConfiguration>
@@ -176,11 +176,11 @@
                     </wheel>
                     <wheel filename="wheels/trelleborg_Rough.xml" isLeft="true" hasParticles="true">
                         <physics restLoad="1.2" repr="wheelBackLeft3" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
-                        <steeringAxle scale="0.3" rotMax="15" rotMin="-15"/>
+                        <steeringAxle scale="-0.7" rotMax="15" rotMin="-15"/>
                     </wheel>
                     <wheel filename="wheels/trelleborg_Rough.xml" isLeft="false" hasParticles="true">
                         <physics restLoad="1.2" repr="wheelBackRight3" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
-                        <steeringAxle scale="0.3" rotMax="15" rotMin="-15"/>
+                        <steeringAxle scale="-0.7" rotMax="15" rotMin="-15"/>
                     </wheel>
                 </wheels>
             </wheelConfiguration>
@@ -207,11 +207,11 @@
                     </wheel>
                     <wheel filename="$data/shared/wheels/michelin/cargoXBib/710_50R26_5.xml" isLeft="true" hasParticles="true">
                         <physics restLoad="1.2" repr="wheelBackLeft3" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
-                        <steeringAxle scale="0.3" rotMax="15" rotMin="-15"/>
+                        <steeringAxle scale="-0.7" rotMax="15" rotMin="-15"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/michelin/cargoXBib/710_50R26_5.xml" isLeft="false" hasParticles="true">
                         <physics restLoad="1.2" repr="wheelBackRight3" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
-                        <steeringAxle scale="0.3" rotMax="15" rotMin="-15"/>
+                        <steeringAxle scale="-0.7" rotMax="15" rotMin="-15"/>
                     </wheel>
                 </wheels>
             </wheelConfiguration>
@@ -237,11 +237,11 @@
                     </wheel>
                     <wheel filename="$data/shared/wheels/michelin/cargoXBibHF/710_50R26_5.xml" isLeft="true" hasParticles="true">
                         <physics restLoad="1.2" repr="wheelBackLeft3" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
-                        <steeringAxle scale="0.3" rotMax="15" rotMin="-15"/>
+                        <steeringAxle scale="-0.7" rotMax="15" rotMin="-15"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/michelin/cargoXBibHF/710_50R26_5.xml" isLeft="false" hasParticles="true">
                         <physics restLoad="1.2" repr="wheelBackRight3" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
-                        <steeringAxle scale="0.3" rotMax="15" rotMin="-15"/>
+                        <steeringAxle scale="-0.7" rotMax="15" rotMin="-15"/>
                     </wheel>
                 </wheels>
             </wheelConfiguration>
@@ -267,11 +267,11 @@
                     </wheel>
                     <wheel filename="$data/shared/wheels/michelin/cargoXBib/800_45R26_5.xml" isLeft="true" hasParticles="true">
                         <physics restLoad="1.2" repr="wheelBackLeft3" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
-                        <steeringAxle scale="0.3" rotMax="15" rotMin="-15"/>
+                        <steeringAxle scale="-0.7" rotMax="15" rotMin="-15"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/michelin/cargoXBib/800_45R26_5.xml" isLeft="false" hasParticles="true">
                         <physics restLoad="1.2" repr="wheelBackRight3" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
-                        <steeringAxle scale="0.3" rotMax="15" rotMin="-15"/>
+                        <steeringAxle scale="-0.7" rotMax="15" rotMin="-15"/>
                     </wheel>
                 </wheels>
             </wheelConfiguration>
@@ -297,11 +297,11 @@
                     </wheel>
                     <wheel filename="$data/shared/wheels/michelin/megaXbib/750_50R26.xml" isLeft="true" hasParticles="true">
                         <physics restLoad="1.2" repr="wheelBackLeft3" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
-                        <steeringAxle scale="0.3" rotMax="15" rotMin="-15"/>
+                        <steeringAxle scale="-0.7" rotMax="15" rotMin="-15"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/michelin/megaXbib/750_50R26.xml" isLeft="false" hasParticles="true">
                         <physics restLoad="1.2" repr="wheelBackRight3" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
-                        <steeringAxle scale="0.3" rotMax="15" rotMin="-15"/>
+                        <steeringAxle scale="-0.7" rotMax="15" rotMin="-15"/>
                     </wheel>
                 </wheels>
             </wheelConfiguration>
@@ -347,7 +347,7 @@
                         <additionalWheel filename="wheels/michelin_TwinNarrow.xml" configId="dual" offset="0.08" >
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                         </additionalWheel>
-                        <steeringAxle scale="0.3" rotMax="15" rotMin="-15"/>
+                        <steeringAxle scale="-0.7" rotMax="15" rotMin="-15"/>
                     </wheel>
                     <wheel filename="wheels/michelin_TwinNarrow.xml" isLeft="false" hasParticles="true">
                         <physics restLoad="1.2" repr="wheelBackRight3" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
@@ -355,23 +355,45 @@
                         <additionalWheel filename="wheels/michelin_TwinNarrow.xml" configId="dual" offset="0.08" >
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                         </additionalWheel>
-                        <steeringAxle scale="0.3" rotMax="15" rotMin="-15"/>
+                        <steeringAxle scale="-0.7" rotMax="15" rotMin="-15"/>
                     </wheel>
                 </wheels>
-				<objectChange node="wheelBackLeft1" translationActive="0.821 0.821 -1.768"/>
-				<objectChange node="wheelBackRight1" translationActive="-0.821 0.821 -1.768"/>
-				<objectChange node="wheelBackLeft2" translationActive="0.077 0.024 -0.139"/>
-				<objectChange node="wheelBackRight2" translationActive="-0.077 0.024 -0.139"/>
-				<objectChange node="hubFrontLeft1" translationActive="0.1 0 0"/>
-				<objectChange node="hubFrontRight1" translationActive="-0.1 0 0"/>
+				<objectChange node="wheelBackLeft1" translationActive="0.8 0.613 -0.636"/>
+				<objectChange node="wheelBackRight1" translationActive="-0.8 0.613 -0.636"/>
+				<objectChange node="wheelBackLeft2" translationActive="0.8 0.613 -2.186"/>
+				<objectChange node="wheelBackRight2" translationActive="-0.8 0.613 -2.186"/>
+				<objectChange node="wheelBackLeft3" translationActive="0.8 0.613 -3.736"/>
+				<objectChange node="wheelBackRight3" translationActive="-0.8 0.613 -3.736"/>
+				<objectChange node="hubBackLeft1" translationActive="0.1 0 0"/>
+				<objectChange node="hubBackRight1" translationActive="-0.1 0 0"/>
 				<objectChange node="hubBackLeft2" translationActive="0.1 0 0"/>
 				<objectChange node="hubBackRight2" translationActive="-0.1 0 0"/>
-				<objectChange node="wheelBackLeft3" translationActive="0.077 0.024 -0.139"/>
-				<objectChange node="wheelBackRight3" translationActive="-0.077 0.024 -0.139"/>
-				<objectChange node="hubFrontLeft3" translationActive="0.1 0 0"/>
-				<objectChange node="hubFrontRight3" translationActive="-0.1 0 0"/>
+				<objectChange node="hubBackLeft3" translationActive="0.1 0 0"/>
+				<objectChange node="hubBackRight3" translationActive="-0.1 0 0"/>
             </wheelConfiguration>
             <!--LIZARD-->
+            <wheelConfiguration name="$l10n_configuration_valueCrawler" brand="LIZARD">
+                <wheels autoRotateBackSpeed="2.0">
+                    <wheel hasTireTracks="true" hasParticles="true">
+                        <physics restLoad="1.1" repr="wheelBackLeft1" forcePointRatio="0.5" radius="0.58" width="0.8" initialCompression="10" suspTravel="0.25" spring="33" damper="200"/>
+                    </wheel>
+                    <wheel hasTireTracks="true" hasParticles="true">
+                        <physics restLoad="1.1" repr="wheelBackRight1"  forcePointRatio="0.5" radius="0.58" width="0.8" initialCompression="10" suspTravel="0.25" spring="33" damper="200"/>
+                    </wheel>
+                    <wheel hasTireTracks="true" hasParticles="true">
+                        <physics restLoad="1.2" repr="wheelBackLeft3" forcePointRatio="0.5" radius="0.58" width="0.8" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
+                        <steeringAxle scale="-0.7" rotMax="25" rotMin="-25"/>
+                    </wheel>
+                    <wheel hasTireTracks="true" hasParticles="true">
+                        <physics restLoad="1.2" repr="wheelBackRight3" forcePointRatio="0.5" radius="0.58" width="0.8" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
+                        <steeringAxle scale="-0.7" rotMax="25" rotMin="-25"/>
+                    </wheel>
+                </wheels>
+                <crawlers>
+                    <crawler filename="$data/shared/wheels/tracks/elmer/mfgHaulmasterTrack.xml" linkNode="crawlerLeftLinkNode"  wheelIndex="3" isLeft="true"/>
+                    <crawler filename="$data/shared/wheels/tracks/elmer/mfgHaulmasterTrack.xml" linkNode="crawlerRightLinkNode" wheelIndex="4" isLeft="false"/>
+                </crawlers>
+            </wheelConfiguration>
             <wheelConfiguration name="$l10n_configuration_valueDefault" price="0" brand="LIZARD">
                 <wheels>
                     <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" isLeft="true">
@@ -394,35 +416,13 @@
                     </wheel>
                     <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" isLeft="true" hasParticles="true">
                         <physics restLoad="1.2" repr="wheelBackLeft3" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
-                        <steeringAxle scale="0.3" rotMax="15" rotMin="-15"/>
+                        <steeringAxle scale="-0.7" rotMax="15" rotMin="-15"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" isLeft="false" hasParticles="true">
                         <physics restLoad="1.2" repr="wheelBackRight3" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
-                        <steeringAxle scale="0.3" rotMax="15" rotMin="-15"/>
+                        <steeringAxle scale="-0.7" rotMax="15" rotMin="-15"/>
                     </wheel>
                 </wheels>
-            </wheelConfiguration>
-            <wheelConfiguration name="$l10n_configuration_valueCrawler" brand="LIZARD">
-                <wheels autoRotateBackSpeed="2.0">
-                    <wheel hasTireTracks="true" hasParticles="true">
-                        <physics restLoad="1.1" repr="wheelBackLeft1" forcePointRatio="0.5" radius="0.58" width="0.8" initialCompression="10" suspTravel="0.25" spring="33" damper="200"/>
-                    </wheel>
-                    <wheel hasTireTracks="true" hasParticles="true">
-                        <physics restLoad="1.1" repr="wheelBackRight1"  forcePointRatio="0.5" radius="0.58" width="0.8" initialCompression="10" suspTravel="0.25" spring="33" damper="200"/>
-                    </wheel>
-                    <wheel hasTireTracks="true" hasParticles="true">
-                        <physics restLoad="1.2" repr="wheelBackLeft3" forcePointRatio="0.5" radius="0.58" width="0.8" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
-                        <steeringAxle scale="-0.7" rotMax="25" rotMin="-25"/>
-                    </wheel>
-                    <wheel hasTireTracks="true" hasParticles="true">
-                        <physics restLoad="1.2" repr="wheelBackRight3" forcePointRatio="0.5" radius="0.58" width="0.8" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
-                        <steeringAxle scale="-0.7" rotMax="25" rotMin="-25"/>
-                    </wheel>
-                </wheels>
-                <crawlers>
-                    <crawler filename="$data/shared/wheels/tracks/grimme/varitronTracks.xml" linkNode="crawlerLeftLinkNode"  wheelIndex="3" isLeft="true"/>
-                    <crawler filename="$data/shared/wheels/tracks/grimme/varitronTracks.xml" linkNode="crawlerRightLinkNode" wheelIndex="4" isLeft="false"/>
-                </crawlers>
             </wheelConfiguration>
             <!--NOKIAN-->
             <wheelConfiguration name="$l10n_configuration_Offroad" price="900" brand="NOKIAN">
@@ -447,11 +447,11 @@
                     </wheel>
                     <wheel filename="wheels/nokian_Offroad.xml" isLeft="true" hasParticles="true">
                         <physics restLoad="1.2" repr="wheelBackLeft3" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
-                        <steeringAxle scale="0.3" rotMax="15" rotMin="-15"/>
+                        <steeringAxle scale="-0.7" rotMax="15" rotMin="-15"/>
                     </wheel>
                     <wheel filename="wheels/nokian_Offroad.xml" isLeft="false" hasParticles="true">
                         <physics restLoad="1.2" repr="wheelBackRight3" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
-                        <steeringAxle scale="0.3" rotMax="15" rotMin="-15"/>
+                        <steeringAxle scale="-0.7" rotMax="15" rotMin="-15"/>
                     </wheel>
                 </wheels>
             </wheelConfiguration>
@@ -477,42 +477,42 @@
                     </wheel>
                     <wheel filename="$data/shared/wheels/nokian/TRI2/540_65R28.xml" isLeft="true" hasParticles="true">
                         <physics restLoad="1.2" repr="wheelBackLeft3" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
-                        <steeringAxle scale="0.3" rotMax="15" rotMin="-15"/>
+                        <steeringAxle scale="-0.7" rotMax="15" rotMin="-15"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/nokian/TRI2/540_65R28.xml" isLeft="false" hasParticles="true">
                         <physics restLoad="1.2" repr="wheelBackRight3" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
-                        <steeringAxle scale="0.3" rotMax="15" rotMin="-15"/>
+                        <steeringAxle scale="-0.7" rotMax="15" rotMin="-15"/>
                     </wheel>
                 </wheels>
             </wheelConfiguration>
             <!--EDGE-->
-            <wheelConfiguration name="$l10n_configuration_Offroad" price="900" brand="EDGE">
+            <wheelConfiguration name="$l10n_configuration_rough" price="1000" brand="EDGE">
                 <wheels>
-                    <wheel filename="wheels/EDGE_TwinForestry.xml" isLeft="true">
-                        <physics tipOcclusionAreaGroupId="1" restLoad="1.8" repr="wheelBackLeft1" driveNode="wheelBackLeft1Node" forcePointRatio="0.5" initialCompression="24" suspTravel="0.25" spring="33" damper="200"/>
+                    <wheel filename="wheels/EDGE_TwinRough.xml" isLeft="true">
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.7" repr="wheelBackLeft1" driveNode="wheelBackLeft1Node" forcePointRatio="0.5" initialCompression="20" suspTravel="0.25" spring="33" damper="200"/>
                         <steeringAxle scale="0.3" rotMax="5" rotMin="-5"/>
                         <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChock3"/>
                         <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChock4" isInverted="true"/>
                     </wheel>
-                    <wheel filename="wheels/EDGE_TwinForestry.xml" isLeft="false">
-                        <physics tipOcclusionAreaGroupId="1" restLoad="1.8" repr="wheelBackRight1" forcePointRatio="0.5" initialCompression="24" suspTravel="0.25" spring="33" damper="200"/>
+                    <wheel filename="wheels/EDGE_TwinRough.xml" isLeft="false">
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.7" repr="wheelBackRight1" forcePointRatio="0.5" initialCompression="20" suspTravel="0.25" spring="33" damper="200"/>
                         <steeringAxle scale="0.3" rotMax="5" rotMin="-5"/>
                         <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight01"/>
                         <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight02" isInverted="true"/>
                     </wheel>
-                    <wheel filename="wheels/EDGE_TwinForestry.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
-                        <physics tipOcclusionAreaGroupId="1" restLoad="1.7" repr="wheelBackLeft2" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="33" damper="200"/>
+                    <wheel filename="wheels/EDGE_TwinRough.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.8" repr="wheelBackLeft2" forcePointRatio="0.5" initialCompression="13" suspTravel="0.25" spring="33" damper="200"/>
                     </wheel>
-                    <wheel filename="wheels/EDGE_TwinForestry.xml" isLeft="false" hasTireTracks="true" hasParticles="true">
-                        <physics tipOcclusionAreaGroupId="1" restLoad="1.7" repr="wheelBackRight2" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="33" damper="200"/>
+                    <wheel filename="wheels/EDGE_TwinRough.xml" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.8" repr="wheelBackRight2" forcePointRatio="0.5" initialCompression="13" suspTravel="0.25" spring="33" damper="200"/>
                     </wheel>
-                    <wheel filename="wheels/EDGE_TwinForestry.xml" isLeft="true" hasParticles="true">
+                    <wheel filename="wheels/EDGE_TwinRough.xml" isLeft="true" hasParticles="true">
                         <physics restLoad="1.2" repr="wheelBackLeft3" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
-                        <steeringAxle scale="0.3" rotMax="15" rotMin="-15"/>
+                        <steeringAxle scale="-0.7" rotMax="15" rotMin="-15"/>
                     </wheel>
-                    <wheel filename="wheels/EDGE_TwinForestry.xml" isLeft="false" hasParticles="true">
+                    <wheel filename="wheels/EDGE_TwinRough.xml" isLeft="false" hasParticles="true">
                         <physics restLoad="1.2" repr="wheelBackRight3" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
-                        <steeringAxle scale="0.3" rotMax="15" rotMin="-15"/>
+                        <steeringAxle scale="-0.7" rotMax="15" rotMin="-15"/>
                     </wheel>
                 </wheels>
             </wheelConfiguration>
@@ -538,11 +538,11 @@
                     </wheel>
                     <wheel filename="wheels/EDGE_TwinRadial.xml" isLeft="true" hasParticles="true">
                         <physics restLoad="1.2" repr="wheelBackLeft3" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
-                        <steeringAxle scale="0.3" rotMax="15" rotMin="-15"/>
+                        <steeringAxle scale="-0.7" rotMax="15" rotMin="-15"/>
                     </wheel>
                     <wheel filename="wheels/EDGE_TwinRadial.xml" isLeft="false" hasParticles="true">
                         <physics restLoad="1.2" repr="wheelBackRight3" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
-                        <steeringAxle scale="0.3" rotMax="15" rotMin="-15"/>
+                        <steeringAxle scale="-0.7" rotMax="15" rotMin="-15"/>
                     </wheel>
                 </wheels>
             </wheelConfiguration>
@@ -568,52 +568,115 @@
                     </wheel>
                     <wheel filename="wheels/EDGE_Radial.xml" isLeft="true" hasParticles="true">
                         <physics restLoad="1.2" repr="wheelBackLeft3" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
-                        <steeringAxle scale="0.3" rotMax="15" rotMin="-15"/>
+                        <steeringAxle scale="-0.7" rotMax="15" rotMin="-15"/>
                     </wheel>
                     <wheel filename="wheels/EDGE_Radial.xml" isLeft="false" hasParticles="true">
                         <physics restLoad="1.2" repr="wheelBackRight3" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
-                        <steeringAxle scale="0.3" rotMax="15" rotMin="-15"/>
+                        <steeringAxle scale="-0.7" rotMax="15" rotMin="-15"/>
                     </wheel>
                 </wheels>
             </wheelConfiguration>
-            <wheelConfiguration name="$l10n_configuration_rough" price="1000" brand="EDGE">
+            <wheelConfiguration name="$l10n_configuration_Offroad" price="900" brand="EDGE">
                 <wheels>
-                    <wheel filename="wheels/EDGE_TwinRough.xml" isLeft="true">
-                        <physics tipOcclusionAreaGroupId="1" restLoad="1.7" repr="wheelBackLeft1" driveNode="wheelBackLeft1Node" forcePointRatio="0.5" initialCompression="20" suspTravel="0.25" spring="33" damper="200"/>
+                    <wheel filename="wheels/EDGE_TwinForestry.xml" isLeft="true">
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.8" repr="wheelBackLeft1" driveNode="wheelBackLeft1Node" forcePointRatio="0.5" initialCompression="24" suspTravel="0.25" spring="33" damper="200"/>
                         <steeringAxle scale="0.3" rotMax="5" rotMin="-5"/>
                         <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChock3"/>
                         <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChock4" isInverted="true"/>
                     </wheel>
-                    <wheel filename="wheels/EDGE_TwinRough.xml" isLeft="false">
-                        <physics tipOcclusionAreaGroupId="1" restLoad="1.7" repr="wheelBackRight1" forcePointRatio="0.5" initialCompression="20" suspTravel="0.25" spring="33" damper="200"/>
+                    <wheel filename="wheels/EDGE_TwinForestry.xml" isLeft="false">
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.8" repr="wheelBackRight1" forcePointRatio="0.5" initialCompression="24" suspTravel="0.25" spring="33" damper="200"/>
                         <steeringAxle scale="0.3" rotMax="5" rotMin="-5"/>
                         <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight01"/>
                         <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight02" isInverted="true"/>
                     </wheel>
-                    <wheel filename="wheels/EDGE_TwinRough.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
-                        <physics tipOcclusionAreaGroupId="1" restLoad="1.8" repr="wheelBackLeft2" forcePointRatio="0.5" initialCompression="13" suspTravel="0.25" spring="33" damper="200"/>
+                    <wheel filename="wheels/EDGE_TwinForestry.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.7" repr="wheelBackLeft2" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="33" damper="200"/>
                     </wheel>
-                    <wheel filename="wheels/EDGE_TwinRough.xml" isLeft="false" hasTireTracks="true" hasParticles="true">
-                        <physics tipOcclusionAreaGroupId="1" restLoad="1.8" repr="wheelBackRight2" forcePointRatio="0.5" initialCompression="13" suspTravel="0.25" spring="33" damper="200"/>
+                    <wheel filename="wheels/EDGE_TwinForestry.xml" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.7" repr="wheelBackRight2" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="33" damper="200"/>
                     </wheel>
-                    <wheel filename="wheels/EDGE_TwinRough.xml" isLeft="true" hasParticles="true">
+                    <wheel filename="wheels/EDGE_TwinForestry.xml" isLeft="true" hasParticles="true">
                         <physics restLoad="1.2" repr="wheelBackLeft3" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
-                        <steeringAxle scale="0.3" rotMax="15" rotMin="-15"/>
+                        <steeringAxle scale="-0.7" rotMax="15" rotMin="-15"/>
                     </wheel>
-                    <wheel filename="wheels/EDGE_TwinRough.xml" isLeft="false" hasParticles="true">
+                    <wheel filename="wheels/EDGE_TwinForestry.xml" isLeft="false" hasParticles="true">
                         <physics restLoad="1.2" repr="wheelBackRight3" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
-                        <steeringAxle scale="0.3" rotMax="15" rotMin="-15"/>
+                        <steeringAxle scale="-0.7" rotMax="15" rotMin="-15"/>
                     </wheel>
                 </wheels>
             </wheelConfiguration>
             <wheelConfiguration name="$l10n_configuration_valueTwinWheelsNarrow" price="2000" brand="EDGE">
                 <wheels>
+                    <wheel filename="wheels/EDGE_TwinNarrow.xml" isLeft="true">
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.8" repr="wheelBackLeft1" driveNode="wheelBackLeft1Node" forcePointRatio="0.5" initialCompression="24" suspTravel="0.25" spring="33" damper="200"/>
+                        <innerRim offset="0.1"/>
+                        <additionalWheel filename="wheels/EDGE_TwinNarrow.xml" configId="dual" offset="0.08" >
+                            <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
+                        </additionalWheel>
+                        <steeringAxle scale="0.3" rotMax="5" rotMin="-5"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChock3"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChock4" isInverted="true"/>
+                    </wheel>
+                    <wheel filename="wheels/EDGE_TwinNarrow.xml" isLeft="false">
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.8" repr="wheelBackRight1" forcePointRatio="0.5" initialCompression="24" suspTravel="0.25" spring="33" damper="200"/>
+                        <innerRim offset="0.1"/>
+                        <additionalWheel filename="wheels/EDGE_TwinNarrow.xml" configId="dual" offset="0.08" >
+                            <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
+                        </additionalWheel>
+                        <steeringAxle scale="0.3" rotMax="5" rotMin="-5"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight01"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight02" isInverted="true"/>
+                    </wheel>
+                    <wheel filename="wheels/EDGE_TwinNarrow.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.7" repr="wheelBackLeft2" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="33" damper="200"/>
+                        <innerRim offset="0.1"/>
+                        <additionalWheel filename="wheels/EDGE_TwinNarrow.xml" configId="dual" offset="0.08" >
+                            <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
+                        </additionalWheel>
+                    </wheel>
+                    <wheel filename="wheels/EDGE_TwinNarrow.xml" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.7" repr="wheelBackRight2" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="33" damper="200"/>
+                        <innerRim offset="0.1"/>
+                        <additionalWheel filename="wheels/EDGE_TwinNarrow.xml" configId="dual" offset="0.08" >
+                            <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
+                        </additionalWheel>
+                    </wheel>
+                    <wheel filename="wheels/EDGE_TwinNarrow.xml" isLeft="true" hasParticles="true">
+                        <physics restLoad="1.2" repr="wheelBackLeft3" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
+                        <innerRim offset="0.1"/>
+                        <additionalWheel filename="wheels/EDGE_TwinNarrow.xml" configId="dual" offset="0.08" >
+                            <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
+                        </additionalWheel>
+                        <steeringAxle scale="-0.7" rotMax="15" rotMin="-15"/>
+                    </wheel>
+                    <wheel filename="wheels/EDGE_TwinNarrow.xml" isLeft="false" hasParticles="true">
+                        <physics restLoad="1.2" repr="wheelBackRight3" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
+                        <innerRim offset="0.1"/>
+                        <additionalWheel filename="wheels/EDGE_TwinNarrow.xml" configId="dual" offset="0.08" >
+                            <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
+                        </additionalWheel>
+                        <steeringAxle scale="-0.7" rotMax="15" rotMin="-15"/>
+                    </wheel>
+                </wheels>
+				<objectChange node="wheelBackLeft1" translationActive="0.8 0.613 -0.636"/>
+				<objectChange node="wheelBackRight1" translationActive="-0.8 0.613 -0.636"/>
+				<objectChange node="wheelBackLeft2" translationActive="0.8 0.613 -2.186"/>
+				<objectChange node="wheelBackRight2" translationActive="-0.8 0.613 -2.186"/>
+				<objectChange node="wheelBackLeft3" translationActive="0.8 0.613 -3.736"/>
+				<objectChange node="wheelBackRight3" translationActive="-0.8 0.613 -3.736"/>
+				<objectChange node="hubBackLeft1" translationActive="0.1 0 0"/>
+				<objectChange node="hubBackRight1" translationActive="-0.1 0 0"/>
+				<objectChange node="hubBackLeft2" translationActive="0.1 0 0"/>
+				<objectChange node="hubBackRight2" translationActive="-0.1 0 0"/>
+				<objectChange node="hubBackLeft3" translationActive="0.1 0 0"/>
+				<objectChange node="hubBackRight3" translationActive="-0.1 0 0"/>
+            </wheelConfiguration>
+            <wheelConfiguration name="$l10n_configuration_valueWheelNarrow" price="1000" brand="EDGE">
+                <wheels>
                     <wheel filename="wheels/EDGE_Forestry.xml" isLeft="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.8" repr="wheelBackLeft1" driveNode="wheelBackLeft1Node" forcePointRatio="0.5" initialCompression="24" suspTravel="0.25" spring="33" damper="200"/>
                         <innerRim offset="0.1"/>
-                        <additionalWheel filename="wheels/EDGE_Forestry.xml" configId="dual" offset="0.08" >
-                            <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
-                        </additionalWheel>
                         <steeringAxle scale="0.3" rotMax="5" rotMin="-5"/>
                         <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChock3"/>
                         <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChock4" isInverted="true"/>
@@ -621,9 +684,6 @@
                     <wheel filename="wheels/EDGE_Forestry.xml" isLeft="false">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.8" repr="wheelBackRight1" forcePointRatio="0.5" initialCompression="24" suspTravel="0.25" spring="33" damper="200"/>
                         <innerRim offset="0.1"/>
-                        <additionalWheel filename="wheels/EDGE_Forestry.xml" configId="dual" offset="0.08" >
-                            <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
-                        </additionalWheel>
                         <steeringAxle scale="0.3" rotMax="5" rotMin="-5"/>
                         <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight01"/>
                         <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight02" isInverted="true"/>
@@ -631,57 +691,39 @@
                     <wheel filename="wheels/EDGE_Forestry.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.7" repr="wheelBackLeft2" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="33" damper="200"/>
                         <innerRim offset="0.1"/>
-                        <additionalWheel filename="wheels/EDGE_Forestry.xml" configId="dual" offset="0.08" >
-                            <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
-                        </additionalWheel>
                     </wheel>
                     <wheel filename="wheels/EDGE_Forestry.xml" isLeft="false" hasTireTracks="true" hasParticles="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.7" repr="wheelBackRight2" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="33" damper="200"/>
                         <innerRim offset="0.1"/>
-                        <additionalWheel filename="wheels/EDGE_Forestry.xml" configId="dual" offset="0.08" >
-                            <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
-                        </additionalWheel>
                     </wheel>
                     <wheel filename="wheels/EDGE_Forestry.xml" isLeft="true" hasParticles="true">
                         <physics restLoad="1.2" repr="wheelBackLeft3" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
                         <innerRim offset="0.1"/>
-                        <additionalWheel filename="wheels/EDGE_Forestry.xml" configId="dual" offset="0.08" >
-                            <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
-                        </additionalWheel>
-                        <steeringAxle scale="0.3" rotMax="15" rotMin="-15"/>
+                        <steeringAxle scale="-0.7" rotMax="15" rotMin="-15"/>
                     </wheel>
                     <wheel filename="wheels/EDGE_Forestry.xml" isLeft="false" hasParticles="true">
                         <physics restLoad="1.2" repr="wheelBackRight3" forcePointRatio="0.5" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
                         <innerRim offset="0.1"/>
-                        <additionalWheel filename="wheels/EDGE_Forestry.xml" configId="dual" offset="0.08" >
-                            <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
-                        </additionalWheel>
-                        <steeringAxle scale="0.3" rotMax="15" rotMin="-15"/>
+                        <steeringAxle scale="-0.7" rotMax="15" rotMin="-15"/>
                     </wheel>
                 </wheels>
-				<objectChange node="wheelBackLeft1" translationActive="0.821 0.821 -1.768"/>
-				<objectChange node="wheelBackRight1" translationActive="-0.821 0.821 -1.768"/>
-				<objectChange node="wheelBackLeft2" translationActive="0.077 0.024 -0.139"/>
-				<objectChange node="wheelBackRight2" translationActive="-0.077 0.024 -0.139"/>
-				<objectChange node="hubFrontLeft1" translationActive="0.1 0 0"/>
-				<objectChange node="hubFrontRight1" translationActive="-0.1 0 0"/>
-				<objectChange node="hubBackLeft2" translationActive="0.1 0 0"/>
-				<objectChange node="hubBackRight2" translationActive="-0.1 0 0"/>
-				<objectChange node="wheelBackLeft3" translationActive="0.077 0.024 -0.139"/>
-				<objectChange node="wheelBackRight3" translationActive="-0.077 0.024 -0.139"/>
-				<objectChange node="hubFrontLeft3" translationActive="0.1 0 0"/>
-				<objectChange node="hubFrontRight3" translationActive="-0.1 0 0"/>
+				<objectChange node="hubBackLeft1" translationActive="0.06 0 0"/>
+				<objectChange node="hubBackRight1" translationActive="-0.06 0 0"/>
+				<objectChange node="hubBackLeft2" translationActive="0.06 0 0"/>
+				<objectChange node="hubBackRight2" translationActive="-0.06 0 0"/>
+				<objectChange node="hubBackLeft3" translationActive="0.06 0 0"/>
+				<objectChange node="hubBackRight3" translationActive="-0.06 0 0"/>
             </wheelConfiguration>
         </wheelConfigurations>
         <hubs>
             <color0 useBaseColor="true"/>
             <color1>SHARED_BLACK2</color1>
-            <hub linkNode="wheelBackLeft1Node" filename="$data/shared/wheels/hubs/hub_n10_5.xml" isLeft="true" scale="0.335 0.335 0.335"/>
-            <hub linkNode="wheelBackRight1" filename="$data/shared/wheels/hubs/hub_n10_5.xml" isLeft="false" scale="0.335 0.335 0.335"/>
-            <hub linkNode="wheelBackLeft2" filename="$data/shared/wheels/hubs/hub_n10_5.xml" isLeft="true" scale="0.335 0.335 0.335"/>
-            <hub linkNode="wheelBackRight2" filename="$data/shared/wheels/hubs/hub_n10_5.xml" isLeft="false" scale="0.335 0.335 0.335"/>
-            <hub linkNode="wheelBackLeft3" filename="$data/shared/wheels/hubs/hub_n10_5.xml" isLeft="true" scale="0.335 0.335 0.335"/>
-            <hub linkNode="wheelBackRight3" filename="$data/shared/wheels/hubs/hub_n10_5.xml" isLeft="false" scale="0.335 0.335 0.335"/>
+            <hub linkNode="hubBackLeft1" filename="$data/shared/wheels/hubs/hub_n10_5.xml" isLeft="true" scale="0.335 0.335 0.335"/>
+            <hub linkNode="hubBackRight1" filename="$data/shared/wheels/hubs/hub_n10_5.xml" isLeft="false" scale="0.335 0.335 0.335"/>
+            <hub linkNode="hubBackLeft2" filename="$data/shared/wheels/hubs/hub_n10_5.xml" isLeft="true" scale="0.335 0.335 0.335"/>
+            <hub linkNode="hubBackRight2" filename="$data/shared/wheels/hubs/hub_n10_5.xml" isLeft="false" scale="0.335 0.335 0.335"/>
+            <hub linkNode="hubBackLeft3" filename="$data/shared/wheels/hubs/hub_n10_5.xml" isLeft="true" scale="0.335 0.335 0.335"/>
+            <hub linkNode="hubBackRight3" filename="$data/shared/wheels/hubs/hub_n10_5.xml" isLeft="false" scale="0.335 0.335 0.335"/>
         </hubs>
     </wheels>
     <attachable>
@@ -690,28 +732,43 @@
         </inputAttacherJoints>
         <support animationName="moveSupport"/>
         <brakeForce>1.2</brakeForce>
-        <steeringAxleAngleScale startSpeed="5" endSpeed="90"/>
+        <steeringAxleAngleScale startSpeed="5" endSpeed="90" backwards="true"/>
         <toolCameras>
 			<toolCamera node="reverseCamera" rotatable="false" useWorldXZRotation="false" limit="true" rotMinX="-1.1" rotMaxX="1.1" transMin="0" transMax="0" allowHeadTracking="true"/>
         </toolCameras>
     </attachable>
     <attacherJoints>
-        <attacherJoint node="containerAttacherJoint" jointType="hookLift" lowerRotLimit="0 40 80" upperRotLimit="0 40 80" allowsLowering="false" enableCollision="true" >
-            <schema position="0.6 0.6" rotation="0" invertX="false"/>
-        </attacherJoint>
-        <attacherJoint node="trailerAttacherJointBack" jointType="trailer" lowerRotLimit="10 50 50" upperRotRotationOffset="0" allowsJointLimitMovement="false" comboTime="1">
-            <distanceToGround lower="0.57" upper="1.03"/>
-            <transNode node="trailerAttacherNode" minY="0.523" maxY="0.98" height="0.25"/>
-            <schema position="1 0" rotation="0" invertX="false"/>
-            <objectChange node="trailerLowNode" visibilityActive="false" visibilityInactive="true"/>
-        </attacherJoint>
-        <attacherJoint node="trailerAttacherJointBackLow" jointType="trailerLow" lowerRotLimit="10 50 50" lowerTransLimit="0 0 0" upperRotRotationOffset="0" allowsJointLimitMovement="false" comboTime="1">
-            <distanceToGround lower="0.50" upper="1.01"/>
-            <transNode node="trailerLowNode" minY="0.451" maxY="0.951"/>
-            <schema position="1 0" rotation="0" invertX="false"/>
-            <objectChange node="trailerAttacherNode" visibilityActive="false" visibilityInactive="true"/>
-            <steeringBars leftNode="trailerSteeringLeftRef" rightNode="trailerSteeringRightRef"/>
-        </attacherJoint>
+        <attacherJointConfigurations title="$l10n_config_attach">
+			<attacherJointConfiguration name="$l10n_config_attach">
+                <attacherJoint node="containerAttacherJoint" jointType="hookLift" lowerRotLimit="0 40 80" upperRotLimit="0 40 80" allowsLowering="false" enableCollision="true" >
+                    <schema position="0.6 0.6" rotation="0" invertX="false"/>
+                </attacherJoint>
+                <attacherJoint node="trailerAttacherJointBack" jointType="trailer" lowerRotLimit="10 50 50" upperRotRotationOffset="0" allowsJointLimitMovement="false" comboTime="1">
+                    <distanceToGround lower="0.57" upper="1.03"/>
+                    <transNode node="trailerAttacherNode" minY="0.523" maxY="0.98" height="0.25"/>
+                    <schema position="1 0" rotation="0" invertX="false"/>
+                    <objectChange node="trailerLowNode" visibilityActive="false" visibilityInactive="true"/>
+                </attacherJoint>
+                <attacherJoint node="trailerAttacherJointBackLow" jointType="trailerLow" lowerRotLimit="10 50 50" lowerTransLimit="0 0 0" upperRotRotationOffset="0" allowsJointLimitMovement="false" comboTime="1">
+                    <distanceToGround lower="0.50" upper="1.01"/>
+                    <transNode node="trailerLowNode" minY="0.451" maxY="0.951"/>
+                    <schema position="1 0" rotation="0" invertX="false"/>
+                    <objectChange node="trailerAttacherNode" visibilityActive="false" visibilityInactive="true"/>
+                    <steeringBars leftNode="trailerSteeringLeftRef" rightNode="trailerSteeringRightRef"/>
+                </attacherJoint>
+                <powerTakeOffs>
+                    <output attacherJointIndices="2 3" outputNode="ptoBack"/>
+                </powerTakeOffs>
+                <powerConsumer ptoRpm="300" neededMaxPtoPower="50"/>
+                <objectChange node="attacherJoints" visibilityActive="true"/>
+			</attacherJointConfiguration>
+			<attacherJointConfiguration name="$l10n_config_noattach">
+                <attacherJoint node="containerAttacherJoint" jointType="hookLift" lowerRotLimit="0 40 80" upperRotLimit="0 40 80" allowsLowering="false" enableCollision="true" >
+                    <schema position="0.6 0.6" rotation="0" invertX="false"/>
+                </attacherJoint>
+				<objectChange node="attacherJoints" visibilityActive="false"/>
+			</attacherJointConfiguration>
+		</attacherJointConfigurations>
         <sounds>
             <attach template="ATTACH_01"/>
             <hydraulic template="DEFAULT_HYDRAULIC_SOUND"/>
@@ -747,7 +804,6 @@
     </connectionHoses>
     <powerTakeOffs>
         <input inputNode="pto" detachNode="ptoDetach" inputAttacherJointIndices="1" aboveAttacher="true"/>
-        <output attacherJointIndices="2 3" outputNode="ptoBack"/>
     </powerTakeOffs>
     <powerConsumer ptoRpm="300" neededMaxPtoPower="50"/>
     <lights>
@@ -841,6 +897,9 @@
         <material name="wheelChockSupport_mat" baseNode="wheelChockSupportRight02">
             <shaderParameter name="colorMat0" value="SHARED_BLACK2"/>
         </material>
+        <material name="towBar_mat" baseNode="towHolder">
+            <shaderParameter name="colorMat0" value="SHARED_BLACK2"/>
+        </material>
     </baseMaterial>
     <baseMaterialConfigurations price="1500" useDefaultColors="true" defaultColorIndex="8">
             <!--Matte-->
@@ -917,6 +976,7 @@
         <baseMaterialConfiguration name="$l10n_color_PINK"                  color="0.880 0.130 0.540 1" material="0"/>
         <material name="itRunner2633HD_mat" shaderParameter="colorMat0"/>
         <material name="wheelChockSupport_mat" shaderParameter="colorMat0"/>
+        <material name="towBar_mat" shaderParameter="colorMat0"/>
     </baseMaterialConfigurations>
     <designMaterialConfigurations price="500" useDefaultColors="true" defaultColorIndex="12">
             <!--Matte-->
@@ -1071,6 +1131,7 @@
     <washable dirtDuration="90" washDuration="1" workMultiplier="3" fieldMultiplier="2"/>
     <i3dMappings>
         <i3dMapping id="itRunner_main_component1" node="0>"/>
+        <i3dMapping id="towHolder" node="0>0|5|3|0"/>
         <i3dMapping id="wheelChockSupportRight01" node="0>0|0|6|0"/>
         <i3dMapping id="wheelChockRight01" node="0>0|0|6|0|0"/>
         <i3dMapping id="wheelChockSupportRight02" node="0>0|0|6|1"/>
@@ -1118,10 +1179,11 @@
         <i3dMapping id="trailerLowNode" node="0>0|5|0"/>
         <i3dMapping id="trailerAttacherJointBackLow" node="0>0|5|0|0"/>
         <i3dMapping id="trailerSteeringLeftRef" node="0>0|5|0|1"/>
-        <i3dMapping id="trailerSteeringRightRef" node="0>0|5|0|1"/>
+        <i3dMapping id="trailerSteeringRightRef" node="0>0|5|0|2"/>
         <i3dMapping id="trailerAttacherNode" node="0>0|5|1"/>
         <i3dMapping id="trailerAttacherJointBack" node="0>0|5|1|0"/>
         <i3dMapping id="ptoBack" node="0>0|5|2"/>
+        <i3dMapping id="ptoBack" node="0>0|5|3"/>
         <i3dMapping id="connectionHoses" node="0>0|7" />
         <i3dMapping id="hydraulicIn01" node="0>0|7|0" />
         <i3dMapping id="hydraulicIn01_detached" node="0>0|7|0|0" />
@@ -1144,5 +1206,12 @@
         <i3dMapping id="crawlerLeftLinkNode" node="0>0|0|7" />
         <i3dMapping id="crawlerRightLinkNode" node="0>0|0|8" />
         <i3dMapping id="reverseCamera" node="0>2" />
+        <i3dMapping id="hubBackRight1" node="0>0|0|1|0"/>
+        <i3dMapping id="hubBackRight2" node="0>0|0|3|0"/>
+        <i3dMapping id="hubBackRight3" node="0>0|0|5|0"/>
+        <i3dMapping id="hubBackLeft1" node="0>0|0|0|2"/>
+        <i3dMapping id="hubBackLeft2" node="0>0|0|2|0"/>
+        <i3dMapping id="hubBackLeft3" node="0>0|0|4|0"/>
+        <i3dMapping id="attacherJoints" node="0>0|5"/>
     </i3dMappings>
 </vehicle>

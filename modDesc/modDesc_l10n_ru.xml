@@ -3,13 +3,17 @@
 <author>Edge Gaming / Castiga</author>
 <translationby>Castiga</translationby>
 	<texts>
-        <text name="configuration_HighPressure"	text="Бак высокого давления"/>
+        <text name="function_UniversalTrailer" 	text="Это резервуар для нескольких жидкостей."/>
+        <text name="function_waterTrailer" 		text="Используется для транспортировки Water & amp; Молоко."/>
+        <text name="function_manureTrailer" 	text="Используется для перевозки жидкого навоза и навоза; Дигестат."/>
+        <text name="function_FuelTrailer" 		text="Используется для перевозки топлива"/>
         <text name="function_fertilTrailer"		text="Используется для транспортировки жидкостей, чтобы не разбрызгивать их."/>
+
+        <text name="configuration_HighPressure"	text="Бак высокого давления"/>
         <text name="configuration_Design"		text="подробность покрашенный"/>
         <text name="configuration_Painted"		text="покрашенный"/>
         <text name="configuration_manhole"		text="Дизайн люка"/>
 		<text name="name_EDGEbarrel"			text="Жидкая молния ITR"/>
-        <text name="function_FuelTrailer" 		text="Используется для перевозки топлива"/>
         <text name="configuration_TwinRadial" 	text="Двойной радиальный"/>
         <text name="configuration_CARGOXBIB" 	text="грузовой"/>
         <text name="configuration_CXBheavyduty" text="Тяжелые условия"/>
@@ -31,6 +35,8 @@
         <text name="config_work"				text="Рабочие фары"/>
         <text name="config_noLight"				text="Нет света"/>
         <text name="config_beaconWork"			text="Маяковые огни &amp; Рабочие фары"/>
+        <text name="config_attach"				text="Прицепное устройство"/>
+        <text name="config_noattach"			text="Нет Прицепное устройство"/>
 			<!--Colors-->
         <text name="color_ITRUNNERMATTE" 		text="IT RUNNER МАТОВЫЙ"/>
         <text name="color_EDGEGOLDMATTE" 		text="EDGE ЗОЛОТО МАТОВЫЙ"/>

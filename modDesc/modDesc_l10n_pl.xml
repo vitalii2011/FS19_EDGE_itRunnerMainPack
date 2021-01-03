@@ -3,13 +3,17 @@
 <author>Edge Gaming / Castiga</author>
 <translationby>Castiga</translationby>
 	<texts>
-        <text name="configuration_HighPressure"	text="Zbiornik wysokiego ciśnienia"/>
+        <text name="function_UniversalTrailer" 	text="To jest zbiornik na wiele cieczy."/>
+        <text name="function_waterTrailer" 		text="Służy do transportu wody i Mleko."/>
+        <text name="function_manureTrailer" 	text="Służy do transportu gnojowicy & amp; Poferment."/>
+        <text name="function_FuelTrailer" 		text="Służy do transportu paliwa"/>
         <text name="function_fertilTrailer"		text="Służy do transportu płynów, aby ich nie rozpylać."/>
+
+        <text name="configuration_HighPressure"	text="Zbiornik wysokiego ciśnienia"/>
         <text name="configuration_Design"		text="Szczegół Namalowany"/>
         <text name="configuration_Painted"		text="Namalowany"/>
         <text name="configuration_manhole"		text="Projekt włazu"/>
 		<text name="name_EDGEbarrel"			text="Płynna błyskawica ITR"/>
-        <text name="function_FuelTrailer" 		text="Służy do transportu paliwa"/>
         <text name="configuration_TwinRadial" 	text="Podwójny promieniowy"/>
         <text name="configuration_CARGOXBIB" 	text="Ładunek"/>
         <text name="configuration_CXBheavyduty" text="ciężki obowiązek"/>
@@ -31,6 +35,8 @@
         <text name="config_work"				text="Światła robocze"/>
         <text name="config_noLight"				text="Bez świateł"/>
         <text name="config_beaconWork"			text="Ostrzegawcze &amp; Światła robocze"/>
+        <text name="config_attach"				text="Hak holowniczy"/>
+        <text name="config_noattach"			text="Bez Hak holowniczy"/>
 			<!--Colors-->
         <text name="color_ITRUNNERMATTE" 		text="IT RUNNER MATTE"/>
         <text name="color_EDGEGOLDMATTE" 		text="EDGE ZŁOTO MATTE"/>

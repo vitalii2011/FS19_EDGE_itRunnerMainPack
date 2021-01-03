@@ -172,6 +172,9 @@
       <Shape shapeId="11" name="EDGE_TwinForestryL00" translation="0.0050125 -1.49012e-06 0" clipDistance="1000" nodeId="44" materialIds="4" castsShadows="true" receiveShadows="true"/>
       <Shape shapeId="12" name="EDGE_TwinForestryR00" translation="0.00665599 -1.49012e-06 0" clipDistance="1000" nodeId="45" materialIds="4" castsShadows="true" receiveShadows="true"/>
     </TransformGroup>
+    <TransformGroup name="EDGE_RoughNarrow" visibility="false" nodeId="50">
+      <Shape shapeId="13" name="EDGE_RoughNarrow00" translation="5.69969e-05 -7.75158e-05 -2.19941e-05" clipDistance="1000" nodeId="51" materialIds="6" castsShadows="true" receiveShadows="true"/>
+    </TransformGroup>
     <Light name="light" rotation="-40 0 -30" nodeId="46" type="directional" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" numShadowMapSplits="3" shadowMapSplitDistance0="16.5466" shadowMapSplitDistance1="35.9759" shadowMapSplitDistance2="80" shadowMapSplitDistance3="80" decayRate="4" range="500"/>
     <Light name="light" translation="12.6916 14.3874 -18.2701" rotation="-166.195 -49.0434 45.182" nodeId="47" type="directional" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" numShadowMapSplits="3" shadowMapSplitDistance0="16.5466" shadowMapSplitDistance1="35.9759" shadowMapSplitDistance2="80" shadowMapSplitDistance3="80" decayRate="4" range="500"/>
   </Scene>

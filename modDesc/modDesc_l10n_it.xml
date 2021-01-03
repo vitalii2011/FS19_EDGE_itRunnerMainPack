@@ -3,13 +3,17 @@
 <author>Edge Gaming / Castiga</author>
 <translationby>Castiga</translationby>
 	<texts>
-        <text name="configuration_HighPressure"	text="Serbatoio ad alta pressione"/>
+        <text name="function_UniversalTrailer" 	text="Questo è un serbatoio multi liquido."/>
+        <text name="function_waterTrailer" 		text="Utilizzato per il trasporto di acqua e amp; Latte."/>
+        <text name="function_manureTrailer" 	text="Utilizzato per il trasporto di letame liquido e amp; Digestato."/>
+        <text name="function_FuelTrailer" 		text="Utilizzato per il trasporto di carburante"/>
         <text name="function_fertilTrailer"		text="Utilizzato per trasportare liquidi per non spruzzarli."/>
+
+        <text name="configuration_HighPressure"	text="Serbatoio ad alta pressione"/>
         <text name="configuration_Design"		text="Dettaglio Dipinta"/>
         <text name="configuration_Painted"		text="Dipinta"/>
         <text name="configuration_manhole"		text="Design del tombino"/>
 		<text name="name_EDGEbarrel"			text="Fulmine liquido ITR"/>
-        <text name="function_FuelTrailer" 		text="Utilizzato per il trasporto di carburante"/>
         <text name="configuration_TwinRadial" 	text="Radiale doppia"/>
         <text name="configuration_CARGOXBIB" 	text="Carico"/>
         <text name="configuration_CXBheavyduty" text="Robusto"/>
@@ -31,6 +35,8 @@
         <text name="config_work"				text="Luci da lavoro"/>
         <text name="config_noLight"				text="Senza luci"/>
         <text name="config_beaconWork"			text="Segnalazione &amp; Luci da lavoro"/>
+        <text name="config_attach"				text="Gancio traino"/>
+        <text name="config_noattach"			text="Senza Gancio traino"/>
 			<!--Colors-->
         <text name="color_ITRUNNERMATTE" 		text="IT RUNNER OPACA"/>
         <text name="color_EDGEGOLDMATTE" 		text="EDGE ORO OPACA"/>
