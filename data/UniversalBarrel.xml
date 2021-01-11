@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<vehicle type="universalTrailerHookLift">
+<vehicle type="hookLiftContainerTrailer">
     <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
     <author>EDGE Gaming</author>
     <storeData>
@@ -180,22 +180,22 @@
         <bendingNode minX="-1.25" maxX="1.25" minZ="-4.7" maxZ="1.2" yOffset="0.6" />
     </foliageBending>
     <vehicleTypeConfigurations title="$l10n_config_lights">
-        <vehicleTypeConfiguration name="$l10n_config_beaconWork" price="600" vehicletype="universalTrailer">
+        <vehicleTypeConfiguration name="$l10n_config_beaconWork" price="600" vehicletype="itrhookLiftTrailerUniversal">
             <objectChange node="beaconBlock" visibilityActive="true"/>
             <objectChange node="workLightBlock01" visibilityActive="true"/>
             <objectChange node="workLightBlock02" visibilityActive="true"/>
         </vehicleTypeConfiguration>
-        <vehicleTypeConfiguration name="$l10n_config_beacon" price="300" vehicletype="universalTrailer">
+        <vehicleTypeConfiguration name="$l10n_config_beacon" price="300" vehicletype="itrhookLiftTrailerUniversal">
             <objectChange node="beaconBlock" visibilityActive="true"/>
             <objectChange node="workLightBlock01" visibilityActive="false"/>
             <objectChange node="workLightBlock02" visibilityActive="false"/>
         </vehicleTypeConfiguration>
-        <vehicleTypeConfiguration name="$l10n_config_work" price="300" vehicletype="universalTrailer">
+        <vehicleTypeConfiguration name="$l10n_config_work" price="300" vehicletype="itrhookLiftTrailerUniversal">
             <objectChange node="beaconBlock" visibilityActive="false"/>
             <objectChange node="workLightBlock01" visibilityActive="true"/>
             <objectChange node="workLightBlock02" visibilityActive="true"/>
         </vehicleTypeConfiguration>
-        <vehicleTypeConfiguration name="$l10n_config_noLight" price="0" vehicletype="universalTrailer">
+        <vehicleTypeConfiguration name="$l10n_config_noLight" price="0" vehicletype="itrhookLiftTrailerUniversal">
             <objectChange node="beaconBlock" visibilityActive="false"/>
             <objectChange node="workLightBlock01" visibilityActive="false"/>
             <objectChange node="workLightBlock02" visibilityActive="false"/>

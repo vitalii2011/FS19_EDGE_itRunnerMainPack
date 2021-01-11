@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<vehicle type="waterTrailerHookLift">
+<vehicle type="hookLiftContainerTrailer">
     <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
     <author>EDGE Gaming</author>
     <storeData>
@@ -90,7 +90,7 @@
         <fillUnitConfigurations>
             <fillUnitConfiguration name="$l10n_configuration_valueDefault" price="0">
                 <fillUnits>
-                    <fillUnit unit="$l10n_unit_literShort" fillTypes="MILK" capacity="30000">
+                    <fillUnit unit="$l10n_unit_literShort" fillTypes="MILK WATER" capacity="30000">
                         <dashboard displayType="ANIMATION" valueType="fillLevel" animName="fillLevel"/>
                         <fillMassNode node="frame_ITR"/>
                         <exactFillRootNode node="exactFillRootNode" />
@@ -106,7 +106,7 @@
             </fillUnitConfiguration>
             <fillUnitConfiguration name="$l10n_configuration_HighPressure" price="10000">
                 <fillUnits>
-                    <fillUnit unit="$l10n_unit_literShort" fillTypes="MILK" capacity="50000">
+                    <fillUnit unit="$l10n_unit_literShort" fillTypes="MILK WATER" capacity="50000">
                         <dashboard displayType="ANIMATION" valueType="fillLevel" animName="fillLevel"/>
                         <fillMassNode node="frame_ITR"/>
                         <exactFillRootNode node="exactFillRootNode" />
@@ -179,22 +179,22 @@
         <bendingNode minX="-1.25" maxX="1.25" minZ="-4.7" maxZ="1.2" yOffset="0.6" />
     </foliageBending>
     <vehicleTypeConfigurations title="$l10n_config_lights">
-        <vehicleTypeConfiguration name="$l10n_config_beaconWork" price="600" vehicletype="waterTrailerHookLift">
+        <vehicleTypeConfiguration name="$l10n_config_beaconWork" price="600" vehicletype="itrhookLiftTrailerWater">
             <objectChange node="beaconBlock" visibilityActive="true"/>
             <objectChange node="workLightBlock01" visibilityActive="true"/>
             <objectChange node="workLightBlock02" visibilityActive="true"/>
         </vehicleTypeConfiguration>
-        <vehicleTypeConfiguration name="$l10n_config_beacon" price="300" vehicletype="waterTrailerHookLift">
+        <vehicleTypeConfiguration name="$l10n_config_beacon" price="300" vehicletype="itrhookLiftTrailerWater">
             <objectChange node="beaconBlock" visibilityActive="true"/>
             <objectChange node="workLightBlock01" visibilityActive="false"/>
             <objectChange node="workLightBlock02" visibilityActive="false"/>
         </vehicleTypeConfiguration>
-        <vehicleTypeConfiguration name="$l10n_config_work" price="300" vehicletype="waterTrailerHookLift">
+        <vehicleTypeConfiguration name="$l10n_config_work" price="300" vehicletype="itrhookLiftTrailerWater">
             <objectChange node="beaconBlock" visibilityActive="false"/>
             <objectChange node="workLightBlock01" visibilityActive="true"/>
             <objectChange node="workLightBlock02" visibilityActive="true"/>
         </vehicleTypeConfiguration>
-        <vehicleTypeConfiguration name="$l10n_config_noLight" price="0" vehicletype="waterTrailerHookLift">
+        <vehicleTypeConfiguration name="$l10n_config_noLight" price="0" vehicletype="itrhookLiftTrailerWater">
             <objectChange node="beaconBlock" visibilityActive="false"/>
             <objectChange node="workLightBlock01" visibilityActive="false"/>
             <objectChange node="workLightBlock02" visibilityActive="false"/>
