@@ -4,8 +4,8 @@
 <translationby>Castiga</translationby>
 	<texts>
         <text name="function_UniversalTrailer" 	text="Ceci est un réservoir multi-liquide."/>
-        <text name="function_waterTrailer" 		text="Utilisé pour transporter de l'eau & amp; Lait."/>
-        <text name="function_manureTrailer" 	text="Utilisé pour transporter le fumier liquide & amp; Digester."/>
+        <text name="function_waterTrailer" 		text="Utilisé pour transporter de l'eau &amp; Lait."/>
+        <text name="function_manureTrailer" 	text="Utilisé pour transporter le fumier liquide &amp; Digester."/>
         <text name="function_FuelTrailer" 		text="Utilisé pour transporter du carburant"/>
         <text name="function_fertilTrailer"		text="Utilisé pour transporter des liquides pour ne pas les pulvériser."/>
 

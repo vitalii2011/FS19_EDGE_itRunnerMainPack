@@ -4,8 +4,8 @@
 <translationby>Castiga</translationby>
 	<texts>
         <text name="function_UniversalTrailer" 	text="Este es un tanque de múltiples líquidos."/>
-        <text name="function_waterTrailer" 		text="Se utiliza para transportar agua y amp; Leche."/>
-        <text name="function_manureTrailer" 	text="Se utiliza para transportar estiércol líquido y amp; Digestato."/>
+        <text name="function_waterTrailer" 		text="Se utiliza para transportar agua &amp; Leche."/>
+        <text name="function_manureTrailer" 	text="Se utiliza para transportar estiércol líquido &amp; Digestato."/>
         <text name="function_FuelTrailer" 		text="Utilizado para transportar combustible"/>
         <text name="function_fertilTrailer"		text="Se utiliza para transportar líquidos no rociarlas."/>
 

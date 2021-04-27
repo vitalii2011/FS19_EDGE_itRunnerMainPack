@@ -180,22 +180,22 @@
         <bendingNode minX="-1.25" maxX="1.25" minZ="-4.7" maxZ="1.2" yOffset="0.6" />
     </foliageBending>
     <vehicleTypeConfigurations title="$l10n_config_lights">
-        <vehicleTypeConfiguration name="$l10n_config_beaconWork" price="600" vehicletype="itrhookLiftTrailerUniversal">
+        <vehicleTypeConfiguration name="$l10n_config_beaconWork" price="600" vehicleType="itrhookLiftTrailerUniversal">
             <objectChange node="beaconBlock" visibilityActive="true"/>
             <objectChange node="workLightBlock01" visibilityActive="true"/>
             <objectChange node="workLightBlock02" visibilityActive="true"/>
         </vehicleTypeConfiguration>
-        <vehicleTypeConfiguration name="$l10n_config_beacon" price="300" vehicletype="itrhookLiftTrailerUniversal">
+        <vehicleTypeConfiguration name="$l10n_config_beacon" price="300" vehicleType="itrhookLiftTrailerUniversal">
             <objectChange node="beaconBlock" visibilityActive="true"/>
             <objectChange node="workLightBlock01" visibilityActive="false"/>
             <objectChange node="workLightBlock02" visibilityActive="false"/>
         </vehicleTypeConfiguration>
-        <vehicleTypeConfiguration name="$l10n_config_work" price="300" vehicletype="itrhookLiftTrailerUniversal">
+        <vehicleTypeConfiguration name="$l10n_config_work" price="300" vehicleType="itrhookLiftTrailerUniversal">
             <objectChange node="beaconBlock" visibilityActive="false"/>
             <objectChange node="workLightBlock01" visibilityActive="true"/>
             <objectChange node="workLightBlock02" visibilityActive="true"/>
         </vehicleTypeConfiguration>
-        <vehicleTypeConfiguration name="$l10n_config_noLight" price="0" vehicletype="itrhookLiftTrailerUniversal">
+        <vehicleTypeConfiguration name="$l10n_config_noLight" price="0" vehicleType="itrhookLiftTrailerUniversal">
             <objectChange node="beaconBlock" visibilityActive="false"/>
             <objectChange node="workLightBlock01" visibilityActive="false"/>
             <objectChange node="workLightBlock02" visibilityActive="false"/>
@@ -442,6 +442,84 @@
         <material name="tank_mat" shaderParameter="colorMat1"/>
         <material name="tank_mat" shaderParameter="colorMat2"/>
     </designMaterialConfigurations>
+    <wrappingColorConfigurations name="$l10n_config_decal" price="1000" useDefaultColors="true" defaultColorIndex="1">
+            <!--Matte-->
+		<wrappingColorConfiguration name="$l10n_color_ITRUNNERMATTE" 	      color="0.038 0.037 0.048 1" material="1"/>
+        <wrappingColorConfiguration name="$l10n_color_EDGEGOLDMATTE"         color="0.776 0.667 0.341 1" material="1"/>
+        <wrappingColorConfiguration name="$l10n_color_EDGESILVERMATTE"       color="0.647 0.667 0.682 1" material="1"/>
+		<wrappingColorConfiguration name="$l10n_color_CASEIHMATTE" 	      color="CASEIH_RED1" 		material="1"/>
+		<wrappingColorConfiguration name="$l10n_color_NEWHOLLANDMATTE" 	  color="NEWHOLLAND_BLUE1" 	material="1"/>
+		<wrappingColorConfiguration name="$l10n_color_KRONEMATTE" 	          color="KRONE_GREEN1" 		material="1"/>
+		<wrappingColorConfiguration name="$l10n_color_YELLOWMATTE"           color="0.980 0.980 0.220 1"	material="1"/>
+		<wrappingColorConfiguration name="$l10n_color_STARAMATTE" 	          color="STARA_ORANGE" 		material="1"/>
+
+		<wrappingColorConfiguration name="$l10n_color_LELYMATTE" 		      color="LELY_COPPER" 		material="1"/>
+        <wrappingColorConfiguration name="$l10n_color_KRONEMATTE"            color="KRONE_YELLOW1"       material="1"/>
+        <wrappingColorConfiguration name="$l10n_color_WHITEMATTE"            color="SHARED_WHITE2"       material="1"/>
+		<wrappingColorConfiguration name="$l10n_color_PURPLEMATTE" 	      color="0.630 0.130 0.940 1" material="1"/>
+		<wrappingColorConfiguration name="$l10n_color_DARKBLUEMATTE"         color="0.007 0.029 0.187 1"	material="1"/>
+		<wrappingColorConfiguration name="$l10n_color_JOHNDEEREMATTE" 	      color="JOHNDEERE_GREEN1"    material="1"/>
+		<wrappingColorConfiguration name="$l10n_color_JOHNDEEREMATTE"        color="JOHNDEERE_YELLOW1"	material="1"/>
+		<wrappingColorConfiguration name="$l10n_color_PINKMATTE" 	          color="0.880 0.130 0.540 1" material="1"/>
+            <!--Chrome-->
+        <wrappingColorConfiguration name="$l10n_color_ITRUNNERCHROME" 	      color="0.038 0.037 0.048 1" material="2"/>
+        <wrappingColorConfiguration name="$l10n_color_EDGEGOLDCHROME"        color="0.776 0.667 0.341 1" material="2"/>
+        <wrappingColorConfiguration name="$l10n_color_EDGESILVERCHROME"      color="0.647 0.667 0.682 1" material="2"/>
+		<wrappingColorConfiguration name="$l10n_color_CASEIHCHROME" 	      color="CASEIH_RED1" 		material="2"/>
+		<wrappingColorConfiguration name="$l10n_color_NEWHOLLANDCHROME" 	  color="NEWHOLLAND_BLUE1"    material="2"/>
+		<wrappingColorConfiguration name="$l10n_color_KRONECHROME" 	      color="KRONE_GREEN1" 		material="2"/>
+		<wrappingColorConfiguration name="$l10n_color_YELLOWCHROME"          color="0.980 0.980 0.220 1"	material="2"/>
+		<wrappingColorConfiguration name="$l10n_color_STARACHROME"           color="STARA_ORANGE" 		material="2"/>
+
+		<wrappingColorConfiguration name="$l10n_color_LELYCHROME" 		      color="LELY_COPPER" 		material="2"/>
+		<wrappingColorConfiguration name="$l10n_color_KRONECHROME" 	      color="KRONE_YELLOW1"		material="2"/>
+		<wrappingColorConfiguration name="$l10n_color_WHITECHROME"           color="SHARED_WHITE2" 		material="2"/>
+		<wrappingColorConfiguration name="$l10n_color_PURPLECHROME" 	      color="0.630 0.130 0.940 1" material="2"/>
+		<wrappingColorConfiguration name="$l10n_color_DARKBLUECHROME" 	      color="0.007 0.029 0.187 1" material="2"/>
+		<wrappingColorConfiguration name="$l10n_color_JOHNDEERECHROME"       color="JOHNDEERE_GREEN1" 	material="2"/>
+		<wrappingColorConfiguration name="$l10n_color_JOHNDEERECHROME"       color="JOHNDEERE_YELLOW1"   material="2"/>
+		<wrappingColorConfiguration name="$l10n_color_PINKCHROME"            color="0.880 0.130 0.540 1" material="2"/>
+            <!--Metallic-->
+        <wrappingColorConfiguration name="$l10n_color_ITRUNNERMETALLIC" 	  color="0.038 0.037 0.048 1" material="3"/>
+        <wrappingColorConfiguration name="$l10n_color_EDGEGOLDMETALLIC"      color="0.776 0.667 0.341 1" material="3"/>
+        <wrappingColorConfiguration name="$l10n_color_EDGESILVERMETALLIC"    color="0.647 0.667 0.682 1" material="3"/>
+		<wrappingColorConfiguration name="$l10n_color_CASEIHMETALLIC" 	      color="CASEIH_RED1" 		material="3"/>
+		<wrappingColorConfiguration name="$l10n_color_NEWHOLLANDMETALLIC" 	  color="NEWHOLLAND_BLUE1"    material="3"/>
+		<wrappingColorConfiguration name="$l10n_color_KRONEMETALLIC" 	      color="KRONE_GREEN1" 		material="3"/>
+		<wrappingColorConfiguration name="$l10n_color_YELLOWMETALLIC"        color="0.980 0.980 0.220 1"	material="3"/>
+		<wrappingColorConfiguration name="$l10n_color_STARAMETALLIC"         color="STARA_ORANGE" 		material="3"/>
+
+		<wrappingColorConfiguration name="$l10n_color_LELYMETALLIC" 		  color="LELY_COPPER" 		material="3"/>
+		<wrappingColorConfiguration name="$l10n_color_KRONEMETALLIC" 	      color="KRONE_YELLOW1"		material="3"/>
+		<wrappingColorConfiguration name="$l10n_color_WHITEMETALLIC"         color="SHARED_WHITE2" 		material="3"/>
+		<wrappingColorConfiguration name="$l10n_color_PURPLEMETALLIC" 	      color="0.630 0.130 0.940 1" material="3"/>
+		<wrappingColorConfiguration name="$l10n_color_DARKBLUEMETALLIC" 	  color="0.007 0.029 0.187 1" material="3"/>
+		<wrappingColorConfiguration name="$l10n_color_JOHNDEEREMETALLIC"     color="JOHNDEERE_GREEN1" 	material="3"/>
+		<wrappingColorConfiguration name="$l10n_color_JOHNDEEREMETALLIC"     color="JOHNDEERE_YELLOW1"   material="3"/>
+		<wrappingColorConfiguration name="$l10n_color_PINKMETALLIC"          color="0.880 0.130 0.540 1" material="3"/>
+            <!--Default-->
+        <wrappingColorConfiguration name="$l10n_color_ITRUNNER"        color="0.038 0.037 0.048 1" material="0"/>
+        <wrappingColorConfiguration name="$l10n_color_EDGEGOLD"        color="0.776 0.667 0.341 1" material="0"/>
+        <wrappingColorConfiguration name="$l10n_color_EDGESILVER"      color="0.647 0.667 0.682 1" material="0"/>
+        <wrappingColorConfiguration name="$l10n_color_RED"             color="0.673 0.002 0.000 1" material="0"/>
+		<wrappingColorConfiguration name="$l10n_color_KOBALT" 		    color="DFM_DARKBLUE1" 		material="0"/>
+        <wrappingColorConfiguration name="$l10n_color_GREEN"           color="0.000 0.170 0.001 1" material="0"/>
+		<wrappingColorConfiguration name="$l10n_color_YELLOW"       	color="0.980 0.980 0.220 1"	material="0"/>
+        <wrappingColorConfiguration name="$l10n_color_ORANGE"          color="0.932 0.119 0.000 1" material="0"/>
+
+        <wrappingColorConfiguration name="$l10n_color_LELY"       		color="LELY_COPPER" 		material="0"/>
+		<wrappingColorConfiguration name="$l10n_color_KRONE" 		    color="KRONE_YELLOW1" 		material="0"/>
+        <wrappingColorConfiguration name="$l10n_color_ALICEBLUE"       color="0.940 0.970 1.000 1" material="0"/>
+		<wrappingColorConfiguration name="$l10n_color_PURPLE"          color="0.630 0.130 0.940 1" material="0"/>
+        <wrappingColorConfiguration name="$l10n_color_DARKGREY"        color="0.037 0.037 0.037 1" material="0"/>
+		<wrappingColorConfiguration name="$l10n_color_KRONE" 		    color="KRONE_GREEN1" 		material="0"/>
+		<wrappingColorConfiguration name="$l10n_color_NEWHOLLAND" 	    color="NEWHOLLAND_YELLOW1" 	material="0"/>
+        <wrappingColorConfiguration name="$l10n_color_PINK"            color="0.880 0.130 0.540 1" material="0"/>
+        <colorNode node="decals_White" />
+        <colorNode node="decal_SliderWhite" />
+        <colorNode node="decals_White" />
+        <colorNode node="decal_SliderWhite" />
+    </wrappingColorConfigurations>
     <i3dMappings>
         <i3dMapping id="EDGE_itr_Barrel" node="0>" />
         <i3dMapping id="wheels" node="0>0" />

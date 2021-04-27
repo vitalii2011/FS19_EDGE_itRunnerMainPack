@@ -4,8 +4,8 @@
 <translationby>Castiga</translationby>
 	<texts>
         <text name="function_UniversalTrailer" 	text="To jest zbiornik na wiele cieczy."/>
-        <text name="function_waterTrailer" 		text="Służy do transportu wody i Mleko."/>
-        <text name="function_manureTrailer" 	text="Służy do transportu gnojowicy & amp; Poferment."/>
+        <text name="function_waterTrailer" 		text="Służy do transportu wody &amp; Mleko."/>
+        <text name="function_manureTrailer" 	text="Służy do transportu gnojowicy &amp; Poferment."/>
         <text name="function_FuelTrailer" 		text="Służy do transportu paliwa"/>
         <text name="function_fertilTrailer"		text="Służy do transportu płynów, aby ich nie rozpylać."/>
 

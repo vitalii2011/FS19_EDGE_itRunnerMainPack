@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="R26_5_TwinRadial" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.2.2"/>
+  </Asset>
+
+  <Files>
+    <File fileId="19" filename="textures/EDGE_Forestry_normal.dds"/>
+    <File fileId="20" filename="textures/EDGE_Forestry_specular.dds" colorProfile="sRGB"/>
+    <File fileId="15" filename="textures/EDGE_Radial_normal.dds"/>
+    <File fileId="16" filename="textures/EDGE_Radial_specular.dds"/>
+    <File fileId="17" filename="textures/EDGE_Rough_normal.dds"/>
+    <File fileId="18" filename="textures/EDGE_Rough_specular.dds"/>
+    <File fileId="4" filename="$data/shaders/vehicleShader.xml"/>
+    <File fileId="12" filename="$data/shared/wheels/michelin/megaXbib/megaXbib_normal.png"/>
+    <File fileId="13" filename="$data/shared/wheels/michelin/megaXbib/megaXbib_specular.png"/>
+    <File fileId="8" filename="$data/shared/wheels/nokian/TRI2/TRI2_normal.png"/>
+    <File fileId="9" filename="$data/shared/wheels/nokian/TRI2/TRI2_specular.png"/>
+    <File fileId="10" filename="$data/shared/wheels/trelleborg/SK800/SK800_normal.png"/>
+    <File fileId="11" filename="$data/shared/wheels/trelleborg/SK800/SK800_specular.png"/>
+    <File fileId="2" filename="$data/shared/wheels/trelleborg/TwinForestry428SB/twinForestry428SB_normal.png"/>
+    <File fileId="3" filename="$data/shared/wheels/trelleborg/TwinForestry428SB/twinForestry428SB_specular.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="EDGE_Forestry_mat" materialId="4" diffuseColor="1 1 1 1" customShaderId="4" customShaderVariation="tirePressureDeformation">
+      <Normalmap fileId="19"/>
+      <Glossmap fileId="20"/>
+      <CustomParameter name="RDT" value="0 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+      <CustomParameter name="morphPosition" value="-0.45 -0.915 0.5 0.1"/>
+    </Material>
+    <Material name="EDGE_Radial_mat" materialId="5" diffuseColor="1 1 1 1" customShaderId="4" customShaderVariation="tirePressureDeformation">
+      <Normalmap fileId="15"/>
+      <Glossmap fileId="16"/>
+      <CustomParameter name="RDT" value="1 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+      <CustomParameter name="morphPosition" value="-0.45 -0.915 0.5 0.1"/>
+    </Material>
+    <Material name="EDGE_Rough_mat" materialId="6" diffuseColor="1 1 1 1" customShaderId="4" customShaderVariation="tirePressureDeformation">
+      <Normalmap fileId="17"/>
+      <Glossmap fileId="18"/>
+      <CustomParameter name="RDT" value="0 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+      <CustomParameter name="morphPosition" value="-0.45 -0.915 0.5 0.15"/>
+    </Material>
+    <Material name="megaXbib_mat1" materialId="7" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="4" customShaderVariation="tirePressureDeformation">
+      <Normalmap fileId="12"/>
+      <Glossmap fileId="13"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+      <CustomParameter name="morphPosition" value="-0.364 -0.705 0.5 0.05"/>
+    </Material>
+    <Material name="SK800_mat" materialId="8" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="4" customShaderVariation="tirePressureDeformation">
+      <Normalmap fileId="10"/>
+      <Glossmap fileId="11"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+      <CustomParameter name="morphPosition" value="-0.243 -0.41 0.5 0.05"/>
+    </Material>
+    <Material name="TRI2_mat6" materialId="9" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="4" customShaderVariation="tirePressureDeformation">
+      <Normalmap fileId="8"/>
+      <Glossmap fileId="9"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+      <CustomParameter name="morphPosition" value="-0.418 -0.707 0.5 0.05"/>
+    </Material>
+    <Material name="twinForestry428SB_mat5" materialId="10" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="4" customShaderVariation="tirePressureDeformation">
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+      <CustomParameter name="RDT" value="1 1 10 5"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+      <CustomParameter name="morphPosition" value="-0.377 -0.668 0.5 0.05"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="tires.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="_710_45_26_5_" visibility="false" clipDistance="1000" nodeId="25">
+      <Shape shapeId="1" name="wheel_TwinForestry428SB" clipDistance="1000" nodeId="26" materialIds="10" castsShadows="true" receiveShadows="true"/>
+    </TransformGroup>
+    <TransformGroup name="_540_65R28_" visibility="false" clipDistance="1000" nodeId="27">
+      <Shape shapeId="2" name="wheel_TRI2" clipDistance="1000" nodeId="28" materialIds="9" castsShadows="true" receiveShadows="true"/>
+    </TransformGroup>
+    <TransformGroup name="_12_R16_5_" visibility="false" clipDistance="300" nodeId="29">
+      <Shape shapeId="3" name="wheel_SK800" clipDistance="300" nodeId="30" materialIds="8" castsShadows="true" receiveShadows="true"/>
+    </TransformGroup>
+    <TransformGroup name="_750_50_R26_" visibility="false" nodeId="31">
+      <Shape shapeId="4" name="shape2" clipDistance="300" nodeId="32" materialIds="7" castsShadows="true" receiveShadows="true"/>
+    </TransformGroup>
+    <TransformGroup name="EDGE_TwinRadial" visibility="false" clipDistance="1000" nodeId="33">
+      <Shape shapeId="5" name="EDGE_TwinRadial00" translation="-3.72529e-07 0 0" clipDistance="1000" nodeId="34" materialIds="5" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="6" name="EDGE_TwinRadial01" translation="-3.72529e-07 0 0" clipDistance="1000" nodeId="35" materialIds="5" castsShadows="true" receiveShadows="true"/>
+    </TransformGroup>
+    <TransformGroup name="EDGE_Radial" visibility="false" clipDistance="1000" nodeId="36">
+      <Shape shapeId="7" name="EDGE_Radial00" translation="-3.8743e-07 0 0" clipDistance="1000" nodeId="37" materialIds="5" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="7" name="EDGE_Radial01" translation="-3.8743e-07 0 0" clipDistance="1000" nodeId="38" materialIds="5" castsShadows="true" receiveShadows="true"/>
+    </TransformGroup>
+    <TransformGroup name="EDGE_TwinRough" visibility="false" nodeId="39">
+      <Shape shapeId="8" name="EDGE_TwinRough00" translation="5.69969e-05 -7.75158e-05 -2.19941e-05" clipDistance="1000" nodeId="40" materialIds="6" castsShadows="true" receiveShadows="true"/>
+    </TransformGroup>
+    <TransformGroup name="EDGE_Forestry" visibility="false" nodeId="41">
+      <Shape shapeId="9" name="EDGE_ForestryL01" translation="0.003426 -1.49012e-06 0" clipDistance="1000" nodeId="42" materialIds="4" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="10" name="EDGE_ForestryR01" translation="0.003668 -1.49012e-06 0" clipDistance="1000" nodeId="43" materialIds="4" castsShadows="true" receiveShadows="true"/>
+    </TransformGroup>
+    <TransformGroup name="EDGE_TwinForestry" visibility="false" nodeId="44">
+      <Shape shapeId="11" name="EDGE_TwinForestryL00" translation="0.0050125 -1.49012e-06 0" clipDistance="1000" nodeId="45" materialIds="4" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="12" name="EDGE_TwinForestryR00" translation="0.00665599 -1.49012e-06 0" clipDistance="1000" nodeId="46" materialIds="4" castsShadows="true" receiveShadows="true"/>
+    </TransformGroup>
+    <TransformGroup name="EDGE_RoughNarrow" visibility="false" nodeId="47">
+      <Shape shapeId="13" name="EDGE_RoughNarrow00" translation="5.69969e-05 -7.75158e-05 -2.19941e-05" clipDistance="1000" nodeId="48" materialIds="6" castsShadows="true" receiveShadows="true"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

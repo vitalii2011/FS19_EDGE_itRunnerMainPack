@@ -141,42 +141,40 @@
   </Dynamics>
 
   <Scene>
-    <TransformGroup name="_710_45_26_5_" visibility="false" clipDistance="1000" nodeId="24">
-      <Shape shapeId="1" name="wheel_TwinForestry428SB" clipDistance="1000" nodeId="25" materialIds="10" castsShadows="true" receiveShadows="true"/>
+    <TransformGroup name="_710_45_26_5_" visibility="false" clipDistance="1000" nodeId="25">
+      <Shape shapeId="1" name="wheel_TwinForestry428SB" clipDistance="1000" nodeId="26" materialIds="10" castsShadows="true" receiveShadows="true"/>
     </TransformGroup>
-    <TransformGroup name="_540_65R28_" visibility="false" clipDistance="1000" nodeId="26">
-      <Shape shapeId="2" name="wheel_TRI2" clipDistance="1000" nodeId="27" materialIds="9" castsShadows="true" receiveShadows="true"/>
+    <TransformGroup name="_540_65R28_" visibility="false" clipDistance="1000" nodeId="27">
+      <Shape shapeId="2" name="wheel_TRI2" clipDistance="1000" nodeId="28" materialIds="9" castsShadows="true" receiveShadows="true"/>
     </TransformGroup>
-    <TransformGroup name="_12_R16_5_" visibility="false" clipDistance="300" nodeId="28">
-      <Shape shapeId="3" name="wheel_SK800" clipDistance="300" nodeId="29" materialIds="8" castsShadows="true" receiveShadows="true"/>
+    <TransformGroup name="_12_R16_5_" visibility="false" clipDistance="300" nodeId="29">
+      <Shape shapeId="3" name="wheel_SK800" clipDistance="300" nodeId="30" materialIds="8" castsShadows="true" receiveShadows="true"/>
     </TransformGroup>
-    <TransformGroup name="_750_50_R26_" visibility="false" nodeId="30">
-      <Shape shapeId="4" name="shape2" clipDistance="300" nodeId="31" materialIds="7" castsShadows="true" receiveShadows="true"/>
+    <TransformGroup name="_750_50_R26_" visibility="false" nodeId="31">
+      <Shape shapeId="4" name="shape2" clipDistance="300" nodeId="32" materialIds="7" castsShadows="true" receiveShadows="true"/>
     </TransformGroup>
-    <TransformGroup name="EDGE_TwinRadial" visibility="false" clipDistance="1000" nodeId="32">
-      <Shape shapeId="5" name="EDGE_TwinRadial00" translation="-3.72529e-07 0 0" clipDistance="1000" nodeId="33" materialIds="5" castsShadows="true" receiveShadows="true"/>
-      <Shape shapeId="6" name="EDGE_TwinRadial01" translation="-3.72529e-07 0 0" clipDistance="1000" nodeId="34" materialIds="5" castsShadows="true" receiveShadows="true"/>
+    <TransformGroup name="EDGE_TwinRadial" visibility="false" clipDistance="1000" nodeId="33">
+      <Shape shapeId="5" name="EDGE_TwinRadial00" translation="-3.72529e-07 0 0" clipDistance="1000" nodeId="34" materialIds="5" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="6" name="EDGE_TwinRadial01" translation="-3.72529e-07 0 0" clipDistance="1000" nodeId="35" materialIds="5" castsShadows="true" receiveShadows="true"/>
     </TransformGroup>
-    <TransformGroup name="EDGE_Radial" visibility="false" clipDistance="1000" nodeId="35">
-      <Shape shapeId="7" name="EDGE_Radial00" translation="-3.8743e-07 0 0" clipDistance="1000" nodeId="36" materialIds="5" castsShadows="true" receiveShadows="true"/>
-      <Shape shapeId="7" name="EDGE_Radial01" translation="-3.8743e-07 0 0" clipDistance="1000" nodeId="37" materialIds="5" castsShadows="true" receiveShadows="true"/>
+    <TransformGroup name="EDGE_Radial" visibility="false" clipDistance="1000" nodeId="36">
+      <Shape shapeId="7" name="EDGE_Radial00" translation="-3.8743e-07 0 0" clipDistance="1000" nodeId="37" materialIds="5" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="7" name="EDGE_Radial01" translation="-3.8743e-07 0 0" clipDistance="1000" nodeId="38" materialIds="5" castsShadows="true" receiveShadows="true"/>
     </TransformGroup>
-    <TransformGroup name="EDGE_TwinRough" visibility="false" nodeId="38">
-      <Shape shapeId="8" name="EDGE_TwinRough00" translation="5.69969e-05 -7.75158e-05 -2.19941e-05" clipDistance="1000" nodeId="39" materialIds="6" castsShadows="true" receiveShadows="true"/>
+    <TransformGroup name="EDGE_TwinRough" visibility="false" nodeId="39">
+      <Shape shapeId="8" name="EDGE_TwinRough00" translation="5.69969e-05 -7.75158e-05 -2.19941e-05" clipDistance="1000" nodeId="40" materialIds="6" castsShadows="true" receiveShadows="true"/>
     </TransformGroup>
-    <TransformGroup name="EDGE_Forestry" visibility="false" nodeId="40">
-      <Shape shapeId="9" name="EDGE_ForestryL01" translation="0.003426 -1.49012e-06 0" clipDistance="1000" nodeId="41" materialIds="4" castsShadows="true" receiveShadows="true"/>
-      <Shape shapeId="10" name="EDGE_ForestryR01" translation="0.003668 -1.49012e-06 0" clipDistance="1000" nodeId="42" materialIds="4" castsShadows="true" receiveShadows="true"/>
+    <TransformGroup name="EDGE_Forestry" visibility="false" nodeId="41">
+      <Shape shapeId="9" name="EDGE_ForestryL01" translation="0.003426 -1.49012e-06 0" clipDistance="1000" nodeId="42" materialIds="4" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="10" name="EDGE_ForestryR01" translation="0.003668 -1.49012e-06 0" clipDistance="1000" nodeId="43" materialIds="4" castsShadows="true" receiveShadows="true"/>
     </TransformGroup>
-    <TransformGroup name="EDGE_TwinForestry" visibility="false" nodeId="43">
-      <Shape shapeId="11" name="EDGE_TwinForestryL00" translation="0.0050125 -1.49012e-06 0" clipDistance="1000" nodeId="44" materialIds="4" castsShadows="true" receiveShadows="true"/>
-      <Shape shapeId="12" name="EDGE_TwinForestryR00" translation="0.00665599 -1.49012e-06 0" clipDistance="1000" nodeId="45" materialIds="4" castsShadows="true" receiveShadows="true"/>
+    <TransformGroup name="EDGE_TwinForestry" visibility="false" nodeId="44">
+      <Shape shapeId="11" name="EDGE_TwinForestryL00" translation="0.0050125 -1.49012e-06 0" clipDistance="1000" nodeId="45" materialIds="4" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="12" name="EDGE_TwinForestryR00" translation="0.00665599 -1.49012e-06 0" clipDistance="1000" nodeId="46" materialIds="4" castsShadows="true" receiveShadows="true"/>
     </TransformGroup>
-    <TransformGroup name="EDGE_RoughNarrow" visibility="false" nodeId="50">
-      <Shape shapeId="13" name="EDGE_RoughNarrow00" translation="5.69969e-05 -7.75158e-05 -2.19941e-05" clipDistance="1000" nodeId="51" materialIds="6" castsShadows="true" receiveShadows="true"/>
+    <TransformGroup name="EDGE_RoughNarrow" visibility="false" nodeId="47">
+      <Shape shapeId="13" name="EDGE_RoughNarrow00" translation="5.69969e-05 -7.75158e-05 -2.19941e-05" clipDistance="1000" nodeId="48" materialIds="6" castsShadows="true" receiveShadows="true"/>
     </TransformGroup>
-    <Light name="light" rotation="-40 0 -30" nodeId="46" type="directional" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" numShadowMapSplits="3" shadowMapSplitDistance0="16.5466" shadowMapSplitDistance1="35.9759" shadowMapSplitDistance2="80" shadowMapSplitDistance3="80" decayRate="4" range="500"/>
-    <Light name="light" translation="12.6916 14.3874 -18.2701" rotation="-166.195 -49.0434 45.182" nodeId="47" type="directional" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" numShadowMapSplits="3" shadowMapSplitDistance0="16.5466" shadowMapSplitDistance1="35.9759" shadowMapSplitDistance2="80" shadowMapSplitDistance3="80" decayRate="4" range="500"/>
   </Scene>
 
 </i3D>

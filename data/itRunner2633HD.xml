@@ -10,7 +10,7 @@
         <specs>
             <neededPower>145</neededPower>
             <combination>ITR</combination>
-            <capacity unit="$l10n_unit_kg">8500</capacity>
+            <capacity unit="$l10n_unit_kg">6500</capacity>
         </specs>
         <image>store/store_itRunner2633HD.dds</image>
         <price>55000</price>
@@ -24,7 +24,7 @@
         <filename>data/itRunner2633HD.i3d</filename>
         <size width="3.5" length="9.5" lengthOffset="-0.3"/>
         <components>
-            <component centerOfMass="0 0.58 -1.5" solverIterationCount="30" mass="8500"/>
+            <component centerOfMass="0 0.58 -1.5" solverIterationCount="30" mass="6500"/>
         </components>
         <schemaOverlay attacherJointPosition="0 0">
             <default name="DEFAULT_IMPLEMENT"/>
@@ -382,11 +382,9 @@
                     </wheel>
                     <wheel hasTireTracks="true" hasParticles="true">
                         <physics restLoad="1.2" repr="wheelBackLeft3" forcePointRatio="0.5" radius="0.58" width="0.8" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
-                        <steeringAxle scale="-0.7" rotMax="25" rotMin="-25"/>
                     </wheel>
                     <wheel hasTireTracks="true" hasParticles="true">
                         <physics restLoad="1.2" repr="wheelBackRight3" forcePointRatio="0.5" radius="0.58" width="0.8" initialCompression="09" suspTravel="0.25" spring="45" damper="200"/>
-                        <steeringAxle scale="-0.7" rotMax="25" rotMin="-25"/>
                     </wheel>
                 </wheels>
                 <crawlers>

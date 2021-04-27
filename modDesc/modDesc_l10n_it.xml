@@ -4,8 +4,8 @@
 <translationby>Castiga</translationby>
 	<texts>
         <text name="function_UniversalTrailer" 	text="Questo è un serbatoio multi liquido."/>
-        <text name="function_waterTrailer" 		text="Utilizzato per il trasporto di acqua e amp; Latte."/>
-        <text name="function_manureTrailer" 	text="Utilizzato per il trasporto di letame liquido e amp; Digestato."/>
+        <text name="function_waterTrailer" 		text="Utilizzato per il trasporto di acqua e &amp; Latte."/>
+        <text name="function_manureTrailer" 	text="Utilizzato per il trasporto di letame liquido e &amp; Digestato."/>
         <text name="function_FuelTrailer" 		text="Utilizzato per il trasporto di carburante"/>
         <text name="function_fertilTrailer"		text="Utilizzato per trasportare liquidi per non spruzzarli."/>
 

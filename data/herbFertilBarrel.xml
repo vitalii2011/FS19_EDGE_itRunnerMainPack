@@ -174,22 +174,22 @@
         <bendingNode minX="-1.25" maxX="1.25" minZ="-4.7" maxZ="1.2" yOffset="0.6" />
     </foliageBending>
     <vehicleTypeConfigurations title="$l10n_config_lights">
-        <vehicleTypeConfiguration name="$l10n_config_beaconWork" price="600" vehicletype="itrhookLiftTrailerBarrel">
+        <vehicleTypeConfiguration name="$l10n_config_beaconWork" price="600" vehicleType="itrhookLiftTrailerBarrel">
             <objectChange node="beaconBlock" visibilityActive="true"/>
             <objectChange node="workLightBlock01" visibilityActive="true"/>
             <objectChange node="workLightBlock02" visibilityActive="true"/>
         </vehicleTypeConfiguration>
-        <vehicleTypeConfiguration name="$l10n_config_beacon" price="300" vehicletype="itrhookLiftTrailerBarrel">
+        <vehicleTypeConfiguration name="$l10n_config_beacon" price="300" vehicleType="itrhookLiftTrailerBarrel">
             <objectChange node="beaconBlock" visibilityActive="true"/>
             <objectChange node="workLightBlock01" visibilityActive="false"/>
             <objectChange node="workLightBlock02" visibilityActive="false"/>
         </vehicleTypeConfiguration>
-        <vehicleTypeConfiguration name="$l10n_config_work" price="300" vehicletype="itrhookLiftTrailerBarrel">
+        <vehicleTypeConfiguration name="$l10n_config_work" price="300" vehicleType="itrhookLiftTrailerBarrel">
             <objectChange node="beaconBlock" visibilityActive="false"/>
             <objectChange node="workLightBlock01" visibilityActive="true"/>
             <objectChange node="workLightBlock02" visibilityActive="true"/>
         </vehicleTypeConfiguration>
-        <vehicleTypeConfiguration name="$l10n_config_noLight" price="0" vehicletype="itrhookLiftTrailerBarrel">
+        <vehicleTypeConfiguration name="$l10n_config_noLight" price="0" vehicleType="itrhookLiftTrailerBarrel">
             <objectChange node="beaconBlock" visibilityActive="false"/>
             <objectChange node="workLightBlock01" visibilityActive="false"/>
             <objectChange node="workLightBlock02" visibilityActive="false"/>

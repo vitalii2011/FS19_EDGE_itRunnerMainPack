@@ -4,8 +4,8 @@
 <translationby>Castiga</translationby>
 	<texts>
         <text name="function_UniversalTrailer" 	text="Это резервуар для нескольких жидкостей."/>
-        <text name="function_waterTrailer" 		text="Используется для транспортировки Water & amp; Молоко."/>
-        <text name="function_manureTrailer" 	text="Используется для перевозки жидкого навоза и навоза; Дигестат."/>
+        <text name="function_waterTrailer" 		text="Используется для транспортировки Water &amp; Молоко."/>
+        <text name="function_manureTrailer" 	text="Используется для перевозки жидкого навоза &amp; Дигестат."/>
         <text name="function_FuelTrailer" 		text="Используется для перевозки топлива"/>
         <text name="function_fertilTrailer"		text="Используется для транспортировки жидкостей, чтобы не разбрызгивать их."/>
 
