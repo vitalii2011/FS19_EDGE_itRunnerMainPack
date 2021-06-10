@@ -1,42 +1,45 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <l10n>
 <author>Edge Gaming / Castiga</author>
 <translationby>Castiga</translationby>
 	<texts>
-        <text name="function_UniversalTrailer" 	text="Это резервуар для нескольких жидкостей."/>
-        <text name="function_waterTrailer" 		text="Используется для транспортировки Water &amp; Молоко."/>
-        <text name="function_manureTrailer" 	text="Используется для перевозки жидкого навоза &amp; Дигестат."/>
+        <text name="function_UniversalTrailer" 	text="Это цистерна для нескольких жидкостей."/>
+        <text name="function_waterTrailer" 		text="Используется для транспортировки воды и молока."/>
+        <text name="function_manureTrailer" 	text="Используется для перевозки жидкого навоза и дигестата."/>
         <text name="function_FuelTrailer" 		text="Используется для перевозки топлива"/>
         <text name="function_fertilTrailer"		text="Используется для транспортировки жидкостей, чтобы не разбрызгивать их."/>
 
         <text name="configuration_HighPressure"	text="Бак высокого давления"/>
-        <text name="configuration_Design"		text="подробность покрашенный"/>
-        <text name="configuration_Painted"		text="покрашенный"/>
-        <text name="configuration_manhole"		text="Дизайн люка"/>
+        <text name="configuration_Design"		text="Как цвет дизайна"/>
+        <text name="configuration_Painted"		text="Как основной цвет"/>
+        <text name="configuration_manhole"		text="Окраска люка"/>
 		<text name="name_EDGEbarrel"			text="Жидкая молния ITR"/>
-        <text name="configuration_TwinRadial" 	text="Двойной радиальный"/>
-        <text name="configuration_CARGOXBIB" 	text="грузовой"/>
-        <text name="configuration_CXBheavyduty" text="Тяжелые условия"/>
-        <text name="configuration_rough" 		text="Грубый"/>
-        <text name="configuration_TwinForestry"	text="лесоводство"/>
-        <text name="configuration_Radial"		text="радиальный"/>
-        <text name="configuration_wideRadial"	text="Широкий радиальный"/>
-        <text name="configuration_wideXBIB"		text="Широкий грузовой"/>
-        <text name="configuration_megaXbib"		text="Внедорожный"/>
-        <text name="configuration_Offroad"		text="Внедорожный"/>
+        <text name="configuration_TwinRadial" 	text="Двойные радиальные"/>
+        <text name="configuration_CARGOXBIB" 	text="Грузовые"/>
+        <text name="configuration_CXBheavyduty" text="Тяжеловесный груз"/>
+        <text name="configuration_rough" 		text="С увеличенными 
+протекторами"/>
+        <text name="configuration_TwinForestry"	text="Лесоводство"/>
+        <text name="configuration_Radial"		text="Радиальные"/>
+        <text name="configuration_wideRadial"	text="Широкие радиальные"/>
+        <text name="configuration_wideXBIB"		text="Широкие грузовые"/>
+        <text name="configuration_megaXbib"		text="Внедорожные"/>
+        <text name="configuration_Offroad"		text="Внедорожные"/>
         <text name="config_decalWhite"			text="Белые наклейки"/>
-        <text name="config_decalBlack"			text="Черные наклейки"/>
+        <text name="config_decalBlack"			text="Чёрные наклейки"/>
         <text name="config_decalDesign"			text="Золотые наклейки"/>
-        <text name="config_decal"				text="Декали по умолчанию"/>
-        <text name="config_nodecal"				text="Нет Переводные картинки"/>
-        <text name="configuration_Perf"			text="Перфорированный"/>
-        <text name="config_lights"				text="огни"/>
-        <text name="config_beacon"				text="Маяковые огни"/>
+        <text name="config_decal"				text="Наклейки по умолчанию"/>
+        <text name="config_nodecal"				text="Без наклеек"/>
+        <text name="configuration_Perf"			text="С зубцами"/>
+        <text name="config_lights"				text="Освещение"/>
+        <text name="config_beacon"				text="Проблесковые маячки"/>
         <text name="config_work"				text="Рабочие фары"/>
-        <text name="config_noLight"				text="Нет света"/>
-        <text name="config_beaconWork"			text="Маяковые огни &amp; Рабочие фары"/>
+        <text name="config_noLight"				text="Без освещения"/>
+        <text name="config_beaconWork"			text="Проблесковые маячки
+и Рабочие фары"/>
         <text name="config_attach"				text="Прицепное устройство"/>
-        <text name="config_noattach"			text="Нет Прицепное устройство"/>
+        <text name="config_noattach"			text="Без прицепного 
+устройства"/>
 			<!--Colors-->
         <text name="color_ITRUNNERMATTE" 		text="IT RUNNER МАТОВЫЙ"/>
         <text name="color_EDGEGOLDMATTE" 		text="EDGE ЗОЛОТО МАТОВЫЙ"/>
@@ -44,7 +47,7 @@
         <text name="color_CASEIHMATTE" 			text="CASE IH МАТОВЫЙ"/>
         <text name="color_NEWHOLLANDMATTE" 		text="NEW HOLLAND МАТОВЫЙ"/>
         <text name="color_KRONEMATTE" 			text="KRONE МАТОВЫЙ"/>
-        <text name="color_YELLOWMATTE" 			text="ЭЛЕКТРИЧЕСКИЙ ЖЕЛТЫЙ МАТОВЫЙ"/>
+        <text name="color_YELLOWMATTE" 			text="ЭЛЕКТРИЧЕСКИЙ ЖЁЛТЫЙ МАТОВЫЙ"/>
         <text name="color_STARAMATTE" 			text="STARA МАТОВЫЙ"/>
         <text name="color_LELYMATTE" 			text="LELY МАТОВЫЙ"/>
         <text name="color_WHITEMATTE" 			text="Призрак белый МАТОВЫЙ"/>
